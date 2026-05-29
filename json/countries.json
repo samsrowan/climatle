@@ -1,0 +1,1566 @@
+[
+  {
+    "iso3c": "AFG",
+    "name": "Afghanistan",
+    "gdp_pc": 378,
+    "ghg_pc": 0.78,
+    "pop": 41454761,
+    "lat": 34.13,
+    "lon": 66.59
+  },
+  {
+    "iso3c": "ALB",
+    "name": "Albania",
+    "gdp_pc": 6549,
+    "ghg_pc": 3,
+    "pop": 2377128,
+    "lat": 41.14,
+    "lon": 20.06
+  },
+  {
+    "iso3c": "DZA",
+    "name": "Algeria",
+    "gdp_pc": 4766,
+    "ghg_pc": 5.4,
+    "pop": 46814308,
+    "lat": 28.35,
+    "lon": 2.66
+  },
+  {
+    "iso3c": "AGO",
+    "name": "Angola",
+    "gdp_pc": 2845,
+    "ghg_pc": 1.85,
+    "pop": 37885849,
+    "lat": -12.17,
+    "lon": 17.65
+  },
+  {
+    "iso3c": "ATG",
+    "name": "Antigua and Barbuda",
+    "gdp_pc": 18350,
+    "ghg_pc": 4.55,
+    "pop": 93772,
+    "lat": 17.07,
+    "lon": -61.79
+  },
+  {
+    "iso3c": "ARG",
+    "name": "Argentina",
+    "gdp_pc": 12774,
+    "ghg_pc": 8.19,
+    "pop": 45696159,
+    "lat": -35.7,
+    "lon": -64.53
+  },
+  {
+    "iso3c": "ARM",
+    "name": "Armenia",
+    "gdp_pc": 5378,
+    "ghg_pc": 3.55,
+    "pop": 3033500,
+    "lat": 40.18,
+    "lon": 45.05
+  },
+  {
+    "iso3c": "AUS",
+    "name": "Australia",
+    "gdp_pc": 61481,
+    "ghg_pc": 21.75,
+    "pop": 27196812,
+    "lat": -25.7,
+    "lon": 134.02
+  },
+  {
+    "iso3c": "AUT",
+    "name": "Austria",
+    "gdp_pc": 45959,
+    "ghg_pc": 7.74,
+    "pop": 9177982,
+    "lat": 47.63,
+    "lon": 13.8
+  },
+  {
+    "iso3c": "AZE",
+    "name": "Azerbaijan",
+    "gdp_pc": 5871,
+    "ghg_pc": 5.71,
+    "pop": 10202830,
+    "lat": 40.39,
+    "lon": 48.63
+  },
+  {
+    "iso3c": "BHS",
+    "name": "Bahamas",
+    "gdp_pc": 33968,
+    "ghg_pc": 4.59,
+    "pop": 401283,
+    "lat": 24.72,
+    "lon": -78.07
+  },
+  {
+    "iso3c": "BHR",
+    "name": "Bahrain",
+    "gdp_pc": 25812,
+    "ghg_pc": 40.55,
+    "pop": 1588670,
+    "lat": 26.05,
+    "lon": 50.54
+  },
+  {
+    "iso3c": "BGD",
+    "name": "Bangladesh",
+    "gdp_pc": 1941,
+    "ghg_pc": 1.27,
+    "pop": 173562364,
+    "lat": 23.67,
+    "lon": 90.43
+  },
+  {
+    "iso3c": "BRB",
+    "name": "Barbados",
+    "gdp_pc": 21581,
+    "ghg_pc": 3.23,
+    "pop": 282467,
+    "lat": 13.18,
+    "lon": -59.56
+  },
+  {
+    "iso3c": "BLR",
+    "name": "Belarus",
+    "gdp_pc": 6792,
+    "ghg_pc": 9.58,
+    "pop": 9132629,
+    "lat": 53.47,
+    "lon": 27.96
+  },
+  {
+    "iso3c": "BEL",
+    "name": "Belgium",
+    "gdp_pc": 45046,
+    "ghg_pc": 9.09,
+    "pop": 11858610,
+    "lat": 50.62,
+    "lon": 4.68
+  },
+  {
+    "iso3c": "BLZ",
+    "name": "Belize",
+    "gdp_pc": 6290,
+    "ghg_pc": 2.48,
+    "pop": 417072,
+    "lat": 17.24,
+    "lon": -88.68
+  },
+  {
+    "iso3c": "BEN",
+    "name": "Benin",
+    "gdp_pc": 1325,
+    "ghg_pc": 1.23,
+    "pop": 14462724,
+    "lat": 9.5,
+    "lon": 2.31
+  },
+  {
+    "iso3c": "BTN",
+    "name": "Bhutan",
+    "gdp_pc": 3481,
+    "ghg_pc": 3.55,
+    "pop": 786385,
+    "lat": 27.42,
+    "lon": 90.47
+  },
+  {
+    "iso3c": "BOL",
+    "name": "Bolivia",
+    "gdp_pc": 3046,
+    "ghg_pc": 5.14,
+    "pop": 12413315,
+    "lat": -16.73,
+    "lon": -64.45
+  },
+  {
+    "iso3c": "BIH",
+    "name": "Bosnia and Herzegovina",
+    "gdp_pc": 6730,
+    "ghg_pc": 8.73,
+    "pop": 3164253,
+    "lat": 44.14,
+    "lon": 17.83
+  },
+  {
+    "iso3c": "BWA",
+    "name": "Botswana",
+    "gdp_pc": 6937,
+    "ghg_pc": 4.8,
+    "pop": 2521139,
+    "lat": -22.24,
+    "lon": 23.86
+  },
+  {
+    "iso3c": "BRA",
+    "name": "Brazil",
+    "gdp_pc": 9567,
+    "ghg_pc": 6.13,
+    "pop": 211998573,
+    "lat": -11.52,
+    "lon": -54.36
+  },
+  {
+    "iso3c": "BRN",
+    "name": "Brunei Darussalam",
+    "gdp_pc": 29564,
+    "ghg_pc": 25.64,
+    "pop": 462721,
+    "lat": 4.54,
+    "lon": 114.64
+  },
+  {
+    "iso3c": "BGR",
+    "name": "Bulgaria",
+    "gdp_pc": 10127,
+    "ghg_pc": 7.25,
+    "pop": 6441421,
+    "lat": 42.82,
+    "lon": 25.25
+  },
+  {
+    "iso3c": "BFA",
+    "name": "Burkina Faso",
+    "gdp_pc": 764,
+    "ghg_pc": 1.48,
+    "pop": 23548781,
+    "lat": 12.11,
+    "lon": -1.69
+  },
+  {
+    "iso3c": "BDI",
+    "name": "Burundi",
+    "gdp_pc": 269,
+    "ghg_pc": 0.6,
+    "pop": 14047786,
+    "lat": -3.26,
+    "lon": 29.89
+  },
+  {
+    "iso3c": "KHM",
+    "name": "Cambodia",
+    "gdp_pc": 2183,
+    "ghg_pc": 2.83,
+    "pop": 17638801,
+    "lat": 12.7,
+    "lon": 105.04
+  },
+  {
+    "iso3c": "CMR",
+    "name": "Cameroon",
+    "gdp_pc": 1481,
+    "ghg_pc": 1.39,
+    "pop": 29123744,
+    "lat": 6.29,
+    "lon": 12.95
+  },
+  {
+    "iso3c": "CAN",
+    "name": "Canada",
+    "gdp_pc": 44413,
+    "ghg_pc": 18.6,
+    "pop": 41288599,
+    "lat": 57.55,
+    "lon": -98.42
+  },
+  {
+    "iso3c": "CPV",
+    "name": "Cape Verde",
+    "gdp_pc": 4449,
+    "ghg_pc": 1.74,
+    "pop": 524877,
+    "lat": 15.08,
+    "lon": -23.63
+  },
+  {
+    "iso3c": "TCD",
+    "name": "Chad",
+    "gdp_pc": 850,
+    "ghg_pc": 4.98,
+    "pop": 20299123,
+    "lat": 15.28,
+    "lon": 18.43
+  },
+  {
+    "iso3c": "CHL",
+    "name": "Chile",
+    "gdp_pc": 14579,
+    "ghg_pc": 5.98,
+    "pop": 19764771,
+    "lat": -37.83,
+    "lon": -70.77
+  },
+  {
+    "iso3c": "CHN",
+    "name": "China",
+    "gdp_pc": 13122,
+    "ghg_pc": 11.03,
+    "pop": 1408975000,
+    "lat": 38.07,
+    "lon": 104.69
+  },
+  {
+    "iso3c": "COL",
+    "name": "Colombia",
+    "gdp_pc": 6864,
+    "ghg_pc": 4.11,
+    "pop": 52886363,
+    "lat": 4.19,
+    "lon": -72.64
+  },
+  {
+    "iso3c": "COG",
+    "name": "Congo",
+    "gdp_pc": 1680,
+    "ghg_pc": 3.89,
+    "pop": 6332961,
+    "lat": -0.73,
+    "lon": 14.88
+  },
+  {
+    "iso3c": "CRI",
+    "name": "Costa Rica",
+    "gdp_pc": 14867,
+    "ghg_pc": 3.33,
+    "pop": 5129910,
+    "lat": 9.86,
+    "lon": -84.15
+  },
+  {
+    "iso3c": "CIV",
+    "name": "Cote d'Ivoire",
+    "gdp_pc": 2396,
+    "ghg_pc": 1.19,
+    "pop": 31934230,
+    "lat": 7.54,
+    "lon": -5.57
+  },
+  {
+    "iso3c": "HRV",
+    "name": "Croatia",
+    "gdp_pc": 17854,
+    "ghg_pc": 6.94,
+    "pop": 3866200,
+    "lat": 44.91,
+    "lon": 16.63
+  },
+  {
+    "iso3c": "CUB",
+    "name": "Cuba",
+    "gdp_pc": 7381,
+    "ghg_pc": 3.28,
+    "pop": 10979783,
+    "lat": 21.48,
+    "lon": -79.7
+  },
+  {
+    "iso3c": "CYP",
+    "name": "Cyprus",
+    "gdp_pc": 23368,
+    "ghg_pc": 6.88,
+    "pop": 1358282,
+    "lat": 35.12,
+    "lon": 33.38
+  },
+  {
+    "iso3c": "CZE",
+    "name": "Czech Republic",
+    "gdp_pc": 20445,
+    "ghg_pc": 9.2,
+    "pop": 10905028,
+    "lat": 49.75,
+    "lon": 15.38
+  },
+  {
+    "iso3c": "COD",
+    "name": "Democratic Republic of the Congo",
+    "gdp_pc": 554,
+    "ghg_pc": 0.54,
+    "pop": 109276265,
+    "lat": -3.34,
+    "lon": 23.42
+  },
+  {
+    "iso3c": "DNK",
+    "name": "Denmark",
+    "gdp_pc": 60773,
+    "ghg_pc": 6.4,
+    "pop": 5976992,
+    "lat": 56,
+    "lon": 9.38
+  },
+  {
+    "iso3c": "DJI",
+    "name": "Djibouti",
+    "gdp_pc": 3290,
+    "ghg_pc": 2.07,
+    "pop": 1168722,
+    "lat": 11.75,
+    "lon": 42.61
+  },
+  {
+    "iso3c": "DOM",
+    "name": "Dominican Republic",
+    "gdp_pc": 9168,
+    "ghg_pc": 4.51,
+    "pop": 11427557,
+    "lat": 18.78,
+    "lon": -70.43
+  },
+  {
+    "iso3c": "ECU",
+    "name": "Ecuador",
+    "gdp_pc": 5999,
+    "ghg_pc": 4.1,
+    "pop": 18135478,
+    "lat": -1.56,
+    "lon": -78.46
+  },
+  {
+    "iso3c": "EGY",
+    "name": "Egypt",
+    "gdp_pc": 4138,
+    "ghg_pc": 3.32,
+    "pop": 116538258,
+    "lat": 26.61,
+    "lon": 30.24
+  },
+  {
+    "iso3c": "SLV",
+    "name": "El Salvador",
+    "gdp_pc": 4585,
+    "ghg_pc": 2.33,
+    "pop": 6338193,
+    "lat": 13.76,
+    "lon": -88.86
+  },
+  {
+    "iso3c": "GNQ",
+    "name": "Equatorial Guinea",
+    "gdp_pc": 5042,
+    "ghg_pc": 4.3,
+    "pop": 1892516,
+    "lat": 1.6,
+    "lon": 10.43
+  },
+  {
+    "iso3c": "ERI",
+    "name": "Eritrea",
+    "gdp_pc": 751,
+    "ghg_pc": 1.94,
+    "pop": 2998485,
+    "lat": 15.01,
+    "lon": 39.27
+  },
+  {
+    "iso3c": "EST",
+    "name": "Estonia",
+    "gdp_pc": 20078,
+    "ghg_pc": 10.3,
+    "pop": 1372341,
+    "lat": 58.65,
+    "lon": 25.92
+  },
+  {
+    "iso3c": "ETH",
+    "name": "Ethiopia",
+    "gdp_pc": 883,
+    "ghg_pc": 1.46,
+    "pop": 132059767,
+    "lat": 8.73,
+    "lon": 39.91
+  },
+  {
+    "iso3c": "FJI",
+    "name": "Fiji",
+    "gdp_pc": 5935,
+    "ghg_pc": 2.96,
+    "pop": 928784,
+    "lat": -17.82,
+    "lon": 177.98
+  },
+  {
+    "iso3c": "FIN",
+    "name": "Finland",
+    "gdp_pc": 45254,
+    "ghg_pc": 8.66,
+    "pop": 5619911,
+    "lat": 65.02,
+    "lon": 25.66
+  },
+  {
+    "iso3c": "FRA",
+    "name": "France",
+    "gdp_pc": 39683,
+    "ghg_pc": 5.51,
+    "pop": 68551653,
+    "lat": 46.64,
+    "lon": 2.19
+  },
+  {
+    "iso3c": "GAB",
+    "name": "Gabon",
+    "gdp_pc": 6619,
+    "ghg_pc": 8.58,
+    "pop": 2538952,
+    "lat": -0.63,
+    "lon": 11.84
+  },
+  {
+    "iso3c": "GMB",
+    "name": "Gambia",
+    "gdp_pc": 759,
+    "ghg_pc": 0.67,
+    "pop": 2759988,
+    "lat": 13.43,
+    "lon": -15.38
+  },
+  {
+    "iso3c": "GEO",
+    "name": "Georgia",
+    "gdp_pc": 6808,
+    "ghg_pc": 5.3,
+    "pop": 3699557,
+    "lat": 42.18,
+    "lon": 43.38
+  },
+  {
+    "iso3c": "DEU",
+    "name": "Germany",
+    "gdp_pc": 44028,
+    "ghg_pc": 8.07,
+    "pop": 83516593,
+    "lat": 51.08,
+    "lon": 10.43
+  },
+  {
+    "iso3c": "GHA",
+    "name": "Ghana",
+    "gdp_pc": 2168,
+    "ghg_pc": 1.4,
+    "pop": 34427414,
+    "lat": 7.95,
+    "lon": -1.22
+  },
+  {
+    "iso3c": "GRC",
+    "name": "Greece",
+    "gdp_pc": 21495,
+    "ghg_pc": 6.87,
+    "pop": 10405134,
+    "lat": 39.42,
+    "lon": 23.11
+  },
+  {
+    "iso3c": "GRD",
+    "name": "Grenada",
+    "gdp_pc": 10196,
+    "ghg_pc": 2.06,
+    "pop": 117207,
+    "lat": 12.11,
+    "lon": -61.68
+  },
+  {
+    "iso3c": "GTM",
+    "name": "Guatemala",
+    "gdp_pc": 4563,
+    "ghg_pc": 2.36,
+    "pop": 18406359,
+    "lat": 15.82,
+    "lon": -90.31
+  },
+  {
+    "iso3c": "GIN",
+    "name": "Guinea",
+    "gdp_pc": 1046,
+    "ghg_pc": 1.99,
+    "pop": 14754785,
+    "lat": 10.26,
+    "lon": -10.99
+  },
+  {
+    "iso3c": "GNB",
+    "name": "Guinea-Bissau",
+    "gdp_pc": 794,
+    "ghg_pc": 1.45,
+    "pop": 2201352,
+    "lat": 11.98,
+    "lon": -14.98
+  },
+  {
+    "iso3c": "GUY",
+    "name": "Guyana",
+    "gdp_pc": 33035,
+    "ghg_pc": 10.51,
+    "pop": 831087,
+    "lat": 4.68,
+    "lon": -58.91
+  },
+  {
+    "iso3c": "HTI",
+    "name": "Haiti",
+    "gdp_pc": 1155,
+    "ghg_pc": 1.17,
+    "pop": 11772557,
+    "lat": 18.88,
+    "lon": -72.89
+  },
+  {
+    "iso3c": "HND",
+    "name": "Honduras",
+    "gdp_pc": 2573,
+    "ghg_pc": 2.25,
+    "pop": 10825703,
+    "lat": 14.74,
+    "lon": -86.49
+  },
+  {
+    "iso3c": "HUN",
+    "name": "Hungary",
+    "gdp_pc": 16519,
+    "ghg_pc": 6.32,
+    "pop": 9562065,
+    "lat": 47.23,
+    "lon": 19.4
+  },
+  {
+    "iso3c": "ISL",
+    "name": "Iceland",
+    "gdp_pc": 59307,
+    "ghg_pc": 11.08,
+    "pop": 386506,
+    "lat": 65.12,
+    "lon": -19.06
+  },
+  {
+    "iso3c": "IND",
+    "name": "India",
+    "gdp_pc": 2397,
+    "ghg_pc": 3.01,
+    "pop": 1450935791,
+    "lat": 23.59,
+    "lon": 81.17
+  },
+  {
+    "iso3c": "IDN",
+    "name": "Indonesia",
+    "gdp_pc": 4368,
+    "ghg_pc": 4.67,
+    "pop": 283487931,
+    "lat": 0.16,
+    "lon": 113.97
+  },
+  {
+    "iso3c": "IRN",
+    "name": "Iran",
+    "gdp_pc": 5834,
+    "ghg_pc": 11.52,
+    "pop": 91567738,
+    "lat": 32.91,
+    "lon": 54.24
+  },
+  {
+    "iso3c": "IRQ",
+    "name": "Iraq",
+    "gdp_pc": 4180,
+    "ghg_pc": 8.98,
+    "pop": 46042015,
+    "lat": 33.11,
+    "lon": 43.83
+  },
+  {
+    "iso3c": "IRL",
+    "name": "Ireland",
+    "gdp_pc": 94475,
+    "ghg_pc": 11.06,
+    "pop": 5395790,
+    "lat": 53.3,
+    "lon": -8.24
+  },
+  {
+    "iso3c": "ISR",
+    "name": "Israel",
+    "gdp_pc": 41845,
+    "ghg_pc": 7.68,
+    "pop": 9974400,
+    "lat": 31.51,
+    "lon": 35.03
+  },
+  {
+    "iso3c": "ITA",
+    "name": "Italy",
+    "gdp_pc": 34495,
+    "ghg_pc": 6.3,
+    "pop": 58952704,
+    "lat": 42.98,
+    "lon": 12.76
+  },
+  {
+    "iso3c": "JAM",
+    "name": "Jamaica",
+    "gdp_pc": 6096,
+    "ghg_pc": 3.32,
+    "pop": 2839175,
+    "lat": 18.12,
+    "lon": -77.3
+  },
+  {
+    "iso3c": "JPN",
+    "name": "Japan",
+    "gdp_pc": 37153,
+    "ghg_pc": 8.58,
+    "pop": 123975371,
+    "lat": 36.77,
+    "lon": 137.47
+  },
+  {
+    "iso3c": "JOR",
+    "name": "Jordan",
+    "gdp_pc": 4017,
+    "ghg_pc": 3.02,
+    "pop": 11552876,
+    "lat": 31.39,
+    "lon": 36.96
+  },
+  {
+    "iso3c": "KAZ",
+    "name": "Kazakhstan",
+    "gdp_pc": 11873,
+    "ghg_pc": 16.04,
+    "pop": 20592571,
+    "lat": 47.64,
+    "lon": 66.38
+  },
+  {
+    "iso3c": "KEN",
+    "name": "Kenya",
+    "gdp_pc": 1860,
+    "ghg_pc": 1.82,
+    "pop": 56432944,
+    "lat": 0.69,
+    "lon": 37.95
+  },
+  {
+    "iso3c": "KIR",
+    "name": "Kiribati",
+    "gdp_pc": 2042,
+    "ghg_pc": 0.86,
+    "pop": 134518,
+    "lat": 1.87,
+    "lon": -157.39
+  },
+  {
+    "iso3c": "KWT",
+    "name": "Kuwait",
+    "gdp_pc": 23868,
+    "ghg_pc": 35.39,
+    "pop": 4897263,
+    "lat": 29.28,
+    "lon": 47.56
+  },
+  {
+    "iso3c": "KGZ",
+    "name": "Kyrgyzstan",
+    "gdp_pc": 1392,
+    "ghg_pc": 3.1,
+    "pop": 7221868,
+    "lat": 41.36,
+    "lon": 74.18
+  },
+  {
+    "iso3c": "LAO",
+    "name": "Laos",
+    "gdp_pc": 2721,
+    "ghg_pc": 5.35,
+    "pop": 7769819,
+    "lat": 18.12,
+    "lon": 103.76
+  },
+  {
+    "iso3c": "LVA",
+    "name": "Latvia",
+    "gdp_pc": 16375,
+    "ghg_pc": 6.24,
+    "pop": 1866124,
+    "lat": 56.81,
+    "lon": 24.69
+  },
+  {
+    "iso3c": "LBN",
+    "name": "Lebanon",
+    "gdp_pc": 5835,
+    "ghg_pc": 3.18,
+    "pop": 5773493,
+    "lat": 33.91,
+    "lon": 35.9
+  },
+  {
+    "iso3c": "LSO",
+    "name": "Lesotho",
+    "gdp_pc": 991,
+    "ghg_pc": 1.31,
+    "pop": 2337423,
+    "lat": -29.6,
+    "lon": 28.24
+  },
+  {
+    "iso3c": "LBR",
+    "name": "Liberia",
+    "gdp_pc": 665,
+    "ghg_pc": 0.79,
+    "pop": 5612817,
+    "lat": 6.52,
+    "lon": -9.26
+  },
+  {
+    "iso3c": "LBY",
+    "name": "Libya",
+    "gdp_pc": 7696,
+    "ghg_pc": 13.3,
+    "pop": 7381023,
+    "lat": 27.2,
+    "lon": 17.91
+  },
+  {
+    "iso3c": "LTU",
+    "name": "Lithuania",
+    "gdp_pc": 19093,
+    "ghg_pc": 7.46,
+    "pop": 2888278,
+    "lat": 55.29,
+    "lon": 23.95
+  },
+  {
+    "iso3c": "LUX",
+    "name": "Luxembourg",
+    "gdp_pc": 104147,
+    "ghg_pc": 11.9,
+    "pop": 677012,
+    "lat": 49.78,
+    "lon": 6.1
+  },
+  {
+    "iso3c": "MDG",
+    "name": "Madagascar",
+    "gdp_pc": 453,
+    "ghg_pc": 1.12,
+    "pop": 31964956,
+    "lat": -19.04,
+    "lon": 46.68
+  },
+  {
+    "iso3c": "MWI",
+    "name": "Malawi",
+    "gdp_pc": 552,
+    "ghg_pc": 0.88,
+    "pop": 21655286,
+    "lat": -13.13,
+    "lon": 34.23
+  },
+  {
+    "iso3c": "MYS",
+    "name": "Malaysia",
+    "gdp_pc": 11884,
+    "ghg_pc": 9.34,
+    "pop": 35557673,
+    "lat": 3.67,
+    "lon": 114.63
+  },
+  {
+    "iso3c": "MDV",
+    "name": "Maldives",
+    "gdp_pc": 11799,
+    "ghg_pc": 3.97,
+    "pop": 527799,
+    "lat": -0.61,
+    "lon": 73.1
+  },
+  {
+    "iso3c": "MLI",
+    "name": "Mali",
+    "gdp_pc": 910,
+    "ghg_pc": 1.96,
+    "pop": 24478595,
+    "lat": 17.17,
+    "lon": -4.35
+  },
+  {
+    "iso3c": "MLT",
+    "name": "Malta",
+    "gdp_pc": 34670,
+    "ghg_pc": 3.94,
+    "pop": 568847,
+    "lat": 35.89,
+    "lon": 14.44
+  },
+  {
+    "iso3c": "MRT",
+    "name": "Mauritania",
+    "gdp_pc": 1689,
+    "ghg_pc": 3.39,
+    "pop": 5169395,
+    "lat": 20.47,
+    "lon": -10.5
+  },
+  {
+    "iso3c": "MUS",
+    "name": "Mauritius",
+    "gdp_pc": 11935,
+    "ghg_pc": 5.19,
+    "pop": 1245779,
+    "lat": -20.28,
+    "lon": 57.56
+  },
+  {
+    "iso3c": "MEX",
+    "name": "Mexico",
+    "gdp_pc": 10316,
+    "ghg_pc": 5.25,
+    "pop": 130861007,
+    "lat": 23.87,
+    "lon": -101.55
+  },
+  {
+    "iso3c": "MDA",
+    "name": "Moldova",
+    "gdp_pc": 3852,
+    "ghg_pc": 4.85,
+    "pop": 2402306,
+    "lat": 47.07,
+    "lon": 28.39
+  },
+  {
+    "iso3c": "MNG",
+    "name": "Mongolia",
+    "gdp_pc": 4627,
+    "ghg_pc": 29.61,
+    "pop": 3524788,
+    "lat": 47.09,
+    "lon": 103.4
+  },
+  {
+    "iso3c": "MAR",
+    "name": "Morocco",
+    "gdp_pc": 3571,
+    "ghg_pc": 2.86,
+    "pop": 38081173,
+    "lat": 28.69,
+    "lon": -8.82
+  },
+  {
+    "iso3c": "MOZ",
+    "name": "Mozambique",
+    "gdp_pc": 606,
+    "ghg_pc": 0.97,
+    "pop": 34631766,
+    "lat": -17.53,
+    "lon": 35.21
+  },
+  {
+    "iso3c": "MMR",
+    "name": "Myanmar",
+    "gdp_pc": 1158,
+    "ghg_pc": 2.16,
+    "pop": 54500091,
+    "lat": 19.9,
+    "lon": 97.09
+  },
+  {
+    "iso3c": "NAM",
+    "name": "Namibia",
+    "gdp_pc": 4034,
+    "ghg_pc": 4.69,
+    "pop": 3030131
+  },
+  {
+    "iso3c": "NPL",
+    "name": "Nepal",
+    "gdp_pc": 1180,
+    "ghg_pc": 1.4,
+    "pop": 29651054,
+    "lat": 28.3,
+    "lon": 84.13
+  },
+  {
+    "iso3c": "NLD",
+    "name": "Netherlands",
+    "gdp_pc": 51179,
+    "ghg_pc": 8.06,
+    "pop": 17993485,
+    "lat": 52.13,
+    "lon": 5.55
+  },
+  {
+    "iso3c": "NZL",
+    "name": "New Zealand",
+    "gdp_pc": 42408,
+    "ghg_pc": 14.72,
+    "pop": 5287500,
+    "lat": -43.83,
+    "lon": 170.69
+  },
+  {
+    "iso3c": "NIC",
+    "name": "Nicaragua",
+    "gdp_pc": 2290,
+    "ghg_pc": 2.77,
+    "pop": 6916140,
+    "lat": 12.89,
+    "lon": -85.02
+  },
+  {
+    "iso3c": "NER",
+    "name": "Niger",
+    "gdp_pc": 595,
+    "ghg_pc": 1.52,
+    "pop": 27032412,
+    "lat": 17.08,
+    "lon": 8.87
+  },
+  {
+    "iso3c": "NGA",
+    "name": "Nigeria",
+    "gdp_pc": 2325,
+    "ghg_pc": 1.51,
+    "pop": 232679478,
+    "lat": 9.61,
+    "lon": 8.15
+  },
+  {
+    "iso3c": "MKD",
+    "name": "North Macedonia",
+    "gdp_pc": 6629,
+    "ghg_pc": 5.38,
+    "pop": 1824359,
+    "lat": 41.59,
+    "lon": 21.71
+  },
+  {
+    "iso3c": "NOR",
+    "name": "Norway",
+    "gdp_pc": 79668,
+    "ghg_pc": 9.65,
+    "pop": 5572279,
+    "lat": 64.98,
+    "lon": 16.67
+  },
+  {
+    "iso3c": "OMN",
+    "name": "Oman",
+    "gdp_pc": 17347,
+    "ghg_pc": 25.04,
+    "pop": 5281538,
+    "lat": 20.72,
+    "lon": 55.84
+  },
+  {
+    "iso3c": "PAK",
+    "name": "Pakistan",
+    "gdp_pc": 1635,
+    "ghg_pc": 2.09,
+    "pop": 251269164,
+    "lat": 30.12,
+    "lon": 69.09
+  },
+  {
+    "iso3c": "PAN",
+    "name": "Panama",
+    "gdp_pc": 17123,
+    "ghg_pc": 4.26,
+    "pop": 4515577,
+    "lat": 8.44,
+    "lon": -80.14
+  },
+  {
+    "iso3c": "PNG",
+    "name": "Papua New Guinea",
+    "gdp_pc": 2565,
+    "ghg_pc": 1.02,
+    "pop": 10576502,
+    "lat": -7.16,
+    "lon": 144.83
+  },
+  {
+    "iso3c": "PRY",
+    "name": "Paraguay",
+    "gdp_pc": 6641,
+    "ghg_pc": 5.98,
+    "pop": 6929153,
+    "lat": -23.42,
+    "lon": -58.39
+  },
+  {
+    "iso3c": "PER",
+    "name": "Peru",
+    "gdp_pc": 6711,
+    "ghg_pc": 3.03,
+    "pop": 34217848,
+    "lat": -8.52,
+    "lon": -74.11
+  },
+  {
+    "iso3c": "PHL",
+    "name": "Philippines",
+    "gdp_pc": 3925,
+    "ghg_pc": 2.3,
+    "pop": 115843670,
+    "lat": 15.59,
+    "lon": 121.82
+  },
+  {
+    "iso3c": "POL",
+    "name": "Poland",
+    "gdp_pc": 18001,
+    "ghg_pc": 9.52,
+    "pop": 36559233,
+    "lat": 52.07,
+    "lon": 19.44
+  },
+  {
+    "iso3c": "PRT",
+    "name": "Portugal",
+    "gdp_pc": 22647,
+    "ghg_pc": 4.97,
+    "pop": 10694681,
+    "lat": 39.68,
+    "lon": -7.93
+  },
+  {
+    "iso3c": "QAT",
+    "name": "Qatar",
+    "gdp_pc": 62157,
+    "ghg_pc": 56.95,
+    "pop": 2857822,
+    "lat": 25.32,
+    "lon": 51.2
+  },
+  {
+    "iso3c": "ROU",
+    "name": "Romania",
+    "gdp_pc": 12460,
+    "ghg_pc": 5.35,
+    "pop": 19051804,
+    "lat": 45.82,
+    "lon": 25.09
+  },
+  {
+    "iso3c": "RUS",
+    "name": "Russian Federation",
+    "gdp_pc": 11233,
+    "ghg_pc": 17.94,
+    "pop": 143533851,
+    "lat": 59.04,
+    "lon": 98.67
+  },
+  {
+    "iso3c": "RWA",
+    "name": "Rwanda",
+    "gdp_pc": 1070,
+    "ghg_pc": 0.59,
+    "pop": 14256567,
+    "lat": -2.01,
+    "lon": 29.92
+  },
+  {
+    "iso3c": "KNA",
+    "name": "Saint Kitts and Nevis",
+    "gdp_pc": 21692,
+    "ghg_pc": 3.96,
+    "pop": 46843,
+    "lat": 17.31,
+    "lon": -62.75
+  },
+  {
+    "iso3c": "LCA",
+    "name": "Saint Lucia",
+    "gdp_pc": 11855,
+    "ghg_pc": 2.61,
+    "pop": 179744,
+    "lat": 13.9,
+    "lon": -60.97
+  },
+  {
+    "iso3c": "VCT",
+    "name": "Saint Vincent and the Grenadines",
+    "gdp_pc": 9485,
+    "ghg_pc": 1.84,
+    "pop": 100616,
+    "lat": 13.25,
+    "lon": -61.19
+  },
+  {
+    "iso3c": "WSM",
+    "name": "Samoa",
+    "gdp_pc": 4881,
+    "ghg_pc": 2.39,
+    "pop": 218019,
+    "lat": -13.63,
+    "lon": -172.44
+  },
+  {
+    "iso3c": "SAU",
+    "name": "Saudi Arabia",
+    "gdp_pc": 24963,
+    "ghg_pc": 23.76,
+    "pop": 35300280,
+    "lat": 24.14,
+    "lon": 44.6
+  },
+  {
+    "iso3c": "SEN",
+    "name": "Senegal",
+    "gdp_pc": 1512,
+    "ghg_pc": 1.71,
+    "pop": 18501984,
+    "lat": 14.23,
+    "lon": -14.61
+  },
+  {
+    "iso3c": "SYC",
+    "name": "Seychelles",
+    "gdp_pc": 16586,
+    "ghg_pc": 8.05,
+    "pop": 121354,
+    "lat": -4.66,
+    "lon": 55.47
+  },
+  {
+    "iso3c": "SLE",
+    "name": "Sierra Leone",
+    "gdp_pc": 1137,
+    "ghg_pc": 0.92,
+    "pop": 8642022,
+    "lat": 8.56,
+    "lon": -11.79
+  },
+  {
+    "iso3c": "SGP",
+    "name": "Singapore",
+    "gdp_pc": 67707,
+    "ghg_pc": 12.6,
+    "pop": 6036860,
+    "lat": 1.35,
+    "lon": 103.81
+  },
+  {
+    "iso3c": "SVK",
+    "name": "Slovakia",
+    "gdp_pc": 19776,
+    "ghg_pc": 7.19,
+    "pop": 5422069,
+    "lat": 48.7,
+    "lon": 19.58
+  },
+  {
+    "iso3c": "SVN",
+    "name": "Slovenia",
+    "gdp_pc": 26135,
+    "ghg_pc": 8.15,
+    "pop": 2127400,
+    "lat": 46.14,
+    "lon": 14.89
+  },
+  {
+    "iso3c": "SLB",
+    "name": "Solomon Islands",
+    "gdp_pc": 1806,
+    "ghg_pc": 0.76,
+    "pop": 819198,
+    "lat": -9.61,
+    "lon": 160.16
+  },
+  {
+    "iso3c": "SOM",
+    "name": "Somalia",
+    "gdp_pc": 467,
+    "ghg_pc": 1.81,
+    "pop": 19009151,
+    "lat": 6.52,
+    "lon": 45.4
+  },
+  {
+    "iso3c": "ZAF",
+    "name": "South Africa",
+    "gdp_pc": 5715,
+    "ghg_pc": 8.9,
+    "pop": 64007187,
+    "lat": -28.55,
+    "lon": 24.75
+  },
+  {
+    "iso3c": "KOR",
+    "name": "South Korea",
+    "gdp_pc": 37048,
+    "ghg_pc": 12.91,
+    "pop": 51751065,
+    "lat": 36.4,
+    "lon": 127.76
+  },
+  {
+    "iso3c": "ESP",
+    "name": "Spain",
+    "gdp_pc": 29245,
+    "ghg_pc": 5.84,
+    "pop": 48848840,
+    "lat": 34.33,
+    "lon": -10.09
+  },
+  {
+    "iso3c": "LKA",
+    "name": "Sri Lanka",
+    "gdp_pc": 4186,
+    "ghg_pc": 1.7,
+    "pop": 21916000,
+    "lat": 7.7,
+    "lon": 80.67
+  },
+  {
+    "iso3c": "SDN",
+    "name": "Sudan",
+    "gdp_pc": 578,
+    "ghg_pc": 2.21,
+    "pop": 50448963,
+    "lat": 15.67,
+    "lon": 29.95
+  },
+  {
+    "iso3c": "SUR",
+    "name": "Suriname",
+    "gdp_pc": 7246,
+    "ghg_pc": 5.78,
+    "pop": 634431,
+    "lat": 4.1,
+    "lon": -55.86
+  },
+  {
+    "iso3c": "SWZ",
+    "name": "Swaziland",
+    "gdp_pc": 3864,
+    "ghg_pc": 2.36,
+    "pop": 1242822,
+    "lat": -26.56,
+    "lon": 31.51
+  },
+  {
+    "iso3c": "SWE",
+    "name": "Sweden",
+    "gdp_pc": 54210,
+    "ghg_pc": 4.97,
+    "pop": 10569709,
+    "lat": 62.73,
+    "lon": 17.06
+  },
+  {
+    "iso3c": "CHE",
+    "name": "Switzerland",
+    "gdp_pc": 90067,
+    "ghg_pc": 4.75,
+    "pop": 9005582,
+    "lat": 46.74,
+    "lon": 8.29
+  },
+  {
+    "iso3c": "SYR",
+    "name": "Syria",
+    "gdp_pc": 712,
+    "ghg_pc": 2.03,
+    "pop": 22462173,
+    "lat": 35.1,
+    "lon": 38.51
+  },
+  {
+    "iso3c": "TJK",
+    "name": "Tajikistan",
+    "gdp_pc": 1496,
+    "ghg_pc": 2.1,
+    "pop": 10590927,
+    "lat": 38.57,
+    "lon": 70.94
+  },
+  {
+    "iso3c": "TZA",
+    "name": "Tanzania",
+    "gdp_pc": 1086,
+    "ghg_pc": 1.5,
+    "pop": 68560157,
+    "lat": -6.36,
+    "lon": 34.82
+  },
+  {
+    "iso3c": "THA",
+    "name": "Thailand",
+    "gdp_pc": 6574,
+    "ghg_pc": 5.89,
+    "pop": 71668011,
+    "lat": 13.66,
+    "lon": 101.09
+  },
+  {
+    "iso3c": "TLS",
+    "name": "Timor-Leste",
+    "gdp_pc": 1149,
+    "ghg_pc": 1.39,
+    "pop": 1400638,
+    "lat": -8.81,
+    "lon": 125.95
+  },
+  {
+    "iso3c": "TGO",
+    "name": "Togo",
+    "gdp_pc": 931,
+    "ghg_pc": 1.14,
+    "pop": 9515236,
+    "lat": 8.66,
+    "lon": 0.9
+  },
+  {
+    "iso3c": "TON",
+    "name": "Tonga",
+    "gdp_pc": 4680,
+    "ghg_pc": 2.72,
+    "pop": 104597,
+    "lat": -21.16,
+    "lon": -175.2
+  },
+  {
+    "iso3c": "TTO",
+    "name": "Trinidad and Tobago",
+    "gdp_pc": 16312,
+    "ghg_pc": 24.55,
+    "pop": 1368333,
+    "lat": 10.42,
+    "lon": -61.37
+  },
+  {
+    "iso3c": "TUN",
+    "name": "Tunisia",
+    "gdp_pc": 4006,
+    "ghg_pc": 3.63,
+    "pop": 12277109,
+    "lat": 34.09,
+    "lon": 9.66
+  },
+  {
+    "iso3c": "TUR",
+    "name": "Turkey",
+    "gdp_pc": 15395,
+    "ghg_pc": 6.78,
+    "pop": 85518661,
+    "lat": 38.93,
+    "lon": 35.57
+  },
+  {
+    "iso3c": "TKM",
+    "name": "Turkmenistan",
+    "gdp_pc": 8231,
+    "ghg_pc": 15.32,
+    "pop": 7494498,
+    "lat": 39.06,
+    "lon": 58.46
+  },
+  {
+    "iso3c": "UGA",
+    "name": "Uganda",
+    "gdp_pc": 986,
+    "ghg_pc": 1.15,
+    "pop": 50015092,
+    "lat": 1.28,
+    "lon": 32.34
+  },
+  {
+    "iso3c": "ARE",
+    "name": "United Arab Emirates",
+    "gdp_pc": 41605,
+    "ghg_pc": 24.04,
+    "pop": 10986400,
+    "lat": 24.18,
+    "lon": 54.28
+  },
+  {
+    "iso3c": "GBR",
+    "name": "United Kingdom",
+    "gdp_pc": 47961,
+    "ghg_pc": 5.59,
+    "pop": 69226000,
+    "lat": 53.98,
+    "lon": -2.85
+  },
+  {
+    "iso3c": "USA",
+    "name": "United States of America",
+    "gdp_pc": 66356,
+    "ghg_pc": 17.38,
+    "pop": 340110988,
+    "lat": 38.82,
+    "lon": -96.33
+  },
+  {
+    "iso3c": "URY",
+    "name": "Uruguay",
+    "gdp_pc": 18959,
+    "ghg_pc": 13.18,
+    "pop": 3386588,
+    "lat": -32.78,
+    "lon": -56.02
+  },
+  {
+    "iso3c": "UZB",
+    "name": "Uzbekistan",
+    "gdp_pc": 3890,
+    "ghg_pc": 6.26,
+    "pop": 36361859,
+    "lat": 41.49,
+    "lon": 63.85
+  },
+  {
+    "iso3c": "VEN",
+    "name": "Venezuela",
+    "gdp_pc": 1501,
+    "ghg_pc": 5.89,
+    "pop": 28405543,
+    "lat": 7.15,
+    "lon": -66.36
+  },
+  {
+    "iso3c": "VNM",
+    "name": "Vietnam",
+    "gdp_pc": 4018,
+    "ghg_pc": 5.79,
+    "pop": 100987686,
+    "lat": 16.52,
+    "lon": 105.91
+  },
+  {
+    "iso3c": "YEM",
+    "name": "Yemen",
+    "gdp_pc": 1079,
+    "ghg_pc": 0.93,
+    "pop": 34085182,
+    "lat": 16,
+    "lon": 47.47
+  },
+  {
+    "iso3c": "ZMB",
+    "name": "Zambia",
+    "gdp_pc": 1343,
+    "ghg_pc": 1.81,
+    "pop": 21314956,
+    "lat": -13.16,
+    "lon": 27.76
+  },
+  {
+    "iso3c": "ZWE",
+    "name": "Zimbabwe",
+    "gdp_pc": 1418,
+    "ghg_pc": 1.85,
+    "pop": 16634373,
+    "lat": -18.93,
+    "lon": 29.72
+  }
+]

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Climatle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Header -->
+    <header class="header">
+      <h1 class="title">Climatle</h1>
+      <p class="tagline">Guess the country from its climate profile</p>
+    </header>
+
+    <!-- Loading spinner -->
+    <div id="loading" class="loading">
+      <div class="spinner"></div>
+      <p>Loading climate data...</p>
+    </div>
+
+    <!-- Game area (hidden until data loads) -->
+    <main id="game" class="game hidden">
+      <!-- Clue tabs -->
+      <div class="tabs">
+        <button class="tab active" data-tab="ghg">GHG Sectors</button>
+        <button class="tab" data-tab="energy">Energy Mix</button>
+        <button class="tab" data-tab="trajectory">Emissions Trajectory</button>
+      </div>
+
+      <!-- Chart container -->
+      <div class="chart-container">
+        <div id="tab-ghg" class="tab-panel active">
+          <canvas id="chart-ghg"></canvas>
+        </div>
+        <div id="tab-energy" class="tab-panel">
+          <canvas id="chart-energy"></canvas>
+        </div>
+        <div id="tab-trajectory" class="tab-panel">
+          <canvas id="chart-trajectory"></canvas>
+        </div>
+      </div>
+
+      <!-- Guess input -->
+      <div id="guess-area" class="guess-area">
+        <div class="guess-counter" id="guess-counter">Guess 1 of 6</div>
+        <div class="input-wrapper">
+          <input type="text" id="guess-input" class="guess-input"
+                 placeholder="Type a country name..." autocomplete="off">
+          <ul id="autocomplete-list" class="autocomplete-list hidden"></ul>
+          <button id="guess-btn" class="guess-btn">Guess</button>
+        </div>
+        <div id="country-list-toggle" class="country-list-toggle">
+          <button id="show-countries-btn" class="show-countries-btn">Show eligible countries</button>
+        </div>
+        <div id="country-list-panel" class="country-list-panel hidden">
+          <div class="country-list-grid" id="country-list-grid"></div>
+        </div>
+      </div>
+
+      <!-- Guess history table -->
+      <div class="history-wrapper">
+        <table id="history-table" class="history-table hidden">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Country</th>
+              <th>GHG Sim.</th>
+              <th>Energy Sim.</th>
+              <th>Distance</th>
+              <th>Dir.</th>
+              <th>GHG/cap</th>
+              <th>GDP/cap</th>
+            </tr>
+          </thead>
+          <tbody id="history-body"></tbody>
+        </table>
+      </div>
+
+      <!-- Result panel (win/loss) -->
+      <div id="result-panel" class="result-panel hidden">
+        <div id="result-message" class="result-message"></div>
+        <button id="share-btn" class="share-btn">Copy result to clipboard</button>
+        <div id="share-copied" class="share-copied hidden">Copied!</div>
+      </div>
+    </main>
+
+    <!-- About section -->
+    <section class="about-section">
+      <button class="about-toggle" id="about-toggle">About this game</button>
+      <div class="about-content hidden" id="about-content">
+        <h2>What is Climatle?</h2>
+        <p>
+          Climatle is a daily guessing game designed to help people learn about
+          climate change mitigation across countries. Each day, you're shown three
+          visualizations of a mystery country's climate profile &mdash; its greenhouse gas
+          emissions by sector, its electricity generation mix, and its emissions trajectory
+          over time &mdash; and you have six attempts to guess which country it is.
+        </p>
+        <p>
+          After each guess, you receive feedback on how similar your guess is to the
+          target: cosine similarity scores for emissions and energy profiles, geographic
+          distance and direction, and comparisons of GHG and GDP per capita. Use the clues
+          to narrow down your next guess!
+        </p>
+
+        <h3>Data sources</h3>
+        <ul>
+          <li><strong>Sectoral GHG emissions (2021):</strong>
+            <a href="https://doi.org/10.5194/essd-13-5213-2021" target="_blank">Minx et al., 2021</a>
+            (Earth System Science Data), GWP100 AR6 weighting. Covers CO<sub>2</sub>, CH<sub>4</sub>,
+            N<sub>2</sub>O, and fluorinated gases across 25 subsectors.</li>
+          <li><strong>Electricity generation (2024):</strong>
+            <a href="https://ember-climate.org/data/" target="_blank">Ember Global Electricity Review</a>.
+            Shares of generation by fuel source.</li>
+          <li><strong>Emissions trajectories (1990&ndash;2024):</strong>
+            Annual national GHG totals from
+            <a href="https://doi.org/10.5194/essd-13-5213-2021" target="_blank">Minx et al., 2021</a>
+            &mdash; the same dataset as the sectoral breakdown above, extended through 2024.</li>
+          <li><strong>NDC targets:</strong>
+            Nationally Determined Contributions compiled from the
+            <a href="https://unfccc.int/NDCREG" target="_blank">UNFCCC NDC Registry</a>.
+            These are countries' climate mitigation pledges under the Paris Agreement.
+            Targets shown are current to COP26 (2021).</li>
+        </ul>
+
+        <h3>Tips</h3>
+        <p>
+          Add <code>?practice</code> to the URL for unlimited random puzzles.
+        </p>
+
+        <p class="credit">
+          A game designed by <a href="https://www.samsrowan.com" target="_blank">Sam Rowan</a>.
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>
+        Data: <a href="https://edgar.jrc.ec.europa.eu/" target="_blank">EDGAR v7.0</a> (GHG) &middot;
+        <a href="https://ember-climate.org/" target="_blank">Ember</a> (Electricity) &middot;
+        NDC targets from <a href="https://unfccc.int/NDCREG" target="_blank">UNFCCC</a>
+      </p>
+    </footer>
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

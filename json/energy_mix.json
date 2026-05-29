@@ -1,0 +1,8528 @@
+{
+  "AFG": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.0303,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.7576,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.101,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.1111,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "AGO": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0032,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.0898,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.7056,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.1732,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0282,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "ALB": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.9592,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0408,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "ARE": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0012,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.6827,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0.2292,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0858,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0011,
+        "type": "Clean"
+      }
+    ]
+  },
+  "ARG": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0172,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.0086,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.5373,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.1945,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0.0685,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0417,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.026,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.106,
+        "type": "Clean"
+      }
+    ]
+  },
+  "ARM": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.3898,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.2215,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0.2913,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0975,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "ATG": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.9189,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0811,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "AUS": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0106,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.4521,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.1743,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0456,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0228,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.1783,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.1162,
+        "type": "Clean"
+      }
+    ]
+  },
+  "AUT": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0595,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.0961,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.5825,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0417,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.1037,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.1165,
+        "type": "Clean"
+      }
+    ]
+  },
+  "AZE": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0036,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.88,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.1078,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0025,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0029,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0032,
+        "type": "Clean"
+      }
+    ]
+  },
+  "BDI": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0204,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.7347,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.2449,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "BEL": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0475,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.1864,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0072,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0.4111,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0501,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.1126,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.185,
+        "type": "Clean"
+      }
+    ]
+  },
+  "BEN": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.7228,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.2376,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0396,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "BFA": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0533,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0533,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.8284,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0651,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "BGD": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.1994,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.6588,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0069,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.1229,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.012,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "BGR": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0449,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.2287,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.0533,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0728,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0.412,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0068,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.1433,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0381,
+        "type": "Clean"
+      }
+    ]
+  },
+  "BHR": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.9974,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0026,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "BHS": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.9911,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0089,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "BIH": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0026,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.5868,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.3518,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0097,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0252,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0239,
+        "type": "Clean"
+      }
+    ]
+  },
+  "BLR": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.012,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.0004,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.5893,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0087,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0.3424,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0371,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0057,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0044,
+        "type": "Clean"
+      }
+    ]
+  },
+  "BLZ": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.3404,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.5106,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.1277,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0213,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "BOL": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.031,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.6452,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.2439,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0148,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0296,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0355,
+        "type": "Clean"
+      }
+    ]
+  },
+  "BRA": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0781,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.0217,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.0654,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.5541,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0.0212,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0184,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0956,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.1455,
+        "type": "Clean"
+      }
+    ]
+  },
+  "BRB": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.027,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.8829,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0901,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "BRN": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.1978,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.7914,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.009,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0018,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "BTN": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 1,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "BWA": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.9825,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0146,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0029,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "CAN": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0154,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.0395,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.1721,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.539,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0.1342,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0115,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0148,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0735,
+        "type": "Clean"
+      }
+    ]
+  },
+  "CHE": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0133,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.0034,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.5734,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0.3065,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0156,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0.0133,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0722,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0023,
+        "type": "Clean"
+      }
+    ]
+  },
+  "CHL": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0564,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.153,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.143,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.2934,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0036,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0.0051,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.2278,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.1177,
+        "type": "Clean"
+      }
+    ]
+  },
+  "CHN": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0207,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.5777,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.0318,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.1343,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0.0447,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0088,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0832,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0988,
+        "type": "Clean"
+      }
+    ]
+  },
+  "CIV": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0093,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.709,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.278,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0019,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0019,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "CMR": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0055,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.2204,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.7204,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0482,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0055,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "COD": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0006,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.8417,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.1577,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "COG": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0055,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.7381,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.2015,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0531,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0018,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "COL": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0249,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.1258,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.222,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.5484,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0388,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0385,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0017,
+        "type": "Clean"
+      }
+    ]
+  },
+  "CPV": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.6923,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.1538,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.1538,
+        "type": "Clean"
+      }
+    ]
+  },
+  "CRI": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0055,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.7273,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0009,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0.1455,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0082,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.1127,
+        "type": "Clean"
+      }
+    ]
+  },
+  "CUB": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.018,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.1364,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0062,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.8235,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0124,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0036,
+        "type": "Clean"
+      }
+    ]
+  },
+  "CYP": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0104,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.7599,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.1917,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.038,
+        "type": "Clean"
+      }
+    ]
+  },
+  "CZE": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0739,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.3642,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.0521,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0365,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0.4079,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0069,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0493,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0092,
+        "type": "Clean"
+      }
+    ]
+  },
+  "DEU": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.103,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.2144,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.1581,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.048,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0411,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0.0004,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.1495,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.2855,
+        "type": "Clean"
+      }
+    ]
+  },
+  "DJI": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.65,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.35,
+        "type": "Clean"
+      }
+    ]
+  },
+  "DNK": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.2014,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.0499,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.026,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0006,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0322,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.1078,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.5821,
+        "type": "Clean"
+      }
+    ]
+  },
+  "DOM": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0087,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.2996,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.2913,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0612,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.2206,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0645,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0541,
+        "type": "Clean"
+      }
+    ]
+  },
+  "DZA": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.9859,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0002,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0034,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0103,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0002,
+        "type": "Clean"
+      }
+    ]
+  },
+  "ECU": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0119,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.0291,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.7042,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.2465,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0012,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.007,
+        "type": "Clean"
+      }
+    ]
+  },
+  "EGY": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.8129,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0605,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0751,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0256,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0259,
+        "type": "Clean"
+      }
+    ]
+  },
+  "ERI": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.8889,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.1111,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "ESP": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.022,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.0092,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.1863,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.1225,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0.1941,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0371,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.2075,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.2214,
+        "type": "Clean"
+      }
+    ]
+  },
+  "EST": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.2141,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.0128,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0048,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.4297,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.1709,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.1677,
+        "type": "Clean"
+      }
+    ]
+  },
+  "ETH": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0004,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.969,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0.0012,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0016,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0278,
+        "type": "Clean"
+      }
+    ]
+  },
+  "FIN": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.1259,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.0101,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.0099,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.1732,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0.3949,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0265,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0114,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.2481,
+        "type": "Clean"
+      }
+    ]
+  },
+  "FJI": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.1043,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.5217,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.3652,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0087,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "FRA": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.019,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.0018,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.0322,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.1266,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0.677,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.017,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0.001,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0446,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0808,
+        "type": "Clean"
+      }
+    ]
+  },
+  "GAB": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0038,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.4423,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.35,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.2038,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "GBR": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.1411,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.0067,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.3037,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0203,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0.1428,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0403,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.052,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.2931,
+        "type": "Clean"
+      }
+    ]
+  },
+  "GEO": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.2017,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.7897,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0022,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0065,
+        "type": "Clean"
+      }
+    ]
+  },
+  "GHA": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0008,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.6143,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.3543,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0235,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.007,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "GIN": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.7444,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.2481,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0074,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "GMB": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 1,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "GNB": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 1,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "GNQ": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.7248,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.2685,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0067,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "GRC": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0124,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.0573,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.3772,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0627,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0732,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.1973,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.2199,
+        "type": "Clean"
+      }
+    ]
+  },
+  "GRD": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 1,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "GTM": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.2217,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.1583,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.399,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.1583,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0.0215,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0177,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0234,
+        "type": "Clean"
+      }
+    ]
+  },
+  "GUY": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0145,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.0072,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.9638,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0145,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "HND": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0673,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.0048,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.3045,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.4407,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0.028,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0946,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0601,
+        "type": "Clean"
+      }
+    ]
+  },
+  "HRV": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0654,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.0523,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.2126,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.4402,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0007,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0536,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.1753,
+        "type": "Clean"
+      }
+    ]
+  },
+  "HTI": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.186,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.814,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "HUN": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0482,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.0642,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.1876,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0061,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0.4216,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0118,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0.0003,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.2421,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0182,
+        "type": "Clean"
+      }
+    ]
+  },
+  "IDN": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0574,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.6148,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.1851,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0735,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0192,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0.0451,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0036,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0013,
+        "type": "Clean"
+      }
+    ]
+  },
+  "IND": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0109,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.7453,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.0277,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0769,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0.0269,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.002,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0703,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.04,
+        "type": "Clean"
+      }
+    ]
+  },
+  "IRL": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0322,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.0203,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.4858,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0248,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0286,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0351,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.3732,
+        "type": "Clean"
+      }
+    ]
+  },
+  "IRN": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0001,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.0018,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.8592,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0477,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0.0186,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0672,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0023,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0032,
+        "type": "Clean"
+      }
+    ]
+  },
+  "IRQ": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.5296,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0134,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.4542,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0029,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "ISL": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.7066,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0.2924,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0005,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0005,
+        "type": "Clean"
+      }
+    ]
+  },
+  "ISR": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0014,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.143,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.7139,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0001,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.005,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.1308,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0057,
+        "type": "Clean"
+      }
+    ]
+  },
+  "ITA": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0644,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.0148,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.4432,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.1986,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0403,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0.0212,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.1345,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.083,
+        "type": "Clean"
+      }
+    ]
+  },
+  "JAM": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0122,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.5691,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0244,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.3049,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0305,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0589,
+        "type": "Clean"
+      }
+    ]
+  },
+  "JOR": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.6198,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0008,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.1394,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.166,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0739,
+        "type": "Clean"
+      }
+    ]
+  },
+  "JPN": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0447,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.3219,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.3407,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0782,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0.0835,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0246,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0951,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0114,
+        "type": "Clean"
+      }
+    ]
+  },
+  "KAZ": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.5403,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.2929,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0949,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0147,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0158,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0414,
+        "type": "Clean"
+      }
+    ]
+  },
+  "KEN": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0151,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.2338,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0852,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0.4525,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0498,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.1637,
+        "type": "Clean"
+      }
+    ]
+  },
+  "KGZ": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.097,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.012,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.8878,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0032,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "KHM": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0052,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.6092,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.2823,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0342,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0691,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "KIR": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.75,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.25,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "KNA": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.913,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0435,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0435,
+        "type": "Clean"
+      }
+    ]
+  },
+  "KOR": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0325,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.3051,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.2852,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0069,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0.3018,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0108,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0523,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0054,
+        "type": "Clean"
+      }
+    ]
+  },
+  "KWT": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.6208,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.3568,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0023,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0201,
+        "type": "Clean"
+      }
+    ]
+  },
+  "LAO": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0008,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.2328,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.7647,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0017,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "LBN": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0056,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.1311,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.5618,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.2996,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0019,
+        "type": "Clean"
+      }
+    ]
+  },
+  "LBR": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.5263,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.4561,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0175,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "LBY": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.7453,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.2544,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0003,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "LCA": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.975,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.025,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "LKA": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0117,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.3286,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.4107,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.1189,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0.0023,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0767,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.051,
+        "type": "Clean"
+      }
+    ]
+  },
+  "LSO": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": "NA",
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": "NA",
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": "NA",
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": "NA",
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": "NA",
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": "NA",
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": "NA",
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": "NA",
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": "NA",
+        "type": "Clean"
+      }
+    ]
+  },
+  "LTU": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.1326,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.1137,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0595,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0433,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.1894,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.4614,
+        "type": "Clean"
+      }
+    ]
+  },
+  "LUX": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.2914,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.0464,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0728,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0464,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.2384,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.3046,
+        "type": "Clean"
+      }
+    ]
+  },
+  "LVA": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0979,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.2654,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.5071,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0853,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0442,
+        "type": "Clean"
+      }
+    ]
+  },
+  "MAR": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0009,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.6175,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.1021,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0191,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0363,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0568,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.1672,
+        "type": "Clean"
+      }
+    ]
+  },
+  "MDA": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0033,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.8567,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0527,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0362,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0165,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0346,
+        "type": "Clean"
+      }
+    ]
+  },
+  "MDG": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0123,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.2058,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.3704,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.3704,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0412,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "MDV": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.9294,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0706,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "MEX": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0169,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.0349,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.6241,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0663,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0.0347,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0952,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0724,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0556,
+        "type": "Clean"
+      }
+    ]
+  },
+  "MKD": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0095,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.374,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.2044,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.2171,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0269,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.141,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0269,
+        "type": "Clean"
+      }
+    ]
+  },
+  "MLI": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0117,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.1544,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.8054,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0285,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "MLT": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0046,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.8402,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0046,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.1507,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "MMR": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0124,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.0553,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.4606,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.4606,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0055,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0055,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "MNG": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.8469,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0068,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0646,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0238,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0578,
+        "type": "Clean"
+      }
+    ]
+  },
+  "MOZ": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0066,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.1582,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.8236,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0076,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.004,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "MRT": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.1014,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.7729,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0773,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0483,
+        "type": "Clean"
+      }
+    ]
+  },
+  "MUS": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0938,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.393,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0323,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.4282,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0499,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0029,
+        "type": "Clean"
+      }
+    ]
+  },
+  "MWI": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0273,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.9235,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0437,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0055,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "MYS": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0086,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.4305,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.36,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.1742,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0058,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0208,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "NAM": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.0244,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.6098,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.3537,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0122,
+        "type": "Clean"
+      }
+    ]
+  },
+  "NER": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.1789,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.0526,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.7368,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0316,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "NGA": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0016,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.75,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.2449,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0035,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "NIC": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.1969,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.1438,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.3761,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0.1527,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0066,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.1239,
+        "type": "Clean"
+      }
+    ]
+  },
+  "NLD": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0546,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.0611,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.3621,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0007,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0.0292,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0403,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.1784,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.2737,
+        "type": "Clean"
+      }
+    ]
+  },
+  "NOR": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0015,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.0094,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.8882,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0046,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0034,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0929,
+        "type": "Clean"
+      }
+    ]
+  },
+  "NPL": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.9883,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0108,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0009,
+        "type": "Clean"
+      }
+    ]
+  },
+  "NZL": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0177,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.0273,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.0979,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.5328,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.015,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0.2029,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0084,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0979,
+        "type": "Clean"
+      }
+    ]
+  },
+  "OMN": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.9124,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0387,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0468,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.002,
+        "type": "Clean"
+      }
+    ]
+  },
+  "PAK": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0045,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.1545,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.2652,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.2557,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0.1566,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0124,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.1263,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0248,
+        "type": "Clean"
+      }
+    ]
+  },
+  "PAN": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0037,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.0372,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.2085,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.5309,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0745,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0737,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0715,
+        "type": "Clean"
+      }
+    ]
+  },
+  "PER": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0101,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.3918,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.5397,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0071,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.016,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0353,
+        "type": "Clean"
+      }
+    ]
+  },
+  "PHL": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0106,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.6391,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.1454,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0813,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0108,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0.084,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0168,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0121,
+        "type": "Clean"
+      }
+    ]
+  },
+  "PNG": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0021,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.1924,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.2114,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.5708,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0.0211,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0021,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "POL": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0462,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.5432,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.1189,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0123,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0264,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.1026,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.1504,
+        "type": "Clean"
+      }
+    ]
+  },
+  "PRT": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0793,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.1191,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.315,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.029,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0.0042,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.15,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.3034,
+        "type": "Clean"
+      }
+    ]
+  },
+  "PRY": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0057,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.9943,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "QAT": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0023,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.9598,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0379,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "ROU": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0091,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.151,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.1736,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.2692,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0.2069,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0034,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0649,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.122,
+        "type": "Clean"
+      }
+    ]
+  },
+  "RUS": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0007,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.1779,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.4513,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.1741,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0.1784,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0114,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0024,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0038,
+        "type": "Clean"
+      }
+    ]
+  },
+  "RWA": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.1504,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.2655,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.4602,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0885,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0354,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "SAU": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.6334,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.345,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0181,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0035,
+        "type": "Clean"
+      }
+    ]
+  },
+  "SDN": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0074,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.7786,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.2031,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0108,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "SEN": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0144,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.0131,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.0026,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0406,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.7864,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0891,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0537,
+        "type": "Clean"
+      }
+    ]
+  },
+  "SGP": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0278,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.0096,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.9215,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0196,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0215,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "SLB": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.9091,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0909,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "SLE": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.8571,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0476,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0952,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "SLV": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.1271,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.3262,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0919,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0.242,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.1914,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0214,
+        "type": "Clean"
+      }
+    ]
+  },
+  "SOM": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.7907,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.186,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0233,
+        "type": "Clean"
+      }
+    ]
+  },
+  "SUR": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0057,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.0115,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.5172,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.4598,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0057,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "SVK": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0535,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.0176,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.0976,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.1636,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0.6175,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0268,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0234,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "SVN": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.015,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.2095,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.0287,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.3196,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0.3495,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0012,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.076,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0006,
+        "type": "Clean"
+      }
+    ]
+  },
+  "SWE": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0591,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.0006,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.3753,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0.2943,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0114,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0242,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.235,
+        "type": "Clean"
+      }
+    ]
+  },
+  "SWZ": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.3443,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.0328,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.5738,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0492,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "SYC": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.8413,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.1429,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0159,
+        "type": "Clean"
+      }
+    ]
+  },
+  "SYR": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0012,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.5225,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0301,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.4421,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.004,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "TCD": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.027,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.9459,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.027,
+        "type": "Clean"
+      }
+    ]
+  },
+  "TGO": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.7042,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.1127,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.1831,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "THA": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0721,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.1667,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.6835,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0321,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0014,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0272,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0169,
+        "type": "Clean"
+      }
+    ]
+  },
+  "TJK": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.045,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.009,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.9459,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "TKM": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.9997,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0003,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "TLS": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 1,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "TON": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.8571,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.1429,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "TTO": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.9948,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0042,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.001,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "TUN": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.9453,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0005,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0108,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0262,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0173,
+        "type": "Clean"
+      }
+    ]
+  },
+  "TUR": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0254,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.3555,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.1854,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.2185,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0029,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0.0299,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0752,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.1071,
+        "type": "Clean"
+      }
+    ]
+  },
+  "TZA": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0079,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.6278,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.3167,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.043,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0045,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "UGA": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0809,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.8606,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0293,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0293,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "URY": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.2244,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.3366,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0112,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0419,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.3859,
+        "type": "Clean"
+      }
+    ]
+  },
+  "USA": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0106,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.1485,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.4258,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.054,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0.1781,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0069,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0.004,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0692,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.1029,
+        "type": "Clean"
+      }
+    ]
+  },
+  "UZB": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.0699,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.7521,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.1006,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0184,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0356,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0233,
+        "type": "Clean"
+      }
+    ]
+  },
+  "VCT": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.1333,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.8667,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "VEN": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.0449,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.911,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0437,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0001,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0002,
+        "type": "Clean"
+      }
+    ]
+  },
+  "VNM": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0034,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.5032,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.0719,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.2922,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.002,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0852,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.042,
+        "type": "Clean"
+      }
+    ]
+  },
+  "WSM": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0625,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.1875,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.5625,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.1875,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "YEM": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0.0114,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.8762,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.1124,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "ZAF": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0019,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.8355,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.0044,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0.0315,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0078,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0739,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0.0448,
+        "type": "Clean"
+      }
+    ]
+  },
+  "ZMB": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0041,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.108,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.8621,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0.0172,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0086,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  },
+  "ZWE": {
+    "sources": [
+      {
+        "source": "Bioenergy",
+        "share": 0.0117,
+        "type": "Clean"
+      },
+      {
+        "source": "Coal",
+        "share": 0.4288,
+        "type": "Fossil"
+      },
+      {
+        "source": "Gas",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Hydro",
+        "share": 0.5556,
+        "type": "Clean"
+      },
+      {
+        "source": "Nuclear",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Other Fossil",
+        "share": 0,
+        "type": "Fossil"
+      },
+      {
+        "source": "Other Renewables",
+        "share": 0,
+        "type": "Clean"
+      },
+      {
+        "source": "Solar",
+        "share": 0.0039,
+        "type": "Clean"
+      },
+      {
+        "source": "Wind",
+        "share": 0,
+        "type": "Clean"
+      }
+    ]
+  }
+}

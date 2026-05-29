@@ -1,0 +1,447 @@
+/* ── CSS Custom Properties ─────────────────────────────────────────────────── */
+:root {
+  --bg: #0a0a0a;
+  --bg-card: #141414;
+  --bg-input: #1a1a1a;
+  --border: #2a2a2a;
+  --text: #e0e0e0;
+  --text-muted: #888;
+  --text-bright: #fff;
+  --accent: #00e676;
+  --accent-dim: #00c853;
+  --danger: #ff5252;
+
+  /* Sector colors */
+  --sector-afolu: #4CAF50;
+  --sector-buildings: #FF9800;
+  --sector-energy: #F44336;
+  --sector-industry: #9C27B0;
+  --sector-transport: #2196F3;
+
+  /* Energy source colors */
+  --energy-coal: #8B4513;
+  --energy-gas: #D2691E;
+  --energy-fossil-other: #A0522D;
+  --energy-solar: #FFD700;
+  --energy-wind: #00BCD4;
+  --energy-hydro: #2196F3;
+  --energy-nuclear: #E91E63;
+  --energy-bioenergy: #4CAF50;
+  --energy-renewables-other: #66BB6A;
+
+  --font-sans: 'DM Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+  --radius: 8px;
+  --transition: 200ms ease;
+}
+
+/* ── Reset & Base ─────────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ── Layout ───────────────────────────────────────────────────────────────── */
+#app {
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem;
+}
+
+.hidden { display: none !important; }
+
+/* ── Header ───────────────────────────────────────────────────────────────── */
+.header { text-align: center; margin-bottom: 1.5rem; }
+
+.title {
+  font-family: var(--font-mono);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-bright);
+  letter-spacing: -0.02em;
+}
+
+.tagline {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  margin-top: 0.25rem;
+}
+
+/* ── Loading ──────────────────────────────────────────────────────────────── */
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 4rem 0;
+  color: var(--text-muted);
+}
+
+.spinner {
+  width: 36px; height: 36px;
+  border: 3px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ── Tabs ─────────────────────────────────────────────────────────────────── */
+.tabs {
+  display: flex;
+  gap: 0;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 1rem;
+}
+
+.tab {
+  flex: 1;
+  padding: 0.6rem 0.5rem;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: var(--text-muted);
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color var(--transition), border-color var(--transition);
+}
+
+.tab:hover { color: var(--text); }
+.tab.active {
+  color: var(--text-bright);
+  border-bottom-color: var(--accent);
+}
+
+/* ── Chart Container ──────────────────────────────────────────────────────── */
+.chart-container {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem;
+  margin-bottom: 1.25rem;
+  min-height: 340px;
+  position: relative;
+}
+
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+
+canvas { width: 100% !important; }
+
+/* ── Guess Area ───────────────────────────────────────────────────────────── */
+.guess-area { margin-bottom: 1.25rem; }
+
+.guess-counter {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.input-wrapper {
+  display: flex;
+  gap: 0.5rem;
+  position: relative;
+}
+
+.guess-input {
+  flex: 1;
+  padding: 0.65rem 0.85rem;
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text-bright);
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color var(--transition);
+}
+
+.guess-input:focus { border-color: var(--accent); }
+.guess-input:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.guess-btn {
+  padding: 0.65rem 1.25rem;
+  background: var(--accent);
+  color: #000;
+  border: none;
+  border-radius: var(--radius);
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background var(--transition);
+}
+
+.guess-btn:hover { background: var(--accent-dim); }
+.guess-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+/* ── Autocomplete ─────────────────────────────────────────────────────────── */
+.autocomplete-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 70px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 0 0 var(--radius) var(--radius);
+  max-height: 220px;
+  overflow-y: auto;
+  z-index: 100;
+  list-style: none;
+}
+
+.autocomplete-list li {
+  padding: 0.5rem 0.85rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background var(--transition);
+}
+
+.autocomplete-list li:hover,
+.autocomplete-list li.highlighted {
+  background: var(--border);
+  color: var(--text-bright);
+}
+
+/* ── Country List Toggle ──────────────────────────────────────────────────── */
+.country-list-toggle {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.show-countries-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color var(--transition);
+}
+
+.show-countries-btn:hover { color: var(--text); }
+
+.country-list-panel {
+  margin-top: 0.5rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.75rem;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.country-list-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 0.2rem 1rem;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+}
+
+/* ── History Table ────────────────────────────────────────────────────────── */
+.history-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.25rem;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.history-table th {
+  padding: 0.5rem 0.4rem;
+  text-align: left;
+  color: var(--text-muted);
+  font-weight: 500;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.history-table td {
+  padding: 0.55rem 0.4rem;
+  border-bottom: 1px solid var(--border);
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  white-space: nowrap;
+}
+
+.history-table tr:last-child td { border-bottom: none; }
+
+.sim-high { color: var(--accent); }
+.sim-mid  { color: #FFD700; }
+.sim-low  { color: var(--danger); }
+
+.arrow-up { color: var(--accent); }
+.arrow-down { color: var(--danger); }
+
+/* ── Result Panel ─────────────────────────────────────────────────────────── */
+.result-panel {
+  text-align: center;
+  padding: 1.5rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 1.25rem;
+}
+
+.result-message {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.result-message .country-name {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 1.3rem;
+}
+
+.share-btn {
+  padding: 0.55rem 1.2rem;
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background var(--transition);
+}
+
+.share-btn:hover { background: var(--border); }
+
+.share-copied {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--accent);
+}
+
+/* ── About Section ────────────────────────────────────────────────────────── */
+.about-section {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-toggle {
+  display: block;
+  margin: 0 auto;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text-muted);
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  padding: 0.5rem 1.2rem;
+  cursor: pointer;
+  transition: color var(--transition), border-color var(--transition);
+}
+
+.about-toggle:hover {
+  color: var(--text);
+  border-color: var(--text-muted);
+}
+
+.about-content {
+  margin-top: 1rem;
+  padding: 1.25rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 0.88rem;
+  line-height: 1.7;
+  color: var(--text);
+}
+
+.about-content h2 {
+  font-family: var(--font-mono);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-bright);
+  margin-bottom: 0.75rem;
+}
+
+.about-content h3 {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-bright);
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.about-content p {
+  margin-bottom: 0.75rem;
+}
+
+.about-content ul {
+  margin-bottom: 0.75rem;
+  padding-left: 1.25rem;
+}
+
+.about-content li {
+  margin-bottom: 0.4rem;
+}
+
+.about-content code {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  background: var(--bg-input);
+  padding: 0.1rem 0.35rem;
+  border-radius: 3px;
+}
+
+.about-content .credit {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border, #1e1e1e);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  text-align: center;
+  font-style: italic;
+}
+
+/* ── Footer ───────────────────────────────────────────────────────────────── */
+.footer {
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 2rem;
+  line-height: 1.7;
+}
+
+/* ── Responsive ───────────────────────────────────────────────────────────── */
+@media (max-width: 600px) {
+  .title { font-size: 1.5rem; }
+  .tab { font-size: 0.75rem; padding: 0.5rem 0.25rem; }
+  .chart-container { padding: 0.5rem; min-height: 280px; }
+  .history-table { font-size: 0.75rem; }
+  .history-table th, .history-table td { padding: 0.4rem 0.3rem; }
+  .country-list-grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); }
+}

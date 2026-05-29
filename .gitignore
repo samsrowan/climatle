@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Claude Code local state
+.claude/
+
+# Local dev notes and scratch
+_play.txt
+ignore/
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rapp.history
+*.Rproj.user/
