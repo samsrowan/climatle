@@ -133,16 +133,23 @@ a:hover { text-decoration: underline; }
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 1rem;
   margin-bottom: 1.25rem;
-  min-height: 391px;
+  height: 391px;
   position: relative;
 }
 
-.tab-panel { display: none; }
+/* Absolute-position the tab panels so they fill the container — gives Chart.js
+   a parent with a real, measured height. Without this the tab-panel collapses
+   to the canvas's initial aspect-ratio guess, leaving empty space below. The
+   inset replaces the chart-container's old padding (1rem desktop, 0.5rem mobile). */
+.tab-panel {
+  display: none;
+  position: absolute;
+  inset: 1rem;
+}
 .tab-panel.active { display: block; }
 
-canvas { width: 100% !important; }
+canvas { width: 100% !important; height: 100% !important; }
 
 /* ── Guess Area ───────────────────────────────────────────────────────────── */
 .guess-area { margin-bottom: 1.25rem; }
@@ -440,7 +447,8 @@ canvas { width: 100% !important; }
 @media (max-width: 600px) {
   .title { font-size: 1.5rem; }
   .tab { font-size: 0.75rem; padding: 0.5rem 0.25rem; }
-  .chart-container { padding: 0.5rem; min-height: 322px; }
+  .chart-container { height: 360px; }
+  .tab-panel { inset: 0.5rem; }
   .history-table { font-size: 0.75rem; }
   .history-table th, .history-table td { padding: 0.4rem 0.3rem; }
   .country-list-grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); }
