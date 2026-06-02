@@ -1,6 +1,6 @@
 # Climatle
 
-🌍 **Play:** [samsrowan.github.io/climatle](https://samsrowan.github.io/climatle/)
+🌍 **Play:** [climatle.xyz](https://climatle.xyz)
 
 Climatle is a daily guessing game designed to help people learn about climate change mitigation across countries. Each day, you're shown three visualizations of a mystery country's climate profile — its greenhouse gas emissions by sector, its electricity generation mix, and its emissions trajectory over time including its greenhouse gas mitigation target, if it has one — and you have six attempts to guess which country it is. Sound familiar?
 
@@ -34,7 +34,5 @@ source("R/01_load_and_process.R")
 source("R/02_compute_similarities.R")
 source("R/03_export_json.R")
 ```
-
-Pure static site — no build step, no bundler. Serve `index.html` from any static host.
 
 A game designed by [Sam Rowan](https://www.samsrowan.com).
