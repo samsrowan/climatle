@@ -342,10 +342,15 @@ export function renderTrajectoryChart(data, revealed) {
         x: {
           type: 'linear',
           min: 1990,
-          max: 2030,
+          // Extend a couple of years past 2030 so the NDC target markers
+          // (triangle/diamond, 6px radius at x=2030) don't get clipped against
+          // the right edge of the plot area. stepSize:5 ensures no tick gets
+          // drawn beyond 2030 — the extra space is just visual buffer.
+          max: 2032,
           ticks: {
             color: '#888',
             stepSize: 5,
+            includeBounds: false,
             callback: v => v,
             font: { family: "'JetBrains Mono'", size: 11 }
           },
