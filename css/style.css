@@ -135,7 +135,7 @@ a:hover { text-decoration: underline; }
   border-radius: var(--radius);
   padding: 1rem;
   margin-bottom: 1.25rem;
-  min-height: 340px;
+  min-height: 391px;
   position: relative;
 }
 
@@ -440,7 +440,7 @@ canvas { width: 100% !important; }
 @media (max-width: 600px) {
   .title { font-size: 1.5rem; }
   .tab { font-size: 0.75rem; padding: 0.5rem 0.25rem; }
-  .chart-container { padding: 0.5rem; min-height: 280px; }
+  .chart-container { padding: 0.5rem; min-height: 322px; }
   .history-table { font-size: 0.75rem; }
   .history-table th, .history-table td { padding: 0.4rem 0.3rem; }
   .country-list-grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); }
