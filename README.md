@@ -6,8 +6,6 @@ Climatle is a daily guessing game designed to help people learn about climate ch
 
 After each guess, you receive feedback on how similar your guess is to the target country: cosine similarity scores for emissions and energy profiles, geographic distance and direction, and comparisons of GHG and GDP per capita. Use the clues to narrow down your next guess!
 
-Inspired by [Tradle](https://oec.world/en/games/tradle).
-
 ## Data sources
 
 - **Sectoral GHG emissions (2021):** [Minx et al., 2021](https://doi.org/10.5194/essd-13-5213-2021) (Earth System Science Data), GWP100 AR6 weighting.
