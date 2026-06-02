@@ -59,9 +59,10 @@ export function renderGhgChart(data, revealed) {
   const ctx = document.getElementById('chart-ghg');
   if (ghgChart) ghgChart.destroy();
 
-  // Filter out zero-share subsectors, then sort by sector and label
-  const subsectors = data.subsectors
-    .filter(s => s.share > 0.001)
+  // Show ALL subsectors (including zero-share) so the bar count is constant
+  // across countries — an empty bar for "Coal mining fugitive" or "Domestic
+  // aviation" is itself a clue. Sorted by sector then label.
+  const subsectors = [...data.subsectors]
     .sort((a, b) => {
       if (a.sector < b.sector) return -1;
       if (a.sector > b.sector) return 1;
