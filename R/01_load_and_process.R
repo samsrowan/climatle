@@ -10,8 +10,10 @@ library(countrycode)
 ndc_raw <- read_csv("data/ghg_ndc_mini.csv", show_col_types = FALSE)
 
 centroids_raw <- read_csv("data/centroids.csv", show_col_types = FALSE) %>%
-  select(lon = longitude, lat = latitude, iso2c = ISO) %>%
-  mutate(iso3c = countrycode(iso2c, "iso2c", "iso3c")) %>%
+  select(lon = longitude, lat = latitude, 
+         iso2c = ISO, country = COUNTRY) %>%
+  mutate(iso3c = countrycode(iso2c, "iso2c", "iso3c"),
+         iso3c = replace(iso3c, country == "Namibia", "NAM")) %>%
   filter(!is.na(iso3c)) %>%
   group_by(iso3c) %>%
   summarise(lat = mean(lat), lon = mean(lon), .groups = "drop")
