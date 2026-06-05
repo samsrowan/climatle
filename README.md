@@ -10,7 +10,7 @@ After each guess, you receive feedback on how similar your guess is to the targe
 
 - **Sectoral GHG emissions (2021):** [Minx et al., 2021](https://doi.org/10.5194/essd-13-5213-2021) (Earth System Science Data), GWP100 AR6 weighting.
 - **Electricity generation (2024):** [Ember Global Electricity Review](https://ember-climate.org/data/) (2025 release).
-- **Emissions trajectories (1990–2024):** Annual national GHG totals from [EDGAR v7.0}(https://edgar.jrc.ec.europa.eu/)
+- **Emissions trajectories (1990–2024):** Annual national GHG totals from [EDGAR v7.0](https://edgar.jrc.ec.europa.eu/)
 - **NDC targets:** [UNFCCC NDC Registry](https://unfccc.int/NDCREG), current to COP26 (2021).
 
 ## Repo layout
