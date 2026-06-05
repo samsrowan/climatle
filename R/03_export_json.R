@@ -122,6 +122,21 @@ sim_energy_list <- S_energy %>%
 write_json(sim_energy_list, "json/sim_energy.json", pretty = TRUE, auto_unbox = TRUE)
 cat("Wrote json/sim_energy.json\n")
 
+# ── 6b. sim_trajectory.json — GHG-trajectory shape similarity ────────────────
+sim_trajectory_list <- S_trajectory %>%
+  as.data.frame() %>%
+  rownames_to_column("from") %>%
+  pivot_longer(-from, names_to = "to", values_to = "sim") %>%
+  filter(from != to) %>%
+  mutate(sim = round(sim, 4)) %>%
+  group_by(from) %>%
+  group_split() %>%
+  set_names(map_chr(., ~ .x$from[1])) %>%
+  map(~ as.list(set_names(.x$sim, .x$to)))
+
+write_json(sim_trajectory_list, "json/sim_trajectory.json", pretty = TRUE, auto_unbox = TRUE)
+cat("Wrote json/sim_trajectory.json\n")
+
 # ── 7. centroids.json — lat/lon per country ──────────────────────────────────
 centroids_list <- country_meta %>%
   select(iso3c, lat, lon) %>%

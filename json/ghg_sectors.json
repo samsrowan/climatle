@@ -129,18 +129,6 @@
         "share": 0.0038
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -288,18 +276,6 @@
         "label": "Inland Shipping",
         "sector": "Transport",
         "share": 0.0006
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
       },
       {
         "subsector_short": "transport_other",
@@ -451,18 +427,6 @@
         "share": 0.0135
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -608,18 +572,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -773,18 +725,6 @@
         "share": 0.0025
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -930,18 +870,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -1095,18 +1023,6 @@
         "share": 0.009
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -1254,18 +1170,6 @@
         "label": "Inland Shipping",
         "sector": "Transport",
         "share": 0.0039
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
       },
       {
         "subsector_short": "transport_other",
@@ -1417,18 +1321,6 @@
         "share": 0.0001
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -1576,18 +1468,6 @@
         "label": "Inland Shipping",
         "sector": "Transport",
         "share": 0.0015
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
       },
       {
         "subsector_short": "transport_other",
@@ -1739,18 +1619,6 @@
         "share": 0.0001
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -1900,18 +1768,6 @@
         "share": 0.0037
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -2057,18 +1913,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -2222,18 +2066,6 @@
         "share": 0.0002
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -2383,18 +2215,6 @@
         "share": 0.0063
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -2540,18 +2360,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -2705,18 +2513,6 @@
         "share": 0
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -2866,18 +2662,6 @@
         "share": 0.009
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -3023,18 +2807,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -3188,18 +2960,6 @@
         "share": 0
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -3349,18 +3109,6 @@
         "share": 0.0047
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -3506,18 +3254,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -3671,18 +3407,6 @@
         "share": 0.003
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -3832,18 +3556,6 @@
         "share": 0.0083
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -3989,18 +3701,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -4154,18 +3854,6 @@
         "share": 0.0068
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -4311,18 +3999,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -4476,18 +4152,6 @@
         "share": 0.0048
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -4635,18 +4299,6 @@
         "label": "Inland Shipping",
         "sector": "Transport",
         "share": 0.0021
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
       },
       {
         "subsector_short": "transport_other",
@@ -4798,18 +4450,6 @@
         "share": 0.0081
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -4957,18 +4597,6 @@
         "label": "Inland Shipping",
         "sector": "Transport",
         "share": 0.0054
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
       },
       {
         "subsector_short": "transport_other",
@@ -5120,18 +4748,6 @@
         "share": 0.0115
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -5277,18 +4893,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -5442,18 +5046,6 @@
         "share": 0.0055
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -5601,18 +5193,6 @@
         "label": "Inland Shipping",
         "sector": "Transport",
         "share": 0.001
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
       },
       {
         "subsector_short": "transport_other",
@@ -5764,18 +5344,6 @@
         "share": 0.0002
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -5923,18 +5491,6 @@
         "label": "Inland Shipping",
         "sector": "Transport",
         "share": 0.001
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
       },
       {
         "subsector_short": "transport_other",
@@ -6086,18 +5642,6 @@
         "share": 0.0002
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -6245,18 +5789,6 @@
         "label": "Inland Shipping",
         "sector": "Transport",
         "share": 0.0005
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
       },
       {
         "subsector_short": "transport_other",
@@ -6408,18 +5940,6 @@
         "share": 0.0003
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -6567,18 +6087,6 @@
         "label": "Inland Shipping",
         "sector": "Transport",
         "share": 0.0001
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
       },
       {
         "subsector_short": "transport_other",
@@ -6730,18 +6238,6 @@
         "share": 0.001
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -6889,18 +6385,6 @@
         "label": "Inland Shipping",
         "sector": "Transport",
         "share": 0.0003
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
       },
       {
         "subsector_short": "transport_other",
@@ -7052,18 +6536,6 @@
         "share": 0.0077
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -7209,18 +6681,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -7374,18 +6834,6 @@
         "share": 0.002
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -7533,18 +6981,6 @@
         "label": "Inland Shipping",
         "sector": "Transport",
         "share": 0.0119
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
       },
       {
         "subsector_short": "transport_other",
@@ -7696,18 +7132,6 @@
         "share": 0.0017
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -7853,18 +7277,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -8018,18 +7430,6 @@
         "share": 0.0098
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -8179,18 +7579,6 @@
         "share": 0.0009
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -8336,18 +7724,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -8501,18 +7877,6 @@
         "share": 0.0055
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -8660,18 +8024,6 @@
         "label": "Inland Shipping",
         "sector": "Transport",
         "share": 0.0194
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
       },
       {
         "subsector_short": "transport_other",
@@ -8823,18 +8175,6 @@
         "share": 0.0033
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -8980,18 +8320,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -9145,18 +8473,6 @@
         "share": 0.0053
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -9304,18 +8620,6 @@
         "label": "Inland Shipping",
         "sector": "Transport",
         "share": 0.0001
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
       },
       {
         "subsector_short": "transport_other",
@@ -9467,18 +8771,6 @@
         "share": 0.0048
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -9626,18 +8918,6 @@
         "label": "Inland Shipping",
         "sector": "Transport",
         "share": 0.0001
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
       },
       {
         "subsector_short": "transport_other",
@@ -9789,18 +9069,6 @@
         "share": 0.0003
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -9950,18 +9218,6 @@
         "share": 0.0001
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -10107,18 +9363,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -10272,18 +9516,6 @@
         "share": 0.0221
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -10433,18 +9665,6 @@
         "share": 0.0083
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -10590,18 +9810,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -10755,18 +9963,6 @@
         "share": 0
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -10912,18 +10108,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -11077,18 +10261,6 @@
         "share": 0.0059
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -11234,18 +10406,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -11399,18 +10559,6 @@
         "share": 0.0002
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -11558,18 +10706,6 @@
         "label": "Inland Shipping",
         "sector": "Transport",
         "share": 0.0068
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
       },
       {
         "subsector_short": "transport_other",
@@ -11721,18 +10857,6 @@
         "share": 0.0012
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -11882,18 +11006,6 @@
         "share": 0.0038
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -12039,18 +11151,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -12204,18 +11304,6 @@
         "share": 0
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -12365,18 +11453,6 @@
         "share": 0.0082
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -12522,18 +11598,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -12687,18 +11751,6 @@
         "share": 0.0045
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -12848,18 +11900,6 @@
         "share": 0.0065
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -13005,18 +12045,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -13170,18 +12198,6 @@
         "share": 0.0077
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -13327,18 +12343,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -13492,18 +12496,6 @@
         "share": 0.0001
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -13649,18 +12641,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -13814,18 +12794,6 @@
         "share": 0.0036
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -13973,18 +12941,6 @@
         "label": "Inland Shipping",
         "sector": "Transport",
         "share": 0.0239
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
       },
       {
         "subsector_short": "transport_other",
@@ -14136,18 +13092,6 @@
         "share": 0.0085
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -14297,18 +13241,6 @@
         "share": 0.0017
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -14454,18 +13386,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -14619,18 +13539,6 @@
         "share": 0
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -14776,18 +13684,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -14941,18 +13837,6 @@
         "share": 0.0003
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -15098,18 +13982,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -15263,18 +14135,6 @@
         "share": 0.0079
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -15422,18 +14282,6 @@
         "label": "Inland Shipping",
         "sector": "Transport",
         "share": 0.0047
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
       },
       {
         "subsector_short": "transport_other",
@@ -15585,18 +14433,6 @@
         "share": 0.0003
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -15746,18 +14582,6 @@
         "share": 0.0007
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -15903,18 +14727,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -16068,18 +14880,6 @@
         "share": 0.0004
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -16225,18 +15025,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -16390,18 +15178,6 @@
         "share": 0.0001
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -16549,18 +15325,6 @@
         "label": "Inland Shipping",
         "sector": "Transport",
         "share": 0.0001
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
       },
       {
         "subsector_short": "transport_other",
@@ -16712,18 +15476,6 @@
         "share": 0.0317
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -16873,18 +15625,6 @@
         "share": 0.0023
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -17030,18 +15770,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -17195,18 +15923,6 @@
         "share": 0.0001
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -17354,18 +16070,6 @@
         "label": "Inland Shipping",
         "sector": "Transport",
         "share": 0.011
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
       },
       {
         "subsector_short": "transport_other",
@@ -17517,18 +16221,6 @@
         "share": 0.0017
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -17674,18 +16366,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -17839,18 +16519,6 @@
         "share": 0.0042
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -17998,18 +16666,6 @@
         "label": "Inland Shipping",
         "sector": "Transport",
         "share": 0.0003
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
       },
       {
         "subsector_short": "transport_other",
@@ -18161,18 +16817,6 @@
         "share": 0.005
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -18322,18 +16966,6 @@
         "share": 0.0001
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -18479,18 +17111,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -18644,18 +17264,6 @@
         "share": 0.0062
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -18801,18 +17409,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -18966,18 +17562,6 @@
         "share": 0.0006
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -19125,18 +17709,6 @@
         "label": "Inland Shipping",
         "sector": "Transport",
         "share": 0.009
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
       },
       {
         "subsector_short": "transport_other",
@@ -19288,18 +17860,6 @@
         "share": 0.0039
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -19449,18 +18009,6 @@
         "share": 0.028
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -19606,18 +18154,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -19771,18 +18307,6 @@
         "share": 0.0033
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -19928,18 +18452,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -20093,18 +18605,6 @@
         "share": 0
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -20250,18 +18750,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -20415,18 +18903,6 @@
         "share": 0.0006
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -20574,18 +19050,6 @@
         "label": "Inland Shipping",
         "sector": "Transport",
         "share": 0.01
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
       },
       {
         "subsector_short": "transport_other",
@@ -20737,18 +19201,6 @@
         "share": 0.0137
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -20894,18 +19346,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -21059,18 +19499,6 @@
         "share": 0.0041
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -21216,18 +19644,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -21381,18 +19797,6 @@
         "share": 0
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -21540,18 +19944,6 @@
         "label": "Inland Shipping",
         "sector": "Transport",
         "share": 0.0011
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
       },
       {
         "subsector_short": "transport_other",
@@ -21703,18 +20095,6 @@
         "share": 0.0008
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -21864,18 +20244,6 @@
         "share": 0.0002
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -22021,18 +20389,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -22186,18 +20542,6 @@
         "share": 0.0001
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -22345,18 +20689,6 @@
         "label": "Inland Shipping",
         "sector": "Transport",
         "share": 0.0059
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
       },
       {
         "subsector_short": "transport_other",
@@ -22508,18 +20840,6 @@
         "share": 0.0031
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -22667,18 +20987,6 @@
         "label": "Inland Shipping",
         "sector": "Transport",
         "share": 0.0193
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
       },
       {
         "subsector_short": "transport_other",
@@ -22830,18 +21138,6 @@
         "share": 0.0002
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -22987,18 +21283,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -23152,18 +21436,6 @@
         "share": 0
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -23309,18 +21581,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -23474,18 +21734,6 @@
         "share": 0
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -23631,18 +21879,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -23796,18 +22032,6 @@
         "share": 0.0066
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -23955,18 +22179,6 @@
         "label": "Inland Shipping",
         "sector": "Transport",
         "share": 0.0003
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
       },
       {
         "subsector_short": "transport_other",
@@ -24118,18 +22330,6 @@
         "share": 0.0012
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -24275,18 +22475,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -24440,18 +22628,6 @@
         "share": 0
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -24597,18 +22773,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -24762,18 +22926,6 @@
         "share": 0.0012
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -24919,18 +23071,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -25084,18 +23224,6 @@
         "share": 0
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -25243,18 +23371,6 @@
         "label": "Inland Shipping",
         "sector": "Transport",
         "share": 0.0072
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
       },
       {
         "subsector_short": "transport_other",
@@ -25406,18 +23522,6 @@
         "share": 0.0211
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -25563,18 +23667,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -25728,18 +23820,6 @@
         "share": 0
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -25889,18 +23969,6 @@
         "share": 0.0018
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -26046,18 +24114,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -26211,18 +24267,6 @@
         "share": 0.0001
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -26370,18 +24414,6 @@
         "label": "Inland Shipping",
         "sector": "Transport",
         "share": 0.0009
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
       },
       {
         "subsector_short": "transport_other",
@@ -26533,18 +24565,6 @@
         "share": 0.0042
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -26690,18 +24710,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -26855,18 +24863,6 @@
         "share": 0.0076
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -27012,18 +25008,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -27177,18 +25161,6 @@
         "share": 0.0061
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -27338,18 +25310,6 @@
         "share": 0.0202
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -27495,18 +25455,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },
@@ -27660,18 +25608,6 @@
         "share": 0.0015
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -27821,18 +25757,6 @@
         "share": 0
       },
       {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
         "subsector_short": "transport_other",
         "label": "Other",
         "sector": "Transport",
@@ -27978,18 +25902,6 @@
       {
         "subsector_short": "transport_inland_shipping",
         "label": "Inland Shipping",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_aviation",
-        "label": "International Aviation",
-        "sector": "Transport",
-        "share": 0
-      },
-      {
-        "subsector_short": "transport_international_shipping",
-        "label": "International Shipping",
         "sector": "Transport",
         "share": 0
       },

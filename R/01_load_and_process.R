@@ -73,8 +73,10 @@ ghg <- ghg_filtered %>%
     subsector_title == "Other (transport)"                      ~ "transport_other",
     subsector_title == "Road"                                   ~ "transport_road",
     subsector_title == "Rail"                                   ~ "transport_rail",
-    subsector_title == "International Aviation"                 ~ "transport_international_aviation",
-    subsector_title == "International Shipping"                 ~ "transport_international_shipping",
+    # International aviation and shipping are dropped — they're attributable to
+    # the global economy more than to any single country, and inflate the totals
+    # for transit-hub countries (e.g. Singapore, UAE) in ways that obscure the
+    # rest of the sectoral fingerprint.
     TRUE ~ NA_character_
   )) %>%
   filter(!is.na(subsector_short))
@@ -139,6 +141,7 @@ iso_ember <- rownames(ember)
 
 # ── 1D: Emissions trajectory ─────────────────────────────────────────────────
 
+# The plot-ready trajectory keeps observed GHG + the two NDC anchor points.
 trajectory <- ndc_raw %>%
   select(iso3c, country, year, ghg_observed,
          ndc2_absolute_uncond, ndc2_absolute_cond)
@@ -148,9 +151,33 @@ iso_trajectory <- trajectory %>%
   distinct(iso3c) %>%
   pull(iso3c)
 
+# A separate trajectory_matrix is built for cosine similarity. We strip the NDC
+# columns, keep just the observed time-series 1990–2024, and normalize each
+# country's emissions to index = 100 in 1990. This makes the cosine similarity
+# capture *shape* (growing vs. declining vs. flat) rather than level — two
+# countries that both doubled since 1990 are similar even if one is 10× larger.
+trajectory_matrix <- ndc_raw %>%
+  select(iso3c, year, ghg_observed) %>%
+  filter(!is.na(ghg_observed), year >= 1990, year <= 2024) %>%
+  arrange(iso3c, year) %>%
+  group_by(iso3c) %>%
+  mutate(base  = ghg_observed[year == 1990][1],   # 1990 value, NA if missing
+         index = if_else(!is.na(base) & base > 0,
+                         ghg_observed / base * 100,
+                         NA_real_)) %>%
+  ungroup() %>%
+  filter(!is.na(index)) %>%
+  select(iso3c, year, index) %>%
+  pivot_wider(names_from = year, values_from = index, names_prefix = "y") %>%
+  column_to_rownames("iso3c") %>%
+  as.matrix()
+
+iso_trajectory_mat <- rownames(trajectory_matrix)
+
 # ── Define the playable country list (intersection of all three sources) ─────
 
-iso_play <- Reduce(intersect, list(iso_ghg, iso_ember, iso_trajectory))
+iso_play <- Reduce(intersect, list(iso_ghg, iso_ember, iso_trajectory,
+                                   iso_trajectory_mat))
 # Also require centroids and metadata
 iso_play <- intersect(iso_play, country_meta$iso3c)
 iso_play <- sort(iso_play)
@@ -158,10 +185,11 @@ iso_play <- sort(iso_play)
 cat("Playable countries:", length(iso_play), "\n")
 
 # Filter everything to playable countries
-country_meta <- country_meta %>% filter(iso3c %in% iso_play)
-ghg          <- ghg          %>% filter(iso3c %in% iso_play)
-ghg_matrix   <- ghg_matrix[iso_play, , drop = FALSE]
-ember        <- ember[iso_play, , drop = FALSE]
-trajectory   <- trajectory   %>% filter(iso3c %in% iso_play)
+country_meta      <- country_meta      %>% filter(iso3c %in% iso_play)
+ghg               <- ghg               %>% filter(iso3c %in% iso_play)
+ghg_matrix        <- ghg_matrix[iso_play, , drop = FALSE]
+ember             <- ember[iso_play, , drop = FALSE]
+trajectory        <- trajectory        %>% filter(iso3c %in% iso_play)
+trajectory_matrix <- trajectory_matrix[iso_play, , drop = FALSE]
 
 cat("Pipeline step 1 complete.\n")
