@@ -16,6 +16,22 @@ const SECTOR_LABELS = {
   'Transport': 'Transport',
 };
 
+// Overrides for individual subsector labels where str_to_title in R produces
+// the wrong casing (e.g. "Non-Co2" should be "Non-CO2").
+const SUBSECTOR_LABEL_OVERRIDES = {
+  'Non-Co2': 'Non-CO2',
+};
+
+// Within the Energy Systems sector, override the alphabetical-by-label sort
+// with this domain-meaningful order. Subsectors not listed fall to the end.
+const ENERGY_SECTOR_SUBSECTOR_ORDER = [
+  'Electricity And Heat',
+  'Coal Mining Fugitive',
+  'Oil And Gas Fugitive',
+  'Petroleum Refining',
+  'Other',
+];
+
 const ENERGY_COLORS = {
   // Fossil: brown/amber tones
   'Coal': '#8B4513',
@@ -41,6 +57,13 @@ const ENERGY_TYPE_COLORS = {
   'Clean': '#4CAF50',
 };
 
+// Display labels (the data key is what the R pipeline produces; we map it to a
+// nicer label here so we don't need to re-export JSON on UI label changes).
+const ENERGY_SOURCE_LABEL = {
+  'Other Fossil':     'Oil and other fossil',
+  'Other Renewables': 'Other renewables',
+};
+
 // Data years (from R pipeline)
 const GHG_YEAR = 2021;
 const ENERGY_YEAR = 2024;
@@ -61,21 +84,28 @@ export function renderGhgChart(data, revealed) {
 
   // Show ALL subsectors (including zero-share) so the bar count is constant
   // across countries — an empty bar for "Coal mining fugitive" or "Domestic
-  // aviation" is itself a clue. Sorted by sector then label.
+  // aviation" is itself a clue. Sorted by sector, then by label (with the
+  // Energy Systems sector using a domain-specific order).
+  const energyOrderRank = (label) => {
+    const i = ENERGY_SECTOR_SUBSECTOR_ORDER.indexOf(label);
+    return i === -1 ? Number.POSITIVE_INFINITY : i;
+  };
   const subsectors = [...data.subsectors]
     .sort((a, b) => {
-      if (a.sector < b.sector) return -1;
-      if (a.sector > b.sector) return 1;
+      if (a.sector !== b.sector) return a.sector < b.sector ? -1 : 1;
+      if (a.sector === 'Energy systems') {
+        return energyOrderRank(a.label) - energyOrderRank(b.label);
+      }
       return a.label < b.label ? -1 : 1;
     });
 
-  const labels = subsectors.map(s => s.label);
+  const labels = subsectors.map(s => SUBSECTOR_LABEL_OVERRIDES[s.label] || s.label);
   const values = subsectors.map(s => s.share * 100);
   const colors = subsectors.map(s => SECTOR_COLORS[s.sector] || '#666');
 
   const titleLine1 = revealed
-    ? `${revealed}: GHG emissions by subsector`
-    : 'Country X: GHG emissions by subsector';
+    ? `${revealed}: sectoral GHG emissions`
+    : 'Country X: sectoral GHG emissions';
   const titleLine2 = `(${GHG_YEAR}, share of national total)`;
 
   // Build legend items from unique sectors present
@@ -165,13 +195,13 @@ export function renderEnergyChart(data, revealed) {
   }
 
   const ordered = ENERGY_ORDER.filter(name => sourceMap[name]);
-  const labels = ordered;
+  const labels = ordered.map(name => ENERGY_SOURCE_LABEL[name] || name);
   const values = ordered.map(name => (sourceMap[name].share) * 100);
   const colors = ordered.map(name => ENERGY_COLORS[name] || '#666');
 
   const titleLine1 = revealed
-    ? `${revealed}: Electricity generation by source`
-    : 'Country X: Electricity generation by source';
+    ? `${revealed}: electricity mix`
+    : 'Country X: electricity mix';
   const titleLine2 = `(${ENERGY_YEAR}, share of total generation)`;
 
   // Legend: Fossil vs Clean
@@ -257,8 +287,8 @@ export function renderTrajectoryChart(data, revealed) {
   const indexed = data.emissions.map(v => (v / baseVal) * 100);
 
   const titleLine1 = revealed
-    ? `${revealed}: GHG emissions trajectory & NDC targets`
-    : 'Country X: GHG emissions trajectory & NDC targets';
+    ? `${revealed}: GHG trajectory & NDC targets`
+    : 'Country X: GHG trajectory & NDC targets';
 
   const datasets = [{
     label: 'GHG Index',
@@ -324,18 +354,15 @@ export function renderTrajectoryChart(data, revealed) {
           display: true,
           text: titleLine1,
           color: '#e0e0e0',
-          font: { family: "'DM Sans'", size: 14, weight: 500 }
-        },
-        subtitle: {
-          display: true,
-          text: 'NDC = Nationally Determined Contribution (country climate mitigation target under the Paris Agreement)',
-          color: '#666',
-          font: { family: "'DM Sans'", size: 10, style: 'italic' },
+          font: { family: "'DM Sans'", size: 14, weight: 500 },
           padding: { bottom: 8 },
         },
         tooltip: {
           callbacks: {
-            label: ctx => `Index: ${ctx.parsed.y.toFixed(1)}`
+            // Override the default title formatter — Chart.js runs linear-axis
+            // values through Intl.NumberFormat, which turns 2030 into "2,030".
+            title: ctx => String(ctx[0]?.parsed.x ?? ''),
+            label: ctx => `Index: ${ctx.parsed.y.toFixed(1)}`,
           }
         }
       },
@@ -377,15 +404,15 @@ export function renderTrajectoryChart(data, revealed) {
 
 export function updateChartTitles(countryName) {
   if (ghgChart) {
-    ghgChart.options.plugins.title.text = [`${countryName}: GHG emissions by subsector`, `(${GHG_YEAR}, share of national total)`];
+    ghgChart.options.plugins.title.text = [`${countryName}: sectoral GHG emissions`, `(${GHG_YEAR}, share of national total)`];
     ghgChart.update();
   }
   if (energyChart) {
-    energyChart.options.plugins.title.text = [`${countryName}: Electricity generation by source`, `(${ENERGY_YEAR}, share of total generation)`];
+    energyChart.options.plugins.title.text = [`${countryName}: electricity mix`, `(${ENERGY_YEAR}, share of total generation)`];
     energyChart.update();
   }
   if (trajectoryChart) {
-    trajectoryChart.options.plugins.title.text = `${countryName}: GHG emissions trajectory & NDC targets`;
+    trajectoryChart.options.plugins.title.text = `${countryName}: GHG trajectory & NDC targets`;
     trajectoryChart.update();
   }
 }
