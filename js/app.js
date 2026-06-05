@@ -2,7 +2,10 @@
 
 import { loadAllData, getCountries, getGhgSectors, getEnergyMix, getTrajectory } from './data.js';
 import { renderGhgChart, renderEnergyChart, renderTrajectoryChart, updateChartTitles } from './charts.js';
-import { initGame, getState, makeGuess, buildShareText } from './game.js';
+import {
+  initGame, getState, makeGuess, buildShareText,
+  setHardMode, isHardMode, canToggleHardMode,
+} from './game.js';
 
 // ── DOM elements ─────────────────────────────────────────────────────────────
 const $loading = document.getElementById('loading');
@@ -21,6 +24,8 @@ const $showCountriesBtn = document.getElementById('show-countries-btn');
 const $countryListPanel = document.getElementById('country-list-panel');
 const $countryListGrid = document.getElementById('country-list-grid');
 const $guessArea = document.getElementById('guess-area');
+const $modeToggle = document.getElementById('mode-toggle');
+const $hardModeCheckbox = document.getElementById('hard-mode-checkbox');
 
 let acIndex = -1;
 let acFiltered = [];
@@ -40,11 +45,25 @@ let acFiltered = [];
 
   const state = initGame();
   buildCountryList();
+  syncModeToggleUI();
   renderCharts(state);
   restoreGuessHistory(state);
   updateUI(state);
   wireEvents();
 })();
+
+// ── Hard mode toggle UI ──────────────────────────────────────────────────────
+function syncModeToggleUI() {
+  $hardModeCheckbox.checked = isHardMode();
+  $historyTable.classList.toggle('hard-mode', isHardMode());
+  if (canToggleHardMode()) {
+    $modeToggle.classList.remove('locked');
+    $hardModeCheckbox.disabled = false;
+  } else {
+    $modeToggle.classList.add('locked');
+    $hardModeCheckbox.disabled = true;
+  }
+}
 
 // ── Charts ───────────────────────────────────────────────────────────────────
 const renderedTabs = new Set();
@@ -143,12 +162,12 @@ function appendGuessRow(detail) {
   tr.innerHTML = `
     <td>${detail.num}</td>
     <td>${detail.name}</td>
-    <td class="${simClass(detail.ghgSim)}">${(detail.ghgSim * 100).toFixed(0)}%</td>
+    <td class="${simClass(detail.sectorSim)}">${(detail.sectorSim * 100).toFixed(0)}%</td>
     <td class="${simClass(detail.energySim)}">${(detail.energySim * 100).toFixed(0)}%</td>
-    <td>${detail.distanceStr}</td>
-    <td>${detail.arrow}</td>
+    <td class="${simClass(detail.trajectorySim)}">${(detail.trajectorySim * 100).toFixed(0)}%</td>
+    <td class="col-geo">${detail.distanceStr}</td>
+    <td class="col-geo">${detail.arrow}</td>
     <td class="${compClass(detail.ghgCapComp)}">${detail.ghgCapComp}</td>
-    <td class="${compClass(detail.gdpCapComp)}">${detail.gdpCapComp}</td>
   `;
 
   $historyBody.appendChild(tr);
@@ -174,15 +193,32 @@ function wireEvents() {
     if (!e.target.closest('.input-wrapper')) hideAC();
   });
 
+  // Hard mode toggle
+  $hardModeCheckbox.addEventListener('change', () => {
+    setHardMode($hardModeCheckbox.checked);
+    syncModeToggleUI();
+  });
+
   // Guess button
   $guessBtn.addEventListener('click', submitGuess);
 
-  // Share button
-  $shareBtn.addEventListener('click', () => {
-    navigator.clipboard.writeText(buildShareText()).then(() => {
+  // Share button — modern Clipboard API with a textarea fallback for cases
+  // where it fails (older browsers, blocked permissions, no user activation).
+  $shareBtn.addEventListener('click', async () => {
+    const text = buildShareText();
+    let ok = false;
+    if (navigator.clipboard && window.isSecureContext) {
+      try { await navigator.clipboard.writeText(text); ok = true; }
+      catch (_) { /* fall through to fallback */ }
+    }
+    if (!ok) ok = copyViaTextarea(text);
+    if (ok) {
       $shareCopied.classList.remove('hidden');
       setTimeout(() => $shareCopied.classList.add('hidden'), 2000);
-    });
+    } else {
+      $shareCopied.textContent = 'Copy failed — select and copy manually';
+      $shareCopied.classList.remove('hidden');
+    }
   });
 
   // Country list toggle
@@ -277,6 +313,27 @@ function highlightAC(items) {
   }
 }
 
+// Fallback clipboard copy via a temporary <textarea> + execCommand('copy').
+// Works without the async Clipboard API. Returns true if copy succeeded.
+function copyViaTextarea(text) {
+  const ta = document.createElement('textarea');
+  ta.value = text;
+  // Off-screen but still focusable/selectable
+  ta.setAttribute('readonly', '');
+  ta.style.position = 'fixed';
+  ta.style.top = '0';
+  ta.style.left = '0';
+  ta.style.opacity = '0';
+  ta.style.pointerEvents = 'none';
+  document.body.appendChild(ta);
+  ta.select();
+  ta.setSelectionRange(0, text.length);
+  let ok = false;
+  try { ok = document.execCommand('copy'); } catch (_) { ok = false; }
+  document.body.removeChild(ta);
+  return ok;
+}
+
 function hideAC() {
   $acList.classList.add('hidden');
   $acList.innerHTML = '';
@@ -318,6 +375,9 @@ function submitGuess() {
   $guessInput.value = '';
   delete $guessInput.dataset.iso;
   hideAC();
+
+  // First guess locks the hard-mode toggle
+  syncModeToggleUI();
 
   // Update UI
   updateUI(getState());

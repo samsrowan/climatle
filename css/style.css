@@ -154,6 +154,58 @@ a:hover { text-decoration: underline; }
 
 canvas { width: 100% !important; height: 100% !important; }
 
+/* ── Hard-mode toggle ─────────────────────────────────────────────────────── */
+.mode-toggle {
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mode-toggle .switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  cursor: pointer;
+  user-select: none;
+}
+.mode-toggle .switch input {
+  position: absolute;
+  opacity: 0;
+  width: 0; height: 0;
+}
+.mode-toggle .slider {
+  position: relative;
+  display: inline-block;
+  width: 34px;
+  height: 18px;
+  background: #333;
+  border-radius: 999px;
+  transition: background 0.15s ease;
+}
+.mode-toggle .slider::before {
+  content: "";
+  position: absolute;
+  left: 2px; top: 2px;
+  width: 14px; height: 14px;
+  background: #ccc;
+  border-radius: 50%;
+  transition: transform 0.15s ease;
+}
+.mode-toggle input:checked + .slider { background: var(--accent); }
+.mode-toggle input:checked + .slider::before { transform: translateX(16px); background: #0a0a0a; }
+.mode-toggle .mode-label {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--text);
+}
+.mode-toggle .mode-hint {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+}
+/* Disabled state when guesses have started — toggle locks. */
+.mode-toggle.locked .switch { cursor: not-allowed; opacity: 0.55; }
+.mode-toggle.locked input { pointer-events: none; }
+
 /* ── Guess Area ───────────────────────────────────────────────────────────── */
 .guess-area { margin-bottom: 1.25rem; }
 
@@ -302,6 +354,9 @@ canvas { width: 100% !important; height: 100% !important; }
 }
 
 .history-table tr:last-child td { border-bottom: none; }
+
+/* Hard mode hides the geographic columns. */
+.history-table.hard-mode .col-geo { display: none; }
 
 .sim-high { color: var(--accent); }
 .sim-mid  { color: #FFD700; }
