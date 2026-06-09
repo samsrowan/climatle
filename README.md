@@ -4,7 +4,7 @@
 
 Climatle is a daily guessing game designed to help people learn about climate change mitigation across countries. Each day, you're shown three visualizations of a mystery country's climate profile — its greenhouse gas emissions by sector, its electricity generation mix, and its emissions trajectory over time including its greenhouse gas mitigation target, if it has one — and you have six attempts to guess which country it is. Sound familiar?
 
-After each guess, you receive feedback on how similar your guess is to the target country: cosine similarity scores for emissions and energy profiles, geographic distance and direction, and comparisons of GHG and GDP per capita. Use the clues to narrow down your next guess!
+After each guess, you receive feedback on how similar your guess is to the target country: similarity scores for sectoral and aggregate emissions, electricity profiles, plus geographic distance and direction, and comparisons of GHG per capita. Use the clues to narrow down your next guess!
 
 ## Data sources
 
