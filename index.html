@@ -76,7 +76,7 @@
           <button id="guess-btn" class="guess-btn">Guess</button>
         </div>
         <div id="country-list-toggle" class="country-list-toggle">
-          <button id="show-countries-btn" class="show-countries-btn">Show eligible countries</button>
+          <button id="show-countries-btn" class="show-countries-btn">Show included countries</button>
         </div>
         <div id="country-list-panel" class="country-list-panel hidden">
           <div class="country-list-grid" id="country-list-grid"></div>
@@ -125,7 +125,7 @@
         </p>
         <p>
           After each guess, you receive feedback on how similar your guess is to the
-          target country: three cosine-similarity scores (sectoral GHG, electricity mix,
+          target country: three similarity scores (for sectoral GHG, electricity mix,
           and GHG trajectory), geographic distance and direction, and a GHG-per-capita
           comparison. Use the clues to narrow down your next guess.
         </p>
@@ -134,21 +134,19 @@
         <p>
           Toggle <strong>Hard mode</strong> above the guess input (before your first guess
           only) to play without the geographic hints &mdash; you'll see the three similarity
-          scores and the per-capita comparison, but no distance or direction. Results
-          shared from hard mode are marked with diamond markers; normal mode uses circles.
+          scores and the per-capita comparison, but no distance or direction.
         </p>
 
         <h3>Similarity scores</h3>
         <ul>
           <li><strong>Sector sim.</strong> &mdash; cosine similarity of the two countries'
-            sectoral GHG share vectors (24 subsectors; international aviation and shipping
-            are excluded since they're not cleanly attributable to a single country).</li>
+            sectoral GHG shares.</li>
           <li><strong>Elec. sim.</strong> &mdash; cosine similarity of the electricity-mix
-            shares (9 sources).</li>
-          <li><strong>GHG sim.</strong> &mdash; shape of the GHG trajectory 1990&ndash;2024.
-            Computed as a Pearson correlation of each country's index-normalized series,
-            rescaled so 100% means identical growth pattern, 50% means uncorrelated, and
-            0% means opposite (one grew while the other declined).</li>
+            shares.</li>
+          <li><strong>GHG sim.</strong> &mdash; Pearson correlation of each country's 
+            index–normalized GHG emissions, 1990&ndash;2024, rescaled so 100% means 
+            identical growth pattern, 50% means uncorrelated, and 0% means opposite
+            (one grew while the other declined).</li>
         </ul>
 
         <h3>Data sources</h3>
