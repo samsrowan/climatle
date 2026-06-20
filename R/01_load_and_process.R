@@ -107,25 +107,55 @@ ghg_matrix <- ghg %>%
 iso_ghg <- rownames(ghg_matrix)
 
 # ── 1C: Electricity mix ──────────────────────────────────────────────────────
+#
+# Default to 2024 values, but for countries with NO 2024 rows (sparse reporting,
+# active conflict, etc.) fall back to their most recent year with all 9 fuel
+# rows reported. The chart still displays "2024" — the substitution is
+# transparent to players, but documented here and in CLAUDE.md.
+#
+# Countries that already have at least some 2024 data keep their 2024 row;
+# any individual fuel categories missing from that row are treated as 0 (the
+# original pipeline behaviour). We only switch a country to an earlier year
+# if it has *zero* 2024 rows in the source data.
+#
+# As of the current Ember release this affects CAF, COM, STP, VUT (→ 2023) and
+# UKR (→ 2020; post-2020 coverage is incomplete due to the war).
 
-# ember_raw <- read_csv("data/ember_electricity_2023.csv", show_col_types = FALSE)
-ember_raw <- read_csv("data/ember_electricity_2025.csv", show_col_types = FALSE)
-
-# Use 2024 (best coverage year in Ember data)
-# formerly 2022
-ember_year <- 2024
-
-cat("Ember electricity data: using year", ember_year, "\n")
-
-ember <- ember_raw %>%
+ember_raw <- read_csv("data/ember_electricity_2025.csv", show_col_types = FALSE) %>%
   select(country = Area, iso3c = `ISO 3 code`, year = Year,
          category = Category, sub_category = Subcategory,
          unit = Unit, variable = Variable, value = Value) %>%
-  filter(year == ember_year,
-         !is.na(iso3c),
+  filter(!is.na(iso3c),
          category == "Electricity generation",
          sub_category == "Fuel",
-         unit == "%") %>%
+         unit == "%")
+
+target_year <- 2024
+
+# Countries that have ANY 2024 rows keep target_year. Everyone else falls
+# back to their most recent year with all 9 fuel rows present.
+has_target <- ember_raw %>% filter(year == target_year) %>% distinct(iso3c) %>% pull(iso3c)
+needs_backfill <- ember_raw %>%
+  filter(!iso3c %in% has_target) %>%
+  group_by(iso3c, year) %>%
+  summarise(n_fuels = n_distinct(variable), .groups = "drop") %>%
+  filter(n_fuels == 9, year < target_year) %>%
+  group_by(iso3c) %>%
+  summarise(use_year = max(year), .groups = "drop")
+
+use_year_per_iso <- bind_rows(
+  tibble(iso3c = has_target, use_year = target_year),
+  needs_backfill
+)
+
+if (nrow(needs_backfill) > 0) {
+  cat("Ember: backfilling these countries from older years (no ",
+      target_year, " data):\n", sep = "")
+  print(needs_backfill, n = nrow(needs_backfill))
+}
+
+ember <- ember_raw %>%
+  inner_join(use_year_per_iso, by = c("iso3c", "year" = "use_year")) %>%
   select(iso3c, source = variable, share = value) %>%
   mutate(source = tolower(source),
          source = str_replace(source, "other fossil", "fossil_other"),
@@ -138,6 +168,9 @@ ember <- ember_raw %>%
   as.matrix()
 
 iso_ember <- rownames(ember)
+cat("Ember electricity data: nominal year ", target_year,
+    " (with per-country backfill where needed); ",
+    length(iso_ember), " countries\n", sep = "")
 
 # ── 1D: Emissions trajectory ─────────────────────────────────────────────────
 

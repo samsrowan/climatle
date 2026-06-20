@@ -279,6 +279,15 @@
     "lon": -23.63
   },
   {
+    "iso3c": "CAF",
+    "name": "Central African Republic",
+    "gdp_pc": 390,
+    "ghg_pc": 2.52,
+    "pop": 5330690,
+    "lat": 6.33,
+    "lon": 20.52
+  },
+  {
     "iso3c": "TCD",
     "name": "Chad",
     "gdp_pc": 850,
@@ -313,6 +322,15 @@
     "pop": 52886363,
     "lat": 4.19,
     "lon": -72.64
+  },
+  {
+    "iso3c": "COM",
+    "name": "Comoros",
+    "gdp_pc": 1402,
+    "ghg_pc": 1.1,
+    "pop": 866628,
+    "lat": -11.66,
+    "lon": 43.35
   },
   {
     "iso3c": "COG",
@@ -403,6 +421,15 @@
     "pop": 1168722,
     "lat": 11.75,
     "lon": 42.61
+  },
+  {
+    "iso3c": "DMA",
+    "name": "Dominica",
+    "gdp_pc": 9173,
+    "ghg_pc": 2.3,
+    "pop": 66205,
+    "lat": 15.43,
+    "lon": -61.36
   },
   {
     "iso3c": "DOM",
@@ -1206,6 +1233,15 @@
     "lon": -172.44
   },
   {
+    "iso3c": "STP",
+    "name": "Sao Tome and Principe",
+    "gdp_pc": 1368,
+    "ghg_pc": 1.04,
+    "pop": 235536,
+    "lat": 0.23,
+    "lon": 6.61
+  },
+  {
     "iso3c": "SAU",
     "name": "Saudi Arabia",
     "gdp_pc": 24963,
@@ -1476,6 +1512,15 @@
     "lon": 32.34
   },
   {
+    "iso3c": "UKR",
+    "name": "Ukraine",
+    "gdp_pc": 2074,
+    "ghg_pc": 5.2,
+    "pop": 37860221,
+    "lat": 48.66,
+    "lon": 31.27
+  },
+  {
     "iso3c": "ARE",
     "name": "United Arab Emirates",
     "gdp_pc": 41605,
@@ -1519,6 +1564,15 @@
     "pop": 36361859,
     "lat": 41.49,
     "lon": 63.85
+  },
+  {
+    "iso3c": "VUT",
+    "name": "Vanuatu",
+    "gdp_pc": 2697,
+    "ghg_pc": 1.93,
+    "pop": 327777,
+    "lat": -15.19,
+    "lon": 166.85
   },
   {
     "iso3c": "VEN",

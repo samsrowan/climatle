@@ -4022,6 +4022,155 @@
       }
     ]
   },
+  "CAF": {
+    "sector_labels": ["AFOLU", "Buildings", "Energy systems", "Industry", "Transport"],
+    "subsectors": [
+      {
+        "subsector_short": "afolu_biomass_burning",
+        "label": "Biomass Burning",
+        "sector": "AFOLU",
+        "share": 0.0013
+      },
+      {
+        "subsector_short": "afolu_enteric_fermentation",
+        "label": "Enteric Fermentation",
+        "sector": "AFOLU",
+        "share": 0.5335
+      },
+      {
+        "subsector_short": "afolu_managed_soils",
+        "label": "Managed Soils",
+        "sector": "AFOLU",
+        "share": 0.2422
+      },
+      {
+        "subsector_short": "afolu_manure",
+        "label": "Manure",
+        "sector": "AFOLU",
+        "share": 0.0281
+      },
+      {
+        "subsector_short": "afolu_rice",
+        "label": "Rice",
+        "sector": "AFOLU",
+        "share": 0.0009
+      },
+      {
+        "subsector_short": "afolu_synthetic_fertilizer",
+        "label": "Synthetic Fertilizer",
+        "sector": "AFOLU",
+        "share": 0
+      },
+      {
+        "subsector_short": "buildings_non-co2",
+        "label": "Non-Co2",
+        "sector": "Buildings",
+        "share": 0.0016
+      },
+      {
+        "subsector_short": "buildings_non-residential",
+        "label": "Non-Residential",
+        "sector": "Buildings",
+        "share": 0.0012
+      },
+      {
+        "subsector_short": "buildings_residential",
+        "label": "Residential",
+        "sector": "Buildings",
+        "share": 0.0222
+      },
+      {
+        "subsector_short": "energy_coal_mining_fugitive",
+        "label": "Coal Mining Fugitive",
+        "sector": "Energy systems",
+        "share": 0
+      },
+      {
+        "subsector_short": "energy_electricity_and_heat",
+        "label": "Electricity And Heat",
+        "sector": "Energy systems",
+        "share": 0.0045
+      },
+      {
+        "subsector_short": "energy_oil_and_gas_fugitive",
+        "label": "Oil And Gas Fugitive",
+        "sector": "Energy systems",
+        "share": 0
+      },
+      {
+        "subsector_short": "energy_other",
+        "label": "Other",
+        "sector": "Energy systems",
+        "share": 0.0304
+      },
+      {
+        "subsector_short": "energy_petroleum_refining",
+        "label": "Petroleum Refining",
+        "sector": "Energy systems",
+        "share": 0
+      },
+      {
+        "subsector_short": "industry_cement",
+        "label": "Cement",
+        "sector": "Industry",
+        "share": 0
+      },
+      {
+        "subsector_short": "industry_chemicals",
+        "label": "Chemicals",
+        "sector": "Industry",
+        "share": 0.0019
+      },
+      {
+        "subsector_short": "industry_metals",
+        "label": "Metals",
+        "sector": "Industry",
+        "share": 0
+      },
+      {
+        "subsector_short": "industry_other",
+        "label": "Other",
+        "sector": "Industry",
+        "share": 0.0423
+      },
+      {
+        "subsector_short": "industry_waste",
+        "label": "Waste",
+        "sector": "Industry",
+        "share": 0.0784
+      },
+      {
+        "subsector_short": "transport_domestic_aviation",
+        "label": "Domestic Aviation",
+        "sector": "Transport",
+        "share": 0.0001
+      },
+      {
+        "subsector_short": "transport_inland_shipping",
+        "label": "Inland Shipping",
+        "sector": "Transport",
+        "share": 0
+      },
+      {
+        "subsector_short": "transport_other",
+        "label": "Other",
+        "sector": "Transport",
+        "share": 0.0004
+      },
+      {
+        "subsector_short": "transport_rail",
+        "label": "Rail",
+        "sector": "Transport",
+        "share": 0.0002
+      },
+      {
+        "subsector_short": "transport_road",
+        "label": "Road",
+        "sector": "Transport",
+        "share": 0.0109
+      }
+    ]
+  },
   "CAN": {
     "sector_labels": ["AFOLU", "Buildings", "Energy systems", "Industry", "Transport"],
     "subsectors": [
@@ -5363,6 +5512,155 @@
       }
     ]
   },
+  "COM": {
+    "sector_labels": ["AFOLU", "Buildings", "Energy systems", "Industry", "Transport"],
+    "subsectors": [
+      {
+        "subsector_short": "afolu_biomass_burning",
+        "label": "Biomass Burning",
+        "sector": "AFOLU",
+        "share": 0.0034
+      },
+      {
+        "subsector_short": "afolu_enteric_fermentation",
+        "label": "Enteric Fermentation",
+        "sector": "AFOLU",
+        "share": 0.08
+      },
+      {
+        "subsector_short": "afolu_managed_soils",
+        "label": "Managed Soils",
+        "sector": "AFOLU",
+        "share": 0.0448
+      },
+      {
+        "subsector_short": "afolu_manure",
+        "label": "Manure",
+        "sector": "AFOLU",
+        "share": 0.0041
+      },
+      {
+        "subsector_short": "afolu_rice",
+        "label": "Rice",
+        "sector": "AFOLU",
+        "share": 0.0986
+      },
+      {
+        "subsector_short": "afolu_synthetic_fertilizer",
+        "label": "Synthetic Fertilizer",
+        "sector": "AFOLU",
+        "share": 0
+      },
+      {
+        "subsector_short": "buildings_non-co2",
+        "label": "Non-Co2",
+        "sector": "Buildings",
+        "share": 0
+      },
+      {
+        "subsector_short": "buildings_non-residential",
+        "label": "Non-Residential",
+        "sector": "Buildings",
+        "share": 0.0045
+      },
+      {
+        "subsector_short": "buildings_residential",
+        "label": "Residential",
+        "sector": "Buildings",
+        "share": 0.0651
+      },
+      {
+        "subsector_short": "energy_coal_mining_fugitive",
+        "label": "Coal Mining Fugitive",
+        "sector": "Energy systems",
+        "share": 0
+      },
+      {
+        "subsector_short": "energy_electricity_and_heat",
+        "label": "Electricity And Heat",
+        "sector": "Energy systems",
+        "share": 0.0682
+      },
+      {
+        "subsector_short": "energy_oil_and_gas_fugitive",
+        "label": "Oil And Gas Fugitive",
+        "sector": "Energy systems",
+        "share": 0.0005
+      },
+      {
+        "subsector_short": "energy_other",
+        "label": "Other",
+        "sector": "Energy systems",
+        "share": 0.1102
+      },
+      {
+        "subsector_short": "energy_petroleum_refining",
+        "label": "Petroleum Refining",
+        "sector": "Energy systems",
+        "share": 0
+      },
+      {
+        "subsector_short": "industry_cement",
+        "label": "Cement",
+        "sector": "Industry",
+        "share": 0
+      },
+      {
+        "subsector_short": "industry_chemicals",
+        "label": "Chemicals",
+        "sector": "Industry",
+        "share": 0.003
+      },
+      {
+        "subsector_short": "industry_metals",
+        "label": "Metals",
+        "sector": "Industry",
+        "share": 0
+      },
+      {
+        "subsector_short": "industry_other",
+        "label": "Other",
+        "sector": "Industry",
+        "share": 0.0622
+      },
+      {
+        "subsector_short": "industry_waste",
+        "label": "Waste",
+        "sector": "Industry",
+        "share": 0.2773
+      },
+      {
+        "subsector_short": "transport_domestic_aviation",
+        "label": "Domestic Aviation",
+        "sector": "Transport",
+        "share": 0.0019
+      },
+      {
+        "subsector_short": "transport_inland_shipping",
+        "label": "Inland Shipping",
+        "sector": "Transport",
+        "share": 0.0004
+      },
+      {
+        "subsector_short": "transport_other",
+        "label": "Other",
+        "sector": "Transport",
+        "share": 0.006
+      },
+      {
+        "subsector_short": "transport_rail",
+        "label": "Rail",
+        "sector": "Transport",
+        "share": 0.0031
+      },
+      {
+        "subsector_short": "transport_road",
+        "label": "Road",
+        "sector": "Transport",
+        "share": 0.1667
+      }
+    ]
+  },
   "CPV": {
     "sector_labels": ["AFOLU", "Buildings", "Energy systems", "Industry", "Transport"],
     "subsectors": [
@@ -6403,6 +6701,155 @@
         "label": "Road",
         "sector": "Transport",
         "share": 0.1324
+      }
+    ]
+  },
+  "DMA": {
+    "sector_labels": ["AFOLU", "Buildings", "Energy systems", "Industry", "Transport"],
+    "subsectors": [
+      {
+        "subsector_short": "afolu_biomass_burning",
+        "label": "Biomass Burning",
+        "sector": "AFOLU",
+        "share": 0.0004
+      },
+      {
+        "subsector_short": "afolu_enteric_fermentation",
+        "label": "Enteric Fermentation",
+        "sector": "AFOLU",
+        "share": 0.0942
+      },
+      {
+        "subsector_short": "afolu_managed_soils",
+        "label": "Managed Soils",
+        "sector": "AFOLU",
+        "share": 0.0289
+      },
+      {
+        "subsector_short": "afolu_manure",
+        "label": "Manure",
+        "sector": "AFOLU",
+        "share": 0.004
+      },
+      {
+        "subsector_short": "afolu_rice",
+        "label": "Rice",
+        "sector": "AFOLU",
+        "share": 0
+      },
+      {
+        "subsector_short": "afolu_synthetic_fertilizer",
+        "label": "Synthetic Fertilizer",
+        "sector": "AFOLU",
+        "share": 0
+      },
+      {
+        "subsector_short": "buildings_non-co2",
+        "label": "Non-Co2",
+        "sector": "Buildings",
+        "share": 0
+      },
+      {
+        "subsector_short": "buildings_non-residential",
+        "label": "Non-Residential",
+        "sector": "Buildings",
+        "share": 0.0216
+      },
+      {
+        "subsector_short": "buildings_residential",
+        "label": "Residential",
+        "sector": "Buildings",
+        "share": 0.0329
+      },
+      {
+        "subsector_short": "energy_coal_mining_fugitive",
+        "label": "Coal Mining Fugitive",
+        "sector": "Energy systems",
+        "share": 0
+      },
+      {
+        "subsector_short": "energy_electricity_and_heat",
+        "label": "Electricity And Heat",
+        "sector": "Energy systems",
+        "share": 0.3237
+      },
+      {
+        "subsector_short": "energy_oil_and_gas_fugitive",
+        "label": "Oil And Gas Fugitive",
+        "sector": "Energy systems",
+        "share": 0
+      },
+      {
+        "subsector_short": "energy_other",
+        "label": "Other",
+        "sector": "Energy systems",
+        "share": 0.0334
+      },
+      {
+        "subsector_short": "energy_petroleum_refining",
+        "label": "Petroleum Refining",
+        "sector": "Energy systems",
+        "share": 0
+      },
+      {
+        "subsector_short": "industry_cement",
+        "label": "Cement",
+        "sector": "Industry",
+        "share": 0
+      },
+      {
+        "subsector_short": "industry_chemicals",
+        "label": "Chemicals",
+        "sector": "Industry",
+        "share": 0.0163
+      },
+      {
+        "subsector_short": "industry_metals",
+        "label": "Metals",
+        "sector": "Industry",
+        "share": 0
+      },
+      {
+        "subsector_short": "industry_other",
+        "label": "Other",
+        "sector": "Industry",
+        "share": 0.0594
+      },
+      {
+        "subsector_short": "industry_waste",
+        "label": "Waste",
+        "sector": "Industry",
+        "share": 0.1241
+      },
+      {
+        "subsector_short": "transport_domestic_aviation",
+        "label": "Domestic Aviation",
+        "sector": "Transport",
+        "share": 0.0019
+      },
+      {
+        "subsector_short": "transport_inland_shipping",
+        "label": "Inland Shipping",
+        "sector": "Transport",
+        "share": 0.007
+      },
+      {
+        "subsector_short": "transport_other",
+        "label": "Other",
+        "sector": "Transport",
+        "share": 0.0406
+      },
+      {
+        "subsector_short": "transport_rail",
+        "label": "Rail",
+        "sector": "Transport",
+        "share": 0
+      },
+      {
+        "subsector_short": "transport_road",
+        "label": "Road",
+        "sector": "Transport",
+        "share": 0.2116
       }
     ]
   },
@@ -21455,6 +21902,155 @@
       }
     ]
   },
+  "STP": {
+    "sector_labels": ["AFOLU", "Buildings", "Energy systems", "Industry", "Transport"],
+    "subsectors": [
+      {
+        "subsector_short": "afolu_biomass_burning",
+        "label": "Biomass Burning",
+        "sector": "AFOLU",
+        "share": 0.0002
+      },
+      {
+        "subsector_short": "afolu_enteric_fermentation",
+        "label": "Enteric Fermentation",
+        "sector": "AFOLU",
+        "share": 0.0169
+      },
+      {
+        "subsector_short": "afolu_managed_soils",
+        "label": "Managed Soils",
+        "sector": "AFOLU",
+        "share": 0.0225
+      },
+      {
+        "subsector_short": "afolu_manure",
+        "label": "Manure",
+        "sector": "AFOLU",
+        "share": 0.0259
+      },
+      {
+        "subsector_short": "afolu_rice",
+        "label": "Rice",
+        "sector": "AFOLU",
+        "share": 0
+      },
+      {
+        "subsector_short": "afolu_synthetic_fertilizer",
+        "label": "Synthetic Fertilizer",
+        "sector": "AFOLU",
+        "share": 0
+      },
+      {
+        "subsector_short": "buildings_non-co2",
+        "label": "Non-Co2",
+        "sector": "Buildings",
+        "share": 0
+      },
+      {
+        "subsector_short": "buildings_non-residential",
+        "label": "Non-Residential",
+        "sector": "Buildings",
+        "share": 0.0062
+      },
+      {
+        "subsector_short": "buildings_residential",
+        "label": "Residential",
+        "sector": "Buildings",
+        "share": 0.0808
+      },
+      {
+        "subsector_short": "energy_coal_mining_fugitive",
+        "label": "Coal Mining Fugitive",
+        "sector": "Energy systems",
+        "share": 0
+      },
+      {
+        "subsector_short": "energy_electricity_and_heat",
+        "label": "Electricity And Heat",
+        "sector": "Energy systems",
+        "share": 0.1276
+      },
+      {
+        "subsector_short": "energy_oil_and_gas_fugitive",
+        "label": "Oil And Gas Fugitive",
+        "sector": "Energy systems",
+        "share": 0.0018
+      },
+      {
+        "subsector_short": "energy_other",
+        "label": "Other",
+        "sector": "Energy systems",
+        "share": 0.0998
+      },
+      {
+        "subsector_short": "energy_petroleum_refining",
+        "label": "Petroleum Refining",
+        "sector": "Energy systems",
+        "share": 0
+      },
+      {
+        "subsector_short": "industry_cement",
+        "label": "Cement",
+        "sector": "Industry",
+        "share": 0
+      },
+      {
+        "subsector_short": "industry_chemicals",
+        "label": "Chemicals",
+        "sector": "Industry",
+        "share": 0.0031
+      },
+      {
+        "subsector_short": "industry_metals",
+        "label": "Metals",
+        "sector": "Industry",
+        "share": 0
+      },
+      {
+        "subsector_short": "industry_other",
+        "label": "Other",
+        "sector": "Industry",
+        "share": 0.1115
+      },
+      {
+        "subsector_short": "industry_waste",
+        "label": "Waste",
+        "sector": "Industry",
+        "share": 0.1823
+      },
+      {
+        "subsector_short": "transport_domestic_aviation",
+        "label": "Domestic Aviation",
+        "sector": "Transport",
+        "share": 0.0032
+      },
+      {
+        "subsector_short": "transport_inland_shipping",
+        "label": "Inland Shipping",
+        "sector": "Transport",
+        "share": 0.0008
+      },
+      {
+        "subsector_short": "transport_other",
+        "label": "Other",
+        "sector": "Transport",
+        "share": 0.0108
+      },
+      {
+        "subsector_short": "transport_rail",
+        "label": "Rail",
+        "sector": "Transport",
+        "share": 0.0056
+      },
+      {
+        "subsector_short": "transport_road",
+        "label": "Road",
+        "sector": "Transport",
+        "share": 0.3009
+      }
+    ]
+  },
   "SUR": {
     "sector_labels": ["AFOLU", "Buildings", "Energy systems", "Industry", "Transport"],
     "subsectors": [
@@ -24286,6 +24882,155 @@
       }
     ]
   },
+  "UKR": {
+    "sector_labels": ["AFOLU", "Buildings", "Energy systems", "Industry", "Transport"],
+    "subsectors": [
+      {
+        "subsector_short": "afolu_biomass_burning",
+        "label": "Biomass Burning",
+        "sector": "AFOLU",
+        "share": 0.0032
+      },
+      {
+        "subsector_short": "afolu_enteric_fermentation",
+        "label": "Enteric Fermentation",
+        "sector": "AFOLU",
+        "share": 0.0291
+      },
+      {
+        "subsector_short": "afolu_managed_soils",
+        "label": "Managed Soils",
+        "sector": "AFOLU",
+        "share": 0.0385
+      },
+      {
+        "subsector_short": "afolu_manure",
+        "label": "Manure",
+        "sector": "AFOLU",
+        "share": 0.0127
+      },
+      {
+        "subsector_short": "afolu_rice",
+        "label": "Rice",
+        "sector": "AFOLU",
+        "share": 0.0003
+      },
+      {
+        "subsector_short": "afolu_synthetic_fertilizer",
+        "label": "Synthetic Fertilizer",
+        "sector": "AFOLU",
+        "share": 0.019
+      },
+      {
+        "subsector_short": "buildings_non-co2",
+        "label": "Non-Co2",
+        "sector": "Buildings",
+        "share": 0.0008
+      },
+      {
+        "subsector_short": "buildings_non-residential",
+        "label": "Non-Residential",
+        "sector": "Buildings",
+        "share": 0.0139
+      },
+      {
+        "subsector_short": "buildings_residential",
+        "label": "Residential",
+        "sector": "Buildings",
+        "share": 0.0646
+      },
+      {
+        "subsector_short": "energy_coal_mining_fugitive",
+        "label": "Coal Mining Fugitive",
+        "sector": "Energy systems",
+        "share": 0.0343
+      },
+      {
+        "subsector_short": "energy_electricity_and_heat",
+        "label": "Electricity And Heat",
+        "sector": "Energy systems",
+        "share": 0.2755
+      },
+      {
+        "subsector_short": "energy_oil_and_gas_fugitive",
+        "label": "Oil And Gas Fugitive",
+        "sector": "Energy systems",
+        "share": 0.0868
+      },
+      {
+        "subsector_short": "energy_other",
+        "label": "Other",
+        "sector": "Energy systems",
+        "share": 0.012
+      },
+      {
+        "subsector_short": "energy_petroleum_refining",
+        "label": "Petroleum Refining",
+        "sector": "Energy systems",
+        "share": 0.0005
+      },
+      {
+        "subsector_short": "industry_cement",
+        "label": "Cement",
+        "sector": "Industry",
+        "share": 0.0157
+      },
+      {
+        "subsector_short": "industry_chemicals",
+        "label": "Chemicals",
+        "sector": "Industry",
+        "share": 0.0642
+      },
+      {
+        "subsector_short": "industry_metals",
+        "label": "Metals",
+        "sector": "Industry",
+        "share": 0.1466
+      },
+      {
+        "subsector_short": "industry_other",
+        "label": "Other",
+        "sector": "Industry",
+        "share": 0.0322
+      },
+      {
+        "subsector_short": "industry_waste",
+        "label": "Waste",
+        "sector": "Industry",
+        "share": 0.0331
+      },
+      {
+        "subsector_short": "transport_domestic_aviation",
+        "label": "Domestic Aviation",
+        "sector": "Transport",
+        "share": 0.0012
+      },
+      {
+        "subsector_short": "transport_inland_shipping",
+        "label": "Inland Shipping",
+        "sector": "Transport",
+        "share": 0.0016
+      },
+      {
+        "subsector_short": "transport_other",
+        "label": "Other",
+        "sector": "Transport",
+        "share": 0.0287
+      },
+      {
+        "subsector_short": "transport_rail",
+        "label": "Rail",
+        "sector": "Transport",
+        "share": 0.0004
+      },
+      {
+        "subsector_short": "transport_road",
+        "label": "Road",
+        "sector": "Transport",
+        "share": 0.0852
+      }
+    ]
+  },
   "URY": {
     "sector_labels": ["AFOLU", "Buildings", "Energy systems", "Industry", "Transport"],
     "subsectors": [
@@ -25177,6 +25922,155 @@
         "label": "Road",
         "sector": "Transport",
         "share": 0.0571
+      }
+    ]
+  },
+  "VUT": {
+    "sector_labels": ["AFOLU", "Buildings", "Energy systems", "Industry", "Transport"],
+    "subsectors": [
+      {
+        "subsector_short": "afolu_biomass_burning",
+        "label": "Biomass Burning",
+        "sector": "AFOLU",
+        "share": 0.0007
+      },
+      {
+        "subsector_short": "afolu_enteric_fermentation",
+        "label": "Enteric Fermentation",
+        "sector": "AFOLU",
+        "share": 0.3631
+      },
+      {
+        "subsector_short": "afolu_managed_soils",
+        "label": "Managed Soils",
+        "sector": "AFOLU",
+        "share": 0.1347
+      },
+      {
+        "subsector_short": "afolu_manure",
+        "label": "Manure",
+        "sector": "AFOLU",
+        "share": 0.0728
+      },
+      {
+        "subsector_short": "afolu_rice",
+        "label": "Rice",
+        "sector": "AFOLU",
+        "share": 0
+      },
+      {
+        "subsector_short": "afolu_synthetic_fertilizer",
+        "label": "Synthetic Fertilizer",
+        "sector": "AFOLU",
+        "share": 0
+      },
+      {
+        "subsector_short": "buildings_non-co2",
+        "label": "Non-Co2",
+        "sector": "Buildings",
+        "share": 0
+      },
+      {
+        "subsector_short": "buildings_non-residential",
+        "label": "Non-Residential",
+        "sector": "Buildings",
+        "share": 0.0004
+      },
+      {
+        "subsector_short": "buildings_residential",
+        "label": "Residential",
+        "sector": "Buildings",
+        "share": 0.0171
+      },
+      {
+        "subsector_short": "energy_coal_mining_fugitive",
+        "label": "Coal Mining Fugitive",
+        "sector": "Energy systems",
+        "share": 0
+      },
+      {
+        "subsector_short": "energy_electricity_and_heat",
+        "label": "Electricity And Heat",
+        "sector": "Energy systems",
+        "share": 0.0764
+      },
+      {
+        "subsector_short": "energy_oil_and_gas_fugitive",
+        "label": "Oil And Gas Fugitive",
+        "sector": "Energy systems",
+        "share": 0
+      },
+      {
+        "subsector_short": "energy_other",
+        "label": "Other",
+        "sector": "Energy systems",
+        "share": 0.0099
+      },
+      {
+        "subsector_short": "energy_petroleum_refining",
+        "label": "Petroleum Refining",
+        "sector": "Energy systems",
+        "share": 0
+      },
+      {
+        "subsector_short": "industry_cement",
+        "label": "Cement",
+        "sector": "Industry",
+        "share": 0
+      },
+      {
+        "subsector_short": "industry_chemicals",
+        "label": "Chemicals",
+        "sector": "Industry",
+        "share": 0.006
+      },
+      {
+        "subsector_short": "industry_metals",
+        "label": "Metals",
+        "sector": "Industry",
+        "share": 0.0021
+      },
+      {
+        "subsector_short": "industry_other",
+        "label": "Other",
+        "sector": "Industry",
+        "share": 0.0357
+      },
+      {
+        "subsector_short": "industry_waste",
+        "label": "Waste",
+        "sector": "Industry",
+        "share": 0.1293
+      },
+      {
+        "subsector_short": "transport_domestic_aviation",
+        "label": "Domestic Aviation",
+        "sector": "Transport",
+        "share": 0.004
+      },
+      {
+        "subsector_short": "transport_inland_shipping",
+        "label": "Inland Shipping",
+        "sector": "Transport",
+        "share": 0.0096
+      },
+      {
+        "subsector_short": "transport_other",
+        "label": "Other",
+        "sector": "Transport",
+        "share": 0.0169
+      },
+      {
+        "subsector_short": "transport_rail",
+        "label": "Rail",
+        "sector": "Transport",
+        "share": 0
+      },
+      {
+        "subsector_short": "transport_road",
+        "label": "Road",
+        "sector": "Transport",
+        "share": 0.121
       }
     ]
   },
