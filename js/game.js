@@ -11,12 +11,19 @@ const MAX_GUESSES = 6;
 const STORAGE_KEY = 'climatle-state';
 const HARD_MODE_PREF_KEY = 'climatle-hardmode-pref';
 
-// Marker palettes for buildShareText — circles in normal mode, diamonds in hard.
-// Tiers: correct (got it), high (very close), mid (close), low (far).
+// Marker palettes for buildShareText. Each guess produces a 3-emoji row
+// (sector sim, elec sim, GHG sim — order matches the in-game hint columns).
+// Normal mode uses circles, hard mode squares. Same color thresholds as the
+// in-game text: <50% red, 50-80% yellow, 80%+ green.
+//   - Correct guess: row is overridden with three location pins (normal) or
+//     three gemstones (hard) instead of color tiles.
+//   - On loss (no correct guess after MAX_GUESSES), a trailing row of three
+//     skunks is appended.
 const MARKERS = {
-  normal: { correct: '🟢', high: '🟡', mid: '🟠', low: '⚪' },
-  hard:   { correct: '🔷', high: '🔹', mid: '🔸', low: '🔶' },
+  normal: { high: '🟢', mid: '🟡', low: '🔴', correct: '📍' },
+  hard:   { high: '🟩', mid: '🟨', low: '🟥', correct: '💎' },
 };
+const LOSS_MARKER = '🦨';
 
 let state = null;
 let practiceMode = false;
@@ -27,7 +34,9 @@ function dateKey() {
 }
 
 function getPuzzleNumber() {
-  const epoch = new Date(2025, 0, 1);
+  // Epoch set to the day before launch so today's puzzle is #1.
+  // (months are 0-indexed: 5 = June)
+  const epoch = new Date(2026, 5, 18);
   const now = new Date();
   now.setHours(0, 0, 0, 0);
   return Math.floor((now - epoch) / 86400000);
@@ -215,19 +224,24 @@ export function buildShareText() {
   const result = s.status === 'won' ? `${s.guesses.length}/${MAX_GUESSES}` : `X/${MAX_GUESSES}`;
   const palette = s.hardMode ? MARKERS.hard : MARKERS.normal;
 
-  const blocks = s.guessDetails.map(d => {
-    if (d.correct) return palette.correct;
-    // Average across all three similarities so the marker reflects overall closeness
-    const avg = (d.sectorSim + d.energySim + d.trajectorySim) / 3;
-    if (avg >= 0.9) return palette.high;
-    if (avg >= 0.7) return palette.mid;
-    return palette.low;
-  });
+  // Same color thresholds as the in-game text: <50% red, 50-80% yellow, 80%+ green.
+  const tile = (v) => v >= 0.8 ? palette.high : v >= 0.5 ? palette.mid : palette.low;
 
-  // No "(hard)" tag — the diamond markers already convey the mode.
+  // One row per guess: three emojis (sector | elec | GHG trajectory). On the
+  // correct guess, the whole row is replaced by three correct-markers.
+  const rows = s.guessDetails.map(d =>
+    d.correct
+      ? palette.correct.repeat(3)
+      : tile(d.sectorSim) + tile(d.energySim) + tile(d.trajectorySim)
+  );
+
+  // On a loss, append a row of three skunks.
+  if (s.status === 'lost') rows.push(LOSS_MARKER.repeat(3));
+
   return [
     `🌍 Climatle #${s.puzzleNumber}`,
-    `${blocks.join('')} ${result}`,
+    ...rows,
+    result,
     '',
     `climatle.xyz`,
   ].join('\n');

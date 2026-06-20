@@ -147,9 +147,10 @@ function showResult(state) {
 function appendGuessRow(detail) {
   const tr = document.createElement('tr');
 
+  // < 50% red, 50–80% yellow, 80%+ green
   const simClass = (v) => {
-    if (v >= 0.9) return 'sim-high';
-    if (v >= 0.7) return 'sim-mid';
+    if (v >= 0.8) return 'sim-high';
+    if (v >= 0.5) return 'sim-mid';
     return 'sim-low';
   };
 
@@ -225,8 +226,8 @@ function wireEvents() {
   $showCountriesBtn.addEventListener('click', () => {
     $countryListPanel.classList.toggle('hidden');
     $showCountriesBtn.textContent = $countryListPanel.classList.contains('hidden')
-      ? 'Show eligible countries'
-      : 'Hide eligible countries';
+      ? 'Show included countries'
+      : 'Hide included countries';
   });
 
   // About section toggle
