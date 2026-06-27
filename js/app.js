@@ -1,6 +1,6 @@
 // app.js — Entry point: init data, wire up DOM events, render
 
-import { loadAllData, getCountries, getGhgSectors, getEnergyMix, getTrajectory } from './data.js';
+import { loadAllData, getCountries, getCountryByIso, getGhgSectors, getEnergyMix, getTrajectory } from './data.js';
 import { renderGhgChart, renderEnergyChart, renderTrajectoryChart, updateChartTitles } from './charts.js';
 import {
   initGame, getState, makeGuess, buildShareText,
@@ -18,6 +18,7 @@ const $historyTable = document.getElementById('history-table');
 const $historyBody = document.getElementById('history-body');
 const $resultPanel = document.getElementById('result-panel');
 const $resultMessage = document.getElementById('result-message');
+const $resultFingerprint = document.getElementById('result-fingerprint');
 const $shareBtn = document.getElementById('share-btn');
 const $shareCopied = document.getElementById('share-copied');
 const $showCountriesBtn = document.getElementById('show-countries-btn');
@@ -137,6 +138,15 @@ function showResult(state) {
     $resultMessage.innerHTML =
       `The answer was <span class="country-name">${state.targetName}</span><br>` +
       `Better luck tomorrow!`;
+  }
+
+  // Show the fingerprint sentence below the result, if available
+  const target = getCountryByIso(state.targetIso);
+  if (target && target.fingerprint) {
+    $resultFingerprint.textContent = target.fingerprint;
+    $resultFingerprint.classList.remove('hidden');
+  } else {
+    $resultFingerprint.classList.add('hidden');
   }
 
   // Reveal country name in charts
