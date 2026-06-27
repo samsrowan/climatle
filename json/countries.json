@@ -6,7 +6,8 @@
     "ghg_pc": 0.78,
     "pop": 41454761,
     "lat": 34.13,
-    "lon": 66.59
+    "lon": 66.59,
+    "fingerprint": "A hydro-dominated power mix with oil-fired backup, livestock-heavy emissions, and a high waste share."
   },
   {
     "iso3c": "ALB",
@@ -15,7 +16,8 @@
     "ghg_pc": 3,
     "pop": 2377128,
     "lat": 41.14,
-    "lon": 20.06
+    "lon": 20.06,
+    "fingerprint": "Near-total hydroelectricity, an outsized cement share, and a sharp post-communist drop in emissions in the early 1990s."
   },
   {
     "iso3c": "DZA",
@@ -24,7 +26,8 @@
     "ghg_pc": 5.4,
     "pop": 46814308,
     "lat": 28.35,
-    "lon": 2.66
+    "lon": 2.66,
+    "fingerprint": "Almost entirely gas-fired electricity and a large oil-and-gas extraction sector, with a notable recent dip in emissions."
   },
   {
     "iso3c": "AGO",
@@ -33,7 +36,8 @@
     "ghg_pc": 1.85,
     "pop": 37885849,
     "lat": -12.17,
-    "lon": 17.65
+    "lon": 17.65,
+    "fingerprint": "A large oil-and-gas extraction sector paired with mostly-hydro electricity — an unusual energy mix among African petrostates."
   },
   {
     "iso3c": "ATG",
@@ -42,7 +46,8 @@
     "ghg_pc": 4.55,
     "pop": 93772,
     "lat": 17.07,
-    "lon": -61.79
+    "lon": -61.79,
+    "fingerprint": "Entirely oil-fired electricity, an outsized electricity-and-heat sector, very little industry — a small-island fingerprint."
   },
   {
     "iso3c": "ARG",
@@ -51,7 +56,8 @@
     "ghg_pc": 8.19,
     "pop": 45696159,
     "lat": -35.7,
-    "lon": -64.53
+    "lon": -64.53,
+    "fingerprint": "Gas-dominant electricity with a small but regionally-rare nuclear share and a notable oil-and-gas extraction sector — unusual energy mix for Latin America."
   },
   {
     "iso3c": "ARM",
@@ -60,7 +66,8 @@
     "ghg_pc": 3.55,
     "pop": 3033500,
     "lat": 40.18,
-    "lon": 45.05
+    "lon": 45.05,
+    "fingerprint": "Nuclear and gas power, very little industry, and emissions today around half their 1990 level reflecting the post-Soviet decline."
   },
   {
     "iso3c": "AUS",
@@ -69,7 +76,8 @@
     "ghg_pc": 21.75,
     "pop": 27196812,
     "lat": -25.7,
-    "lon": 134.02
+    "lon": 134.02,
+    "fingerprint": "Coal-heavy electricity offset by an unusually large solar-and-wind share, with one of the steepest declining emissions targets pledged."
   },
   {
     "iso3c": "AUT",
@@ -78,7 +86,8 @@
     "ghg_pc": 7.74,
     "pop": 9177982,
     "lat": 47.63,
-    "lon": 13.8
+    "lon": 13.8,
+    "fingerprint": "Hydro-dominated electricity with notable bioenergy and solar-and-wind, with emissions sliding off a recent peak."
   },
   {
     "iso3c": "AZE",
@@ -87,7 +96,8 @@
     "ghg_pc": 5.71,
     "pop": 10202830,
     "lat": 40.39,
-    "lon": 48.63
+    "lon": 48.63,
+    "fingerprint": "Near-entirely gas-fired electricity, very little industry, and a sharp post-Soviet drop in the early 1990s."
   },
   {
     "iso3c": "BHS",
@@ -96,7 +106,8 @@
     "ghg_pc": 4.59,
     "pop": 401283,
     "lat": 24.72,
-    "lon": -78.07
+    "lon": -78.07,
+    "fingerprint": "Entirely oil-fired electricity, an outsized electricity-and-heat sector, almost no agriculture — a small-island fingerprint."
   },
   {
     "iso3c": "BHR",
@@ -105,7 +116,8 @@
     "ghg_pc": 40.55,
     "pop": 1588670,
     "lat": 26.05,
-    "lon": 50.54
+    "lon": 50.54,
+    "fingerprint": "Almost entirely gas-fired electricity, an outsized electricity-and-heat sector, very little industry — a small Gulf-state fingerprint."
   },
   {
     "iso3c": "BGD",
@@ -114,7 +126,8 @@
     "ghg_pc": 1.27,
     "pop": 173562364,
     "lat": 23.67,
-    "lon": 90.43
+    "lon": 90.43,
+    "fingerprint": "Gas-dominated electricity — uncommon in South Asia — together with rice cultivation accounting for a near-record share of emissions, and emissions still climbing."
   },
   {
     "iso3c": "BRB",
@@ -123,7 +136,8 @@
     "ghg_pc": 3.23,
     "pop": 282467,
     "lat": 13.18,
-    "lon": -59.56
+    "lon": -59.56,
+    "fingerprint": "Entirely oil-fired electricity, an outsized electricity-and-heat sector, and a sharp early-1990s drop — a small-island fingerprint."
   },
   {
     "iso3c": "BLR",
@@ -132,7 +146,8 @@
     "ghg_pc": 9.58,
     "pop": 9132629,
     "lat": 53.47,
-    "lon": 27.96
+    "lon": 27.96,
+    "fingerprint": "A large gas-and-nuclear power mix and an outsized electricity-and-heat sector, with a sharp post-Soviet drop in the early 1990s."
   },
   {
     "iso3c": "BEL",
@@ -141,7 +156,8 @@
     "ghg_pc": 9.09,
     "pop": 11858610,
     "lat": 50.62,
-    "lon": 4.68
+    "lon": 4.68,
+    "fingerprint": "A large nuclear share alongside solar-and-wind for electricity, with emissions sliding off a recent peak."
   },
   {
     "iso3c": "BLZ",
@@ -150,7 +166,8 @@
     "ghg_pc": 2.48,
     "pop": 417072,
     "lat": 17.24,
-    "lon": -88.68
+    "lon": -88.68,
+    "fingerprint": "A distinctive bioenergy share alongside hydro for electricity, with a high waste share and a notable early-1990s emissions drop."
   },
   {
     "iso3c": "BEN",
@@ -159,7 +176,8 @@
     "ghg_pc": 1.23,
     "pop": 14462724,
     "lat": 9.5,
-    "lon": 2.31
+    "lon": 2.31,
+    "fingerprint": "Gas-dominated electricity (uncommon in West Africa), an outsized cement share, and emissions more than quadrupled since 1990."
   },
   {
     "iso3c": "BTN",
@@ -168,7 +186,8 @@
     "ghg_pc": 3.55,
     "pop": 786385,
     "lat": 27.42,
-    "lon": 90.47
+    "lon": 90.47,
+    "fingerprint": "Effectively 100% hydroelectricity, an outsized cement footprint, with a uniquely steep decline target through 2030."
   },
   {
     "iso3c": "BOL",
@@ -177,7 +196,8 @@
     "ghg_pc": 5.14,
     "pop": 12413315,
     "lat": -16.73,
-    "lon": -64.45
+    "lon": -64.45,
+    "fingerprint": "Gas-dominated electricity, a notable oil-and-gas extraction sector, livestock-heavy emissions, and a sharp early-1990s drop."
   },
   {
     "iso3c": "BIH",
@@ -186,7 +206,8 @@
     "ghg_pc": 8.73,
     "pop": 3164253,
     "lat": 44.14,
-    "lon": 17.83
+    "lon": 17.83,
+    "fingerprint": "Coal-dominated electricity, an outsized electricity-and-heat sector, and an exceptionally deep early-1990s emissions drop."
   },
   {
     "iso3c": "BWA",
@@ -195,7 +216,8 @@
     "ghg_pc": 4.8,
     "pop": 2521139,
     "lat": -22.24,
-    "lon": 23.86
+    "lon": 23.86,
+    "fingerprint": "Near-total coal dependence for electricity and an outsized electricity-and-heat sector, with a recent emissions dip."
   },
   {
     "iso3c": "BRA",
@@ -204,7 +226,8 @@
     "ghg_pc": 6.13,
     "pop": 211998573,
     "lat": -11.52,
-    "lon": -54.36
+    "lon": -54.36,
+    "fingerprint": "Renewables-dominated electricity (hydro, wind, bioenergy) with a small nuclear share, livestock-heavy emissions, and one of the steepest declining emissions targets pledged."
   },
   {
     "iso3c": "BRN",
@@ -213,7 +236,8 @@
     "ghg_pc": 25.64,
     "pop": 462721,
     "lat": 4.54,
-    "lon": 114.64
+    "lon": 114.64,
+    "fingerprint": "A dominant oil-and-gas extraction sector and gas-fired electricity, with emissions sliding off a recent peak."
   },
   {
     "iso3c": "BGR",
@@ -222,7 +246,8 @@
     "ghg_pc": 7.25,
     "pop": 6441421,
     "lat": 42.82,
-    "lon": 25.25
+    "lon": 25.25,
+    "fingerprint": "A large nuclear share alongside coal, an outsized electricity-and-heat sector, with emissions sliding off a recent peak."
   },
   {
     "iso3c": "BFA",
@@ -231,7 +256,8 @@
     "ghg_pc": 1.48,
     "pop": 23548781,
     "lat": 12.11,
-    "lon": -1.69
+    "lon": -1.69,
+    "fingerprint": "Heavy reliance on oil-fired electricity with bioenergy in the mix, livestock-heavy emissions, and steep growth allowed in the 2030 target."
   },
   {
     "iso3c": "BDI",
@@ -240,7 +266,8 @@
     "ghg_pc": 0.6,
     "pop": 14047786,
     "lat": -3.26,
-    "lon": 29.89
+    "lon": 29.89,
+    "fingerprint": "Waste accounts for a near-record share of emissions alongside lots of hydro electricity, with notable rice cultivation."
   },
   {
     "iso3c": "KHM",
@@ -249,7 +276,8 @@
     "ghg_pc": 2.83,
     "pop": 17638801,
     "lat": 12.7,
-    "lon": 105.04
+    "lon": 105.04,
+    "fingerprint": "Lots of coal-fired electricity, a record rice cultivation share, an outsized cement footprint, and emissions still climbing."
   },
   {
     "iso3c": "CMR",
@@ -258,7 +286,8 @@
     "ghg_pc": 1.39,
     "pop": 29123744,
     "lat": 6.29,
-    "lon": 12.95
+    "lon": 12.95,
+    "fingerprint": "A large oil-and-gas extraction sector, lots of hydro in the power mix, and a sharp emissions drop in the early 1990s."
   },
   {
     "iso3c": "CAN",
@@ -267,7 +296,8 @@
     "ghg_pc": 18.6,
     "pop": 41288599,
     "lat": 57.55,
-    "lon": -98.42
+    "lon": -98.42,
+    "fingerprint": "A hydro-and-nuclear power mix with a large oil-and-gas extraction sector, with emissions roughly flat since the early 2000s."
   },
   {
     "iso3c": "CPV",
@@ -276,7 +306,8 @@
     "ghg_pc": 1.74,
     "pop": 524877,
     "lat": 15.08,
-    "lon": -23.63
+    "lon": -23.63,
+    "fingerprint": "An unusually large solar-and-wind share for the region alongside oil-fired backup, with emissions more than quadrupled since 1990."
   },
   {
     "iso3c": "CAF",
@@ -285,7 +316,8 @@
     "ghg_pc": 2.52,
     "pop": 5330690,
     "lat": 6.33,
-    "lon": 20.52
+    "lon": 20.52,
+    "fingerprint": "Effectively 100% hydroelectricity, very little industry, and livestock-driven emissions — among the most fossil-fuel-free profiles in the dataset."
   },
   {
     "iso3c": "TCD",
@@ -294,7 +326,8 @@
     "ghg_pc": 4.98,
     "pop": 20299123,
     "lat": 15.28,
-    "lon": 18.43
+    "lon": 18.43,
+    "fingerprint": "Almost no industry, near-pure oil-fired electricity, livestock-dominated emissions, and a ninefold rise since 1990 — a classic least-developed signature."
   },
   {
     "iso3c": "CHL",
@@ -303,7 +336,8 @@
     "ghg_pc": 5.98,
     "pop": 19764771,
     "lat": -37.83,
-    "lon": -70.77
+    "lon": -70.77,
+    "fingerprint": "Solar-and-wind alongside notable geothermal, coal for the remainder of electricity, and emissions sliding off a recent peak."
   },
   {
     "iso3c": "CHN",
@@ -312,7 +346,8 @@
     "ghg_pc": 11.03,
     "pop": 1408975000,
     "lat": 38.07,
-    "lon": 104.69
+    "lon": 104.69,
+    "fingerprint": "Coal-dominated electricity at massive scale, a uniquely large cement share, a growing nuclear program, and emissions roughly quadrupled since 1990."
   },
   {
     "iso3c": "COL",
@@ -321,7 +356,8 @@
     "ghg_pc": 4.11,
     "pop": 52886363,
     "lat": 4.19,
-    "lon": -72.64
+    "lon": -72.64,
+    "fingerprint": "A hydro-dominated power mix with notable coal-and-gas backup, plus an oil-and-gas extraction sector and livestock-heavy emissions."
   },
   {
     "iso3c": "COM",
@@ -330,7 +366,8 @@
     "ghg_pc": 1.1,
     "pop": 866628,
     "lat": -11.66,
-    "lon": 43.35
+    "lon": 43.35,
+    "fingerprint": "Entirely oil-fired electricity with a near-record waste share, notable rice cultivation, and a sizeable conditional decline target."
   },
   {
     "iso3c": "COG",
@@ -339,7 +376,8 @@
     "ghg_pc": 3.89,
     "pop": 6332961,
     "lat": -0.73,
-    "lon": 14.88
+    "lon": 14.88,
+    "fingerprint": "A dominant oil-and-gas extraction sector and gas-fired electricity, very little agriculture in the mix, and a substantial conditional decline target."
   },
   {
     "iso3c": "CRI",
@@ -348,7 +386,8 @@
     "ghg_pc": 3.33,
     "pop": 5129910,
     "lat": 9.86,
-    "lon": -84.15
+    "lon": -84.15,
+    "fingerprint": "Near-fully-renewable electricity (hydro, geothermal, solar-and-wind) and one of the steepest declining emissions targets pledged in the region."
   },
   {
     "iso3c": "CIV",
@@ -357,7 +396,8 @@
     "ghg_pc": 1.19,
     "pop": 31934230,
     "lat": 7.54,
-    "lon": -5.57
+    "lon": -5.57,
+    "fingerprint": "Gas-dominated electricity (uncommon in the region) and an outsized cement share, with emissions almost quadrupled since 1990."
   },
   {
     "iso3c": "HRV",
@@ -366,7 +406,8 @@
     "ghg_pc": 6.94,
     "pop": 3866200,
     "lat": 44.91,
-    "lon": 16.63
+    "lon": 16.63,
+    "fingerprint": "A diversified mix of hydro, solar-and-wind, and bioenergy for electricity, with an outsized cement share and a sharp early-1990s drop."
   },
   {
     "iso3c": "CUB",
@@ -375,7 +416,8 @@
     "ghg_pc": 3.28,
     "pop": 10979783,
     "lat": 21.48,
-    "lon": -79.7
+    "lon": -79.7,
+    "fingerprint": "Oil-fired electricity with notable extraction, emissions today around 60% of their 1990 level — a sharp early-1990s decline tracking the loss of Soviet trade."
   },
   {
     "iso3c": "CYP",
@@ -384,7 +426,8 @@
     "ghg_pc": 6.88,
     "pop": 1358282,
     "lat": 35.12,
-    "lon": 33.38
+    "lon": 33.38,
+    "fingerprint": "Oil-fired electricity with a growing solar-and-wind share, an outsized cement footprint, and a large electricity-and-heat sector."
   },
   {
     "iso3c": "CZE",
@@ -393,7 +436,8 @@
     "ghg_pc": 9.2,
     "pop": 10905028,
     "lat": 49.75,
-    "lon": 15.38
+    "lon": 15.38,
+    "fingerprint": "A large nuclear-and-coal power mix, an outsized electricity-and-heat sector, and emissions sliding off a recent peak."
   },
   {
     "iso3c": "COD",
@@ -402,7 +446,8 @@
     "ghg_pc": 0.54,
     "pop": 109276265,
     "lat": -3.34,
-    "lon": 23.42
+    "lon": 23.42,
+    "fingerprint": "Hydro supplies most electricity alongside a very high waste share and notable rice cultivation; the conditional target allows enormous emissions growth."
   },
   {
     "iso3c": "DNK",
@@ -411,7 +456,8 @@
     "ghg_pc": 6.4,
     "pop": 5976992,
     "lat": 56,
-    "lon": 9.38
+    "lon": 9.38,
+    "fingerprint": "Wind-and-bioenergy-dominated electricity with a record-high solar-and-wind share globally, plus an unusually agriculture-tilted emissions profile."
   },
   {
     "iso3c": "DJI",
@@ -420,7 +466,8 @@
     "ghg_pc": 2.07,
     "pop": 1168722,
     "lat": 11.75,
-    "lon": 42.61
+    "lon": 42.61,
+    "fingerprint": "Heavy reliance on oil-fired electricity offset by a substantial solar-and-wind share, with a high waste share and a sharp 1990s drop."
   },
   {
     "iso3c": "DMA",
@@ -429,7 +476,8 @@
     "ghg_pc": 2.3,
     "pop": 66205,
     "lat": 15.43,
-    "lon": -61.36
+    "lon": -61.36,
+    "fingerprint": "Almost entirely oil-fired electricity, an outsized electricity-and-heat sector — a small-island fingerprint."
   },
   {
     "iso3c": "DOM",
@@ -438,7 +486,8 @@
     "ghg_pc": 4.51,
     "pop": 11427557,
     "lat": 18.78,
-    "lon": -70.43
+    "lon": -70.43,
+    "fingerprint": "A coal-and-gas power mix, an outsized cement share, and notable rice cultivation."
   },
   {
     "iso3c": "ECU",
@@ -447,7 +496,8 @@
     "ghg_pc": 4.1,
     "pop": 18135478,
     "lat": -1.56,
-    "lon": -78.46
+    "lon": -78.46,
+    "fingerprint": "Hydro-dominated electricity with notable oil-fired backup, a large oil-and-gas extraction sector, and a sharp early-1990s drop."
   },
   {
     "iso3c": "EGY",
@@ -456,7 +506,8 @@
     "ghg_pc": 3.32,
     "pop": 116538258,
     "lat": 26.61,
-    "lon": 30.24
+    "lon": 30.24,
+    "fingerprint": "Heavily gas-dominated electricity, a large cement share, and emissions dominated by the electricity-and-heat sector."
   },
   {
     "iso3c": "SLV",
@@ -465,7 +516,8 @@
     "ghg_pc": 2.33,
     "pop": 6338193,
     "lat": 13.76,
-    "lon": -88.86
+    "lon": -88.86,
+    "fingerprint": "A near-uniquely large geothermal share of electricity alongside bioenergy and hydro, plus a notable cement footprint."
   },
   {
     "iso3c": "GNQ",
@@ -474,7 +526,8 @@
     "ghg_pc": 4.3,
     "pop": 1892516,
     "lat": 1.6,
-    "lon": 10.43
+    "lon": 10.43,
+    "fingerprint": "A large oil-and-gas extraction sector and gas-fired electricity, almost no agriculture, with emissions in steep decline since the 2007 peak."
   },
   {
     "iso3c": "ERI",
@@ -483,7 +536,8 @@
     "ghg_pc": 1.94,
     "pop": 2998485,
     "lat": 15.01,
-    "lon": 39.27
+    "lon": 39.27,
+    "fingerprint": "Oil-fired electricity, livestock-heavy emissions, and a high waste share — a typical low-industry agrarian fingerprint."
   },
   {
     "iso3c": "EST",
@@ -492,7 +546,8 @@
     "ghg_pc": 10.3,
     "pop": 1372341,
     "lat": 58.65,
-    "lon": 25.92
+    "lon": 25.92,
+    "fingerprint": "Oil-shale electricity supplemented by bioenergy and a rising solar-and-wind share, with emissions sliding sharply off a recent peak."
   },
   {
     "iso3c": "ETH",
@@ -501,7 +556,8 @@
     "ghg_pc": 1.46,
     "pop": 132059767,
     "lat": 8.73,
-    "lon": 39.91
+    "lon": 39.91,
+    "fingerprint": "Near-total hydro electricity with a sizeable geothermal share, livestock-dominated emissions, and a steep growth target through 2030."
   },
   {
     "iso3c": "FJI",
@@ -510,7 +566,8 @@
     "ghg_pc": 2.96,
     "pop": 928784,
     "lat": -17.82,
-    "lon": 177.98
+    "lon": 177.98,
+    "fingerprint": "A bioenergy-and-hydro power mix with notable oil-fired backup, plus a high waste share — a small-island fingerprint."
   },
   {
     "iso3c": "FIN",
@@ -519,7 +576,8 @@
     "ghg_pc": 8.66,
     "pop": 5619911,
     "lat": 65.02,
-    "lon": 25.66
+    "lon": 25.66,
+    "fingerprint": "A large nuclear-and-bioenergy power mix with growing solar-and-wind, with emissions sliding sharply off a recent peak."
   },
   {
     "iso3c": "FRA",
@@ -528,7 +586,8 @@
     "ghg_pc": 5.51,
     "pop": 68551653,
     "lat": 46.64,
-    "lon": 2.19
+    "lon": 2.19,
+    "fingerprint": "Heavily nuclear-powered electricity, with emissions sliding steadily off a long-past peak."
   },
   {
     "iso3c": "GAB",
@@ -537,7 +596,8 @@
     "ghg_pc": 8.58,
     "pop": 2538952,
     "lat": -0.63,
-    "lon": 11.84
+    "lon": 11.84,
+    "fingerprint": "Dominant oil-and-gas extraction sector, gas and hydro in the power mix, with one of the steepest conditional decline targets pledged."
   },
   {
     "iso3c": "GMB",
@@ -546,7 +606,8 @@
     "ghg_pc": 0.67,
     "pop": 2759988,
     "lat": 13.43,
-    "lon": -15.38
+    "lon": -15.38,
+    "fingerprint": "Entirely oil-fired electricity with notable rice and waste shares — a typical low-income agrarian fingerprint."
   },
   {
     "iso3c": "GEO",
@@ -555,7 +616,8 @@
     "ghg_pc": 5.3,
     "pop": 3699557,
     "lat": 42.18,
-    "lon": 43.38
+    "lon": 43.38,
+    "fingerprint": "Hydro-dominated electricity, an outsized cement share, and emissions less than half their 1990 level reflecting a steep post-Soviet decline."
   },
   {
     "iso3c": "DEU",
@@ -564,7 +626,8 @@
     "ghg_pc": 8.07,
     "pop": 83516593,
     "lat": 51.08,
-    "lon": 10.43
+    "lon": 10.43,
+    "fingerprint": "Coal still in the power mix but with one of the largest solar-and-wind shares in the dataset, and a sharp post-reunification drop."
   },
   {
     "iso3c": "GHA",
@@ -573,7 +636,8 @@
     "ghg_pc": 1.4,
     "pop": 34427414,
     "lat": 7.95,
-    "lon": -1.22
+    "lon": -1.22,
+    "fingerprint": "A large oil-and-gas extraction sector and gas-dominated electricity, with emissions more than quadrupled since 1990."
   },
   {
     "iso3c": "GRC",
@@ -582,7 +646,8 @@
     "ghg_pc": 6.87,
     "pop": 10405134,
     "lat": 39.42,
-    "lon": 23.11
+    "lon": 23.11,
+    "fingerprint": "Solar-and-wind dominated electricity with notable coal-and-lignite backup, an outsized cement share, and emissions sliding off a recent peak."
   },
   {
     "iso3c": "GRD",
@@ -591,7 +656,8 @@
     "ghg_pc": 2.06,
     "pop": 117207,
     "lat": 12.11,
-    "lon": -61.68
+    "lon": -61.68,
+    "fingerprint": "Entirely oil-fired electricity, an outsized electricity-and-heat sector, with one of the steepest declining emissions targets pledged."
   },
   {
     "iso3c": "GTM",
@@ -600,7 +666,8 @@
     "ghg_pc": 2.36,
     "pop": 18406359,
     "lat": 15.82,
-    "lon": -90.31
+    "lon": -90.31,
+    "fingerprint": "A diversified power mix including coal, bioenergy, geothermal and hydro, with a high waste share and emissions tripled since 1990."
   },
   {
     "iso3c": "GIN",
@@ -609,7 +676,8 @@
     "ghg_pc": 1.99,
     "pop": 14754785,
     "lat": 10.26,
-    "lon": -10.99
+    "lon": -10.99,
+    "fingerprint": "Lots of hydro electricity and a high rice cultivation share, with emissions more than quadrupled since 1990."
   },
   {
     "iso3c": "GNB",
@@ -618,7 +686,8 @@
     "ghg_pc": 1.45,
     "pop": 2201352,
     "lat": 11.98,
-    "lon": -14.98
+    "lon": -14.98,
+    "fingerprint": "Entirely oil-fired electricity with a high rice cultivation share and a steep conditional growth target through 2030."
   },
   {
     "iso3c": "GUY",
@@ -627,7 +696,8 @@
     "ghg_pc": 10.51,
     "pop": 831087,
     "lat": 4.68,
-    "lon": -58.91
+    "lon": -58.91,
+    "fingerprint": "Entirely oil-fired electricity, a high rice cultivation share, and emissions more than tripled since 1990."
   },
   {
     "iso3c": "HTI",
@@ -636,7 +706,8 @@
     "ghg_pc": 1.17,
     "pop": 11772557,
     "lat": 18.88,
-    "lon": -72.89
+    "lon": -72.89,
+    "fingerprint": "Oil-fired electricity, livestock and waste-driven emissions, very little industry — a low-income agrarian fingerprint."
   },
   {
     "iso3c": "HND",
@@ -645,7 +716,8 @@
     "ghg_pc": 2.25,
     "pop": 10825703,
     "lat": 14.74,
-    "lon": -86.49
+    "lon": -86.49,
+    "fingerprint": "A coal-plus-bioenergy power mix with notable geothermal and solar-and-wind, plus a high waste share."
   },
   {
     "iso3c": "HUN",
@@ -654,7 +726,8 @@
     "ghg_pc": 6.32,
     "pop": 9562065,
     "lat": 47.23,
-    "lon": 19.4
+    "lon": 19.4,
+    "fingerprint": "A large nuclear share alongside solar-and-wind and a notable geothermal contribution to electricity."
   },
   {
     "iso3c": "ISL",
@@ -663,7 +736,8 @@
     "ghg_pc": 11.08,
     "pop": 386506,
     "lat": 65.12,
-    "lon": -19.06
+    "lon": -19.06,
+    "fingerprint": "Geothermal supplies a near-unique share of electricity, paired with lots of hydro and an unusually small role for solar or wind compared with its Western European peers."
   },
   {
     "iso3c": "IND",
@@ -672,7 +746,8 @@
     "ghg_pc": 3.01,
     "pop": 1450935791,
     "lat": 23.59,
-    "lon": 81.17
+    "lon": 81.17,
+    "fingerprint": "Coal-dominated electricity with a small but unusual-for-the-region nuclear share, and an outsized electricity-and-heat sector."
   },
   {
     "iso3c": "IDN",
@@ -681,7 +756,8 @@
     "ghg_pc": 4.67,
     "pop": 283487931,
     "lat": 0.16,
-    "lon": 113.97
+    "lon": 113.97,
+    "fingerprint": "Coal-dominated electricity with a substantial geothermal share (rare globally), and emissions nearly quadrupled since 1990 with further growth allowed."
   },
   {
     "iso3c": "IRN",
@@ -690,7 +766,8 @@
     "ghg_pc": 11.52,
     "pop": 91567738,
     "lat": 32.91,
-    "lon": 54.24
+    "lon": 54.24,
+    "fingerprint": "Gas-dominated electricity with a small but unusual nuclear share, a large oil-and-gas extraction sector, and emissions more than tripled since 1990."
   },
   {
     "iso3c": "IRQ",
@@ -699,7 +776,8 @@
     "ghg_pc": 8.98,
     "pop": 46042015,
     "lat": 33.11,
-    "lon": 43.83
+    "lon": 43.83,
+    "fingerprint": "A gas-and-oil power mix, very little industry, with a sharp early-1990s drop tracking the Gulf War."
   },
   {
     "iso3c": "IRL",
@@ -708,7 +786,8 @@
     "ghg_pc": 11.06,
     "pop": 5395790,
     "lat": 53.3,
-    "lon": -8.24
+    "lon": -8.24,
+    "fingerprint": "A large gas-and-wind power mix, agriculture-tilted emissions, and very little heavy industry."
   },
   {
     "iso3c": "ISR",
@@ -717,7 +796,8 @@
     "ghg_pc": 7.68,
     "pop": 9974400,
     "lat": 31.51,
-    "lon": 35.03
+    "lon": 35.03,
+    "fingerprint": "A gas-and-coal power mix with notable solar-and-wind, an outsized electricity-and-heat sector, with emissions sliding off a recent peak."
   },
   {
     "iso3c": "ITA",
@@ -726,7 +806,8 @@
     "ghg_pc": 6.3,
     "pop": 58952704,
     "lat": 42.98,
-    "lon": 12.76
+    "lon": 12.76,
+    "fingerprint": "A gas-and-solar-wind power mix with a notable geothermal contribution and an unusual-for-Europe rice cultivation share."
   },
   {
     "iso3c": "JAM",
@@ -735,7 +816,8 @@
     "ghg_pc": 3.32,
     "pop": 2839175,
     "lat": 18.12,
-    "lon": -77.3
+    "lon": -77.3,
+    "fingerprint": "Gas-dominated electricity, an outsized electricity-and-heat sector, with emissions sliding off a mid-2000s peak."
   },
   {
     "iso3c": "JPN",
@@ -744,7 +826,8 @@
     "ghg_pc": 8.58,
     "pop": 123975371,
     "lat": 36.77,
-    "lon": 137.47
+    "lon": 137.47,
+    "fingerprint": "A large electricity-and-heat sector with coal, nuclear, and bioenergy in the mix; emissions sliding off a recent peak."
   },
   {
     "iso3c": "JOR",
@@ -753,7 +836,8 @@
     "ghg_pc": 3.02,
     "pop": 11552876,
     "lat": 31.39,
-    "lon": 36.96
+    "lon": 36.96,
+    "fingerprint": "Gas-dominated electricity with a growing solar-and-wind share, a high waste share, and emissions still climbing."
   },
   {
     "iso3c": "KAZ",
@@ -762,7 +846,8 @@
     "ghg_pc": 16.04,
     "pop": 20592571,
     "lat": 47.64,
-    "lon": 66.38
+    "lon": 66.38,
+    "fingerprint": "Coal-dominated electricity, an outsized electricity-and-heat sector, with a sharp post-Soviet drop in the early 1990s."
   },
   {
     "iso3c": "KEN",
@@ -771,7 +856,8 @@
     "ghg_pc": 1.82,
     "pop": 56432944,
     "lat": 0.69,
-    "lon": 37.95
+    "lon": 37.95,
+    "fingerprint": "A globally-leading geothermal share of electricity alongside solar and wind, with livestock-dominated emissions."
   },
   {
     "iso3c": "KIR",
@@ -780,7 +866,8 @@
     "ghg_pc": 0.86,
     "pop": 134518,
     "lat": 1.87,
-    "lon": -157.39
+    "lon": -157.39,
+    "fingerprint": "Oil-fired electricity supplemented by solar and wind, a near-record waste share, and a steep conditional decline target — a small-island fingerprint."
   },
   {
     "iso3c": "KWT",
@@ -789,7 +876,8 @@
     "ghg_pc": 35.39,
     "pop": 4897263,
     "lat": 29.28,
-    "lon": 47.56
+    "lon": 47.56,
+    "fingerprint": "A gas-and-oil power mix, a large oil-and-gas extraction sector, with emissions more than tripled since 1990 — a Gulf-state petrostate fingerprint."
   },
   {
     "iso3c": "KGZ",
@@ -798,7 +886,8 @@
     "ghg_pc": 3.1,
     "pop": 7221868,
     "lat": 41.36,
-    "lon": 74.18
+    "lon": 74.18,
+    "fingerprint": "Hydro-dominated electricity, livestock-heavy emissions, a high waste share, and an exceptionally sharp post-Soviet drop in the early 1990s."
   },
   {
     "iso3c": "LAO",
@@ -807,7 +896,8 @@
     "ghg_pc": 5.35,
     "pop": 7769819,
     "lat": 18.12,
-    "lon": 103.76
+    "lon": 103.76,
+    "fingerprint": "Near-total hydro electricity exported widely, an outsized cement footprint, and emissions more than sextupled since 1990."
   },
   {
     "iso3c": "LVA",
@@ -816,7 +906,8 @@
     "ghg_pc": 6.24,
     "pop": 1866124,
     "lat": 56.81,
-    "lon": 24.69
+    "lon": 24.69,
+    "fingerprint": "A hydro-and-bioenergy power mix, an outsized cement share, and emissions less than half their 1990 level — a steep post-Soviet decline."
   },
   {
     "iso3c": "LBN",
@@ -825,7 +916,8 @@
     "ghg_pc": 3.18,
     "pop": 5773493,
     "lat": 33.91,
-    "lon": 35.9
+    "lon": 35.9,
+    "fingerprint": "Oil-fired electricity with a notable solar-and-wind share, an outsized electricity-and-heat sector, with emissions sliding sharply off a recent peak."
   },
   {
     "iso3c": "LSO",
@@ -834,7 +926,8 @@
     "ghg_pc": 1.31,
     "pop": 2337423,
     "lat": -29.6,
-    "lon": 28.24
+    "lon": 28.24,
+    "fingerprint": "Livestock-heavy emissions and a sharp 1990s drop, with steep emissions growth allowed in the 2030 target."
   },
   {
     "iso3c": "LBR",
@@ -843,7 +936,8 @@
     "ghg_pc": 0.79,
     "pop": 5612817,
     "lat": 6.52,
-    "lon": -9.26
+    "lon": -9.26,
+    "fingerprint": "A sharp early-1990s emissions drop, a high waste share, and a hydro-plus-oil power mix; the 2030 target permits substantial growth."
   },
   {
     "iso3c": "LBY",
@@ -852,7 +946,8 @@
     "ghg_pc": 13.3,
     "pop": 7381023,
     "lat": 27.2,
-    "lon": 17.91
+    "lon": 17.91,
+    "fingerprint": "A dominant oil-and-gas extraction sector, almost entirely gas-fired electricity, and a sharp drop in the early 1990s."
   },
   {
     "iso3c": "LTU",
@@ -861,7 +956,8 @@
     "ghg_pc": 7.46,
     "pop": 2888278,
     "lat": 55.29,
-    "lon": 23.95
+    "lon": 23.95,
+    "fingerprint": "Wind-and-solar dominated electricity, a sharp post-Soviet drop, and emissions less than half their 1990 level."
   },
   {
     "iso3c": "LUX",
@@ -870,7 +966,8 @@
     "ghg_pc": 11.9,
     "pop": 677012,
     "lat": 49.78,
-    "lon": 6.1
+    "lon": 6.1,
+    "fingerprint": "Solar-and-wind dominated electricity with notable bioenergy, an outsized cement footprint, and a sharp early-1990s emissions drop."
   },
   {
     "iso3c": "MDG",
@@ -879,7 +976,8 @@
     "ghg_pc": 1.12,
     "pop": 31964956,
     "lat": -19.04,
-    "lon": 46.68
+    "lon": 46.68,
+    "fingerprint": "Coal supplies an unusually large share of electricity for the region, with high rice cultivation and a steep growth target through 2030."
   },
   {
     "iso3c": "MWI",
@@ -888,7 +986,8 @@
     "ghg_pc": 0.88,
     "pop": 21655286,
     "lat": -13.13,
-    "lon": 34.23
+    "lon": 34.23,
+    "fingerprint": "Near-total hydro electricity with high waste and agriculture shares; emissions track the typical low-income agrarian fingerprint."
   },
   {
     "iso3c": "MYS",
@@ -897,7 +996,8 @@
     "ghg_pc": 9.34,
     "pop": 35557673,
     "lat": 3.67,
-    "lon": 114.63
+    "lon": 114.63,
+    "fingerprint": "A large oil-and-gas extraction sector and a coal-plus-gas power mix, with emissions nearly quadrupled since 1990."
   },
   {
     "iso3c": "MDV",
@@ -906,7 +1006,8 @@
     "ghg_pc": 3.97,
     "pop": 527799,
     "lat": -0.61,
-    "lon": 73.1
+    "lon": 73.1,
+    "fingerprint": "Entirely oil-fired electricity, and emissions fifteenfold their 1990 level — a fast-growing small-island archipelago fingerprint."
   },
   {
     "iso3c": "MLI",
@@ -915,7 +1016,8 @@
     "ghg_pc": 1.96,
     "pop": 24478595,
     "lat": 17.17,
-    "lon": -4.35
+    "lon": -4.35,
+    "fingerprint": "Livestock-dominated emissions, very little industry, mostly oil-fired electricity, and a fourfold rise since 1990."
   },
   {
     "iso3c": "MLT",
@@ -924,7 +1026,8 @@
     "ghg_pc": 3.94,
     "pop": 568847,
     "lat": 35.89,
-    "lon": 14.44
+    "lon": 14.44,
+    "fingerprint": "Near-entirely gas-fired electricity, an outsized electricity-and-heat sector, with emissions roughly stable — a small-island fingerprint."
   },
   {
     "iso3c": "MRT",
@@ -933,7 +1036,8 @@
     "ghg_pc": 3.39,
     "pop": 5169395,
     "lat": 20.47,
-    "lon": -10.5
+    "lon": -10.5,
+    "fingerprint": "Livestock-heavy emissions with oil-fired electricity, and one of the steepest conditional decline targets pledged."
   },
   {
     "iso3c": "MUS",
@@ -942,7 +1046,8 @@
     "ghg_pc": 5.19,
     "pop": 1245779,
     "lat": -20.28,
-    "lon": 57.56
+    "lon": 57.56,
+    "fingerprint": "Coal-fired electricity supplemented by an unusual bioenergy share, with the electricity-and-heat sector dominating emissions — an industrial profile for a small island."
   },
   {
     "iso3c": "MEX",
@@ -951,7 +1056,8 @@
     "ghg_pc": 5.25,
     "pop": 130861007,
     "lat": 23.87,
-    "lon": -101.55
+    "lon": -101.55,
+    "fingerprint": "Gas-dominated electricity with a small but regionally-rare nuclear share, a notable oil-and-gas extraction sector — unusual energy mix for Latin America."
   },
   {
     "iso3c": "MDA",
@@ -960,7 +1066,8 @@
     "ghg_pc": 4.85,
     "pop": 2402306,
     "lat": 47.07,
-    "lon": 28.39
+    "lon": 28.39,
+    "fingerprint": "Almost entirely gas-fired electricity, an outsized cement share, and emissions less than a third of their 1990 level."
   },
   {
     "iso3c": "MNG",
@@ -969,7 +1076,8 @@
     "ghg_pc": 29.61,
     "pop": 3524788,
     "lat": 47.09,
-    "lon": 103.4
+    "lon": 103.4,
+    "fingerprint": "Near-total coal-fired electricity, livestock-dominated emissions and very little industry, with a sharp early-1990s drop reflecting the post-Soviet transition."
   },
   {
     "iso3c": "MAR",
@@ -978,7 +1086,8 @@
     "ghg_pc": 2.86,
     "pop": 38081173,
     "lat": 28.69,
-    "lon": -8.82
+    "lon": -8.82,
+    "fingerprint": "Coal-dominated electricity (uncommon for North Africa) paired with a substantial solar-and-wind share, plus a large cement footprint."
   },
   {
     "iso3c": "MOZ",
@@ -987,7 +1096,8 @@
     "ghg_pc": 0.97,
     "pop": 34631766,
     "lat": -17.53,
-    "lon": 35.21
+    "lon": 35.21,
+    "fingerprint": "Hydro-dominated electricity with a high waste share and notable rice cultivation; emissions have dipped recently."
   },
   {
     "iso3c": "MMR",
@@ -996,7 +1106,8 @@
     "ghg_pc": 2.16,
     "pop": 54500091,
     "lat": 19.9,
-    "lon": 97.09
+    "lon": 97.09,
+    "fingerprint": "Agriculture-dominated emissions, very little industry, and a hydro-plus-gas power mix; emissions have dipped recently."
   },
   {
     "iso3c": "NAM",
@@ -1005,7 +1116,8 @@
     "ghg_pc": 4.69,
     "pop": 3030131,
     "lat": -21.91,
-    "lon": 18.16
+    "lon": 18.16,
+    "fingerprint": "Hydro plus a substantial solar-and-wind share for electricity, livestock-heavy emissions, and one of the steepest conditional decline targets pledged."
   },
   {
     "iso3c": "NPL",
@@ -1014,7 +1126,8 @@
     "ghg_pc": 1.4,
     "pop": 29651054,
     "lat": 28.3,
-    "lon": 84.13
+    "lon": 84.13,
+    "fingerprint": "Near-total hydro electricity, an outsized cement share, livestock-heavy emissions, and emissions sliding off a recent peak."
   },
   {
     "iso3c": "NLD",
@@ -1023,7 +1136,8 @@
     "ghg_pc": 8.06,
     "pop": 17993485,
     "lat": 52.13,
-    "lon": 5.55
+    "lon": 5.55,
+    "fingerprint": "A gas-and-solar-wind power mix with a small nuclear share, with emissions sliding off a recent peak."
   },
   {
     "iso3c": "NZL",
@@ -1032,7 +1146,8 @@
     "ghg_pc": 14.72,
     "pop": 5287500,
     "lat": -43.83,
-    "lon": 170.69
+    "lon": 170.69,
+    "fingerprint": "Geothermal and hydro for most electricity, livestock-dominated emissions, and one of the steepest declining emissions targets pledged."
   },
   {
     "iso3c": "NIC",
@@ -1041,7 +1156,8 @@
     "ghg_pc": 2.77,
     "pop": 6916140,
     "lat": 12.89,
-    "lon": -85.02
+    "lon": -85.02,
+    "fingerprint": "A diversified renewables mix (geothermal, hydro, wind, bioenergy), livestock-heavy emissions, and substantial growth allowed in the 2030 target."
   },
   {
     "iso3c": "NER",
@@ -1050,7 +1166,8 @@
     "ghg_pc": 1.52,
     "pop": 27032412,
     "lat": 17.08,
-    "lon": 8.87
+    "lon": 8.87,
+    "fingerprint": "Coal-fired electricity (rare in the region) and livestock-dominated emissions, with emissions almost quadrupled since 1990 and steep further growth pledged."
   },
   {
     "iso3c": "NGA",
@@ -1059,7 +1176,8 @@
     "ghg_pc": 1.51,
     "pop": 232679478,
     "lat": 9.61,
-    "lon": 8.15
+    "lon": 8.15,
+    "fingerprint": "A large oil-and-gas extraction sector and gas-fired electricity, with rice cultivation visible in the emissions profile and a 1996 peak followed by decades of plateau."
   },
   {
     "iso3c": "MKD",
@@ -1068,7 +1186,8 @@
     "ghg_pc": 5.38,
     "pop": 1824359,
     "lat": 41.59,
-    "lon": 21.71
+    "lon": 21.71,
+    "fingerprint": "Coal-dominated electricity with solar-and-wind making headway, plus a notable cement share."
   },
   {
     "iso3c": "NOR",
@@ -1077,7 +1196,8 @@
     "ghg_pc": 9.65,
     "pop": 5572279,
     "lat": 64.98,
-    "lon": 16.67
+    "lon": 16.67,
+    "fingerprint": "Near-total hydroelectricity paired with a large oil-and-gas extraction sector, with one of the steepest declining emissions targets pledged."
   },
   {
     "iso3c": "OMN",
@@ -1086,7 +1206,8 @@
     "ghg_pc": 25.04,
     "pop": 5281538,
     "lat": 20.72,
-    "lon": 55.84
+    "lon": 55.84,
+    "fingerprint": "Near-entirely gas-fired electricity and a large oil-and-gas extraction sector, with emissions still climbing — a Gulf-state petrostate fingerprint."
   },
   {
     "iso3c": "PAK",
@@ -1095,7 +1216,8 @@
     "ghg_pc": 2.09,
     "pop": 251269164,
     "lat": 30.12,
-    "lon": 69.09
+    "lon": 69.09,
+    "fingerprint": "A gas-plus-hydro power mix with a small but regionally-rare nuclear program, livestock-heavy emissions, and steep growth allowed in the 2030 target."
   },
   {
     "iso3c": "PAN",
@@ -1104,7 +1226,8 @@
     "ghg_pc": 4.26,
     "pop": 4515577,
     "lat": 8.44,
-    "lon": -80.14
+    "lon": -80.14,
+    "fingerprint": "A hydro-dominated power mix with a growing solar-and-wind share — a typical Central American profile."
   },
   {
     "iso3c": "PNG",
@@ -1113,7 +1236,8 @@
     "ghg_pc": 1.02,
     "pop": 10576502,
     "lat": -7.16,
-    "lon": 144.83
+    "lon": 144.83,
+    "fingerprint": "A large oil-and-gas extraction sector and oil-fired electricity with notable geothermal — unusual for the region on multiple dimensions."
   },
   {
     "iso3c": "PRY",
@@ -1122,7 +1246,8 @@
     "ghg_pc": 5.98,
     "pop": 6929153,
     "lat": -23.42,
-    "lon": -58.39
+    "lon": -58.39,
+    "fingerprint": "Effectively 100% hydroelectricity, agriculture-dominated emissions, very little industry, with substantial growth allowed in the 2030 target."
   },
   {
     "iso3c": "PER",
@@ -1131,7 +1256,8 @@
     "ghg_pc": 3.03,
     "pop": 34217848,
     "lat": -8.52,
-    "lon": -74.11
+    "lon": -74.11,
+    "fingerprint": "A hydro-plus-gas power mix, an outsized cement footprint, and substantial growth allowed in the 2030 target."
   },
   {
     "iso3c": "PHL",
@@ -1140,7 +1266,8 @@
     "ghg_pc": 2.3,
     "pop": 115843670,
     "lat": 15.59,
-    "lon": 121.82
+    "lon": 121.82,
+    "fingerprint": "Coal-dominated electricity with a globally-leading geothermal share, notable rice cultivation, and an outsized cement footprint."
   },
   {
     "iso3c": "POL",
@@ -1149,7 +1276,8 @@
     "ghg_pc": 9.52,
     "pop": 36559233,
     "lat": 52.07,
-    "lon": 19.44
+    "lon": 19.44,
+    "fingerprint": "Coal-dominated electricity offset by a growing solar-and-wind share, an outsized electricity-and-heat sector, with emissions sliding off a recent peak."
   },
   {
     "iso3c": "PRT",
@@ -1158,7 +1286,8 @@
     "ghg_pc": 4.97,
     "pop": 10694681,
     "lat": 39.68,
-    "lon": -7.93
+    "lon": -7.93,
+    "fingerprint": "Solar-and-wind dominated electricity with notable geothermal and bioenergy, plus an outsized cement footprint."
   },
   {
     "iso3c": "QAT",
@@ -1167,7 +1296,8 @@
     "ghg_pc": 56.95,
     "pop": 2857822,
     "lat": 25.32,
-    "lon": 51.2
+    "lon": 51.2,
+    "fingerprint": "Near-entirely gas-fired electricity, a dominant oil-and-gas extraction sector, and emissions sixfold their 1990 level — a Gulf-state petrostate."
   },
   {
     "iso3c": "ROU",
@@ -1176,7 +1306,8 @@
     "ghg_pc": 5.35,
     "pop": 19051804,
     "lat": 45.82,
-    "lon": 25.09
+    "lon": 25.09,
+    "fingerprint": "Emissions today are less than half their 1990 level — one of the deepest declines anywhere — with nuclear supplying a sizable share of electricity."
   },
   {
     "iso3c": "RUS",
@@ -1185,7 +1316,8 @@
     "ghg_pc": 17.94,
     "pop": 143533851,
     "lat": 59.04,
-    "lon": 98.67
+    "lon": 98.67,
+    "fingerprint": "A large oil-and-gas extraction sector, lots of nuclear and gas in the power mix, and a sharp post-1990 emissions drop reflecting the Soviet transition."
   },
   {
     "iso3c": "RWA",
@@ -1194,7 +1326,8 @@
     "ghg_pc": 0.59,
     "pop": 14256567,
     "lat": -2.01,
-    "lon": 29.92
+    "lon": 29.92,
+    "fingerprint": "A sharp early-1990s emissions drop, a high waste share, and a mixed coal-gas-hydro power profile."
   },
   {
     "iso3c": "KNA",
@@ -1203,7 +1336,8 @@
     "ghg_pc": 3.96,
     "pop": 46843,
     "lat": 17.31,
-    "lon": -62.75
+    "lon": -62.75,
+    "fingerprint": "Entirely oil-fired electricity, an outsized electricity-and-heat sector, with a substantial conditional decline target — a small-island fingerprint."
   },
   {
     "iso3c": "LCA",
@@ -1212,7 +1346,8 @@
     "ghg_pc": 2.61,
     "pop": 179744,
     "lat": 13.9,
-    "lon": -60.97
+    "lon": -60.97,
+    "fingerprint": "Entirely oil-fired electricity, an outsized electricity-and-heat sector, very little agriculture — a small-island fingerprint."
   },
   {
     "iso3c": "VCT",
@@ -1221,7 +1356,8 @@
     "ghg_pc": 1.84,
     "pop": 100616,
     "lat": 13.25,
-    "lon": -61.19
+    "lon": -61.19,
+    "fingerprint": "Oil-fired electricity, an outsized electricity-and-heat sector, plus a sharp early-1990s drop — a small-island fingerprint."
   },
   {
     "iso3c": "WSM",
@@ -1230,7 +1366,8 @@
     "ghg_pc": 2.39,
     "pop": 218019,
     "lat": -13.63,
-    "lon": -172.44
+    "lon": -172.44,
+    "fingerprint": "Oil-fired electricity with a notable bioenergy share, very little industry, and a substantial conditional decline target — a small-island fingerprint."
   },
   {
     "iso3c": "STP",
@@ -1239,7 +1376,8 @@
     "ghg_pc": 1.04,
     "pop": 235536,
     "lat": 0.23,
-    "lon": 6.61
+    "lon": 6.61,
+    "fingerprint": "Entirely oil-fired electricity, a high waste share, and very little agriculture — a small-island fingerprint."
   },
   {
     "iso3c": "SAU",
@@ -1248,7 +1386,8 @@
     "ghg_pc": 23.76,
     "pop": 35300280,
     "lat": 24.14,
-    "lon": 44.6
+    "lon": 44.6,
+    "fingerprint": "A gas-and-oil power mix, an outsized electricity-and-heat sector, with emissions more than tripled since 1990 — a Gulf-state petrostate fingerprint."
   },
   {
     "iso3c": "SEN",
@@ -1257,7 +1396,8 @@
     "ghg_pc": 1.71,
     "pop": 18501984,
     "lat": 14.23,
-    "lon": -14.61
+    "lon": -14.61,
+    "fingerprint": "An outsized cement share, oil-fired electricity supplemented with solar and wind, plus notable rice cultivation."
   },
   {
     "iso3c": "SYC",
@@ -1266,7 +1406,8 @@
     "ghg_pc": 8.05,
     "pop": 121354,
     "lat": -4.66,
-    "lon": 55.47
+    "lon": 55.47,
+    "fingerprint": "Almost entirely oil-fired electricity with a notable solar-and-wind share and very little agriculture — a small-island fingerprint."
   },
   {
     "iso3c": "SLE",
@@ -1275,7 +1416,8 @@
     "ghg_pc": 0.92,
     "pop": 8642022,
     "lat": 8.56,
-    "lon": -11.79
+    "lon": -11.79,
+    "fingerprint": "Lots of hydro electricity, a high rice and waste share — a typical low-income agrarian fingerprint with a steep conditional growth target."
   },
   {
     "iso3c": "SGP",
@@ -1284,7 +1426,8 @@
     "ghg_pc": 12.6,
     "pop": 6036860,
     "lat": 1.35,
-    "lon": 103.81
+    "lon": 103.81,
+    "fingerprint": "Almost entirely gas-fired electricity, an outsized electricity-and-heat sector, and emissions still climbing — a city-state fingerprint."
   },
   {
     "iso3c": "SVK",
@@ -1293,7 +1436,8 @@
     "ghg_pc": 7.19,
     "pop": 5422069,
     "lat": 48.7,
-    "lon": 19.58
+    "lon": 19.58,
+    "fingerprint": "Near-dominant nuclear electricity supply, a notable bioenergy share, with emissions sliding off a recent peak."
   },
   {
     "iso3c": "SVN",
@@ -1302,7 +1446,8 @@
     "ghg_pc": 8.15,
     "pop": 2127400,
     "lat": 46.14,
-    "lon": 14.89
+    "lon": 14.89,
+    "fingerprint": "Nuclear, coal, and hydro in nearly-equal shares for electricity, with a moderate post-1990 emissions drop."
   },
   {
     "iso3c": "SLB",
@@ -1311,7 +1456,8 @@
     "ghg_pc": 0.76,
     "pop": 819198,
     "lat": -9.61,
-    "lon": 160.16
+    "lon": 160.16,
+    "fingerprint": "Entirely oil-fired electricity, a near-record waste share, and very little agriculture or industry — a small-island fingerprint."
   },
   {
     "iso3c": "SOM",
@@ -1320,7 +1466,8 @@
     "ghg_pc": 1.81,
     "pop": 19009151,
     "lat": 6.52,
-    "lon": 45.4
+    "lon": 45.4,
+    "fingerprint": "Heavy livestock emissions, oil-fired electricity with a notable solar-and-wind share, and very little industry."
   },
   {
     "iso3c": "ZAF",
@@ -1329,7 +1476,8 @@
     "ghg_pc": 8.9,
     "pop": 64007187,
     "lat": -28.55,
-    "lon": 24.75
+    "lon": 24.75,
+    "fingerprint": "Coal-dominated electricity at a near-record share, an outsized electricity-and-heat sector, and a small but unusual-for-the-region nuclear program."
   },
   {
     "iso3c": "KOR",
@@ -1338,7 +1486,8 @@
     "ghg_pc": 12.91,
     "pop": 51751065,
     "lat": 36.4,
-    "lon": 127.76
+    "lon": 127.76,
+    "fingerprint": "A large nuclear share alongside coal and gas, an outsized electricity-and-heat sector, with emissions sliding off a recent peak."
   },
   {
     "iso3c": "ESP",
@@ -1347,7 +1496,8 @@
     "ghg_pc": 5.84,
     "pop": 48848840,
     "lat": 34.33,
-    "lon": -10.09
+    "lon": -10.09,
+    "fingerprint": "A nuclear-plus-solar-wind power mix, with emissions sliding off a recent peak."
   },
   {
     "iso3c": "LKA",
@@ -1356,7 +1506,8 @@
     "ghg_pc": 1.7,
     "pop": 21916000,
     "lat": 7.7,
-    "lon": 80.67
+    "lon": 80.67,
+    "fingerprint": "Mostly hydro and other renewables in the power mix, lots of rice cultivation, and a high waste share — a South Asian island fingerprint."
   },
   {
     "iso3c": "SDN",
@@ -1365,7 +1516,8 @@
     "ghg_pc": 2.21,
     "pop": 50448963,
     "lat": 15.67,
-    "lon": 29.95
+    "lon": 29.95,
+    "fingerprint": "Hydro-dominated electricity, livestock-heavy emissions, and very little industry — a typical low-income agrarian fingerprint."
   },
   {
     "iso3c": "SUR",
@@ -1374,7 +1526,8 @@
     "ghg_pc": 5.78,
     "pop": 634431,
     "lat": 4.1,
-    "lon": -55.86
+    "lon": -55.86,
+    "fingerprint": "Hydro-dominated electricity, notable rice cultivation, very little industry, with emissions sliding off a recent peak."
   },
   {
     "iso3c": "SWZ",
@@ -1383,7 +1536,8 @@
     "ghg_pc": 2.36,
     "pop": 1242822,
     "lat": -26.56,
-    "lon": 31.51
+    "lon": 31.51,
+    "fingerprint": "An unusually large bioenergy share of electricity alongside hydro, with emissions peaking in the mid-1990s."
   },
   {
     "iso3c": "SWE",
@@ -1392,7 +1546,8 @@
     "ghg_pc": 4.97,
     "pop": 10569709,
     "lat": 62.73,
-    "lon": 17.06
+    "lon": 17.06,
+    "fingerprint": "A hydro-and-nuclear power mix with notable bioenergy, a high waste share, and emissions well below their 1990 level."
   },
   {
     "iso3c": "CHE",
@@ -1401,7 +1556,8 @@
     "ghg_pc": 4.75,
     "pop": 9005582,
     "lat": 46.74,
-    "lon": 8.29
+    "lon": 8.29,
+    "fingerprint": "A hydro-and-nuclear power mix with an outsized cement footprint and a modest post-1990 emissions decline."
   },
   {
     "iso3c": "SYR",
@@ -1410,7 +1566,8 @@
     "ghg_pc": 2.03,
     "pop": 22462173,
     "lat": 35.1,
-    "lon": 38.51
+    "lon": 38.51,
+    "fingerprint": "A gas-and-oil power mix, an oil-and-gas extraction sector, with emissions today roughly three-quarters their 1990 level."
   },
   {
     "iso3c": "TJK",
@@ -1419,7 +1576,8 @@
     "ghg_pc": 2.1,
     "pop": 10590927,
     "lat": 38.57,
-    "lon": 70.94
+    "lon": 70.94,
+    "fingerprint": "Near-total hydro electricity, livestock-heavy emissions, an outsized cement share, and an exceptionally sharp post-Soviet drop in the early 1990s."
   },
   {
     "iso3c": "TZA",
@@ -1428,7 +1586,8 @@
     "ghg_pc": 1.5,
     "pop": 68560157,
     "lat": -6.36,
-    "lon": 34.82
+    "lon": 34.82,
+    "fingerprint": "Gas-dominated electricity (uncommon in the region), notable rice cultivation, and emissions more than tripled since 1990."
   },
   {
     "iso3c": "THA",
@@ -1437,7 +1596,8 @@
     "ghg_pc": 5.89,
     "pop": 71668011,
     "lat": 13.66,
-    "lon": 101.09
+    "lon": 101.09,
+    "fingerprint": "Gas-dominated electricity with a notable bioenergy share, lots of rice cultivation, and emissions still climbing."
   },
   {
     "iso3c": "TLS",
@@ -1446,7 +1606,8 @@
     "ghg_pc": 1.39,
     "pop": 1400638,
     "lat": -8.81,
-    "lon": 125.95
+    "lon": 125.95,
+    "fingerprint": "Entirely oil-fired electricity, a large oil-and-gas extraction sector, and livestock-heavy emissions — a small petrostate fingerprint."
   },
   {
     "iso3c": "TGO",
@@ -1455,7 +1616,8 @@
     "ghg_pc": 1.14,
     "pop": 9515236,
     "lat": 8.66,
-    "lon": 0.9
+    "lon": 0.9,
+    "fingerprint": "Gas-dominated electricity with a notable solar-and-wind share, an outsized cement share, and substantial growth allowed in the 2030 target."
   },
   {
     "iso3c": "TON",
@@ -1464,7 +1626,8 @@
     "ghg_pc": 2.72,
     "pop": 104597,
     "lat": -21.16,
-    "lon": -175.2
+    "lon": -175.2,
+    "fingerprint": "Oil-fired electricity with a notable solar-and-wind share, plus a high waste share — emissions sliding off a recent peak."
   },
   {
     "iso3c": "TTO",
@@ -1473,7 +1636,8 @@
     "ghg_pc": 24.55,
     "pop": 1368333,
     "lat": 10.42,
-    "lon": -61.37
+    "lon": -61.37,
+    "fingerprint": "Near-entirely gas-fired electricity and a large oil-and-gas extraction sector, with emissions sliding off a 2011 peak."
   },
   {
     "iso3c": "TUN",
@@ -1482,7 +1646,8 @@
     "ghg_pc": 3.63,
     "pop": 12277109,
     "lat": 34.09,
-    "lon": 9.66
+    "lon": 9.66,
+    "fingerprint": "Near-total gas-fired electricity, an outsized cement share, and an emissions profile dominated by the electricity-and-heat sector."
   },
   {
     "iso3c": "TUR",
@@ -1491,7 +1656,8 @@
     "ghg_pc": 6.78,
     "pop": 85518661,
     "lat": 38.93,
-    "lon": 35.57
+    "lon": 35.57,
+    "fingerprint": "A globally-leading geothermal share alongside coal-dominated electricity, an outsized cement footprint, and emissions still climbing."
   },
   {
     "iso3c": "TKM",
@@ -1500,7 +1666,8 @@
     "ghg_pc": 15.32,
     "pop": 7494498,
     "lat": 39.06,
-    "lon": 58.46
+    "lon": 58.46,
+    "fingerprint": "Entirely gas-fired electricity, very little industry, and a sharp post-Soviet drop with emissions still in decline."
   },
   {
     "iso3c": "UGA",
@@ -1509,7 +1676,8 @@
     "ghg_pc": 1.15,
     "pop": 50015092,
     "lat": 1.28,
-    "lon": 32.34
+    "lon": 32.34,
+    "fingerprint": "Lots of hydro electricity with notable bioenergy, livestock-heavy emissions, and emissions almost quadrupled since 1990."
   },
   {
     "iso3c": "UKR",
@@ -1518,7 +1686,8 @@
     "ghg_pc": 5.2,
     "pop": 37860221,
     "lat": 48.66,
-    "lon": 31.27
+    "lon": 31.27,
+    "fingerprint": "A dominant nuclear electricity supply, the typical sharp post-Soviet drop, and a further steep recent decline."
   },
   {
     "iso3c": "ARE",
@@ -1527,7 +1696,8 @@
     "ghg_pc": 24.04,
     "pop": 10986400,
     "lat": 24.18,
-    "lon": 54.28
+    "lon": 54.28,
+    "fingerprint": "Gas-dominated electricity with a new and regionally-rare nuclear program, a large oil-and-gas extraction sector, and emissions still climbing."
   },
   {
     "iso3c": "GBR",
@@ -1536,7 +1706,8 @@
     "ghg_pc": 5.59,
     "pop": 69226000,
     "lat": 53.98,
-    "lon": -2.85
+    "lon": -2.85,
+    "fingerprint": "A diversified gas-nuclear-wind power mix with notable bioenergy, and emissions today around half their 1990 level."
   },
   {
     "iso3c": "USA",
@@ -1545,7 +1716,8 @@
     "ghg_pc": 17.38,
     "pop": 340110988,
     "lat": 38.82,
-    "lon": -96.33
+    "lon": -96.33,
+    "fingerprint": "A diversified gas-coal-nuclear power mix with notable renewables, an outsized electricity-and-heat sector, and emissions sliding gradually from a long-past peak."
   },
   {
     "iso3c": "URY",
@@ -1554,7 +1726,8 @@
     "ghg_pc": 13.18,
     "pop": 3386588,
     "lat": -32.78,
-    "lon": -56.02
+    "lon": -56.02,
+    "fingerprint": "A renewables-heavy power mix (solar-and-wind, hydro, bioenergy), agriculture-dominated emissions, and one of the steepest declining emissions targets pledged in the region."
   },
   {
     "iso3c": "UZB",
@@ -1563,7 +1736,8 @@
     "ghg_pc": 6.26,
     "pop": 36361859,
     "lat": 41.49,
-    "lon": 63.85
+    "lon": 63.85,
+    "fingerprint": "Near-entirely gas-fired electricity, livestock-heavy emissions, with a sharp post-Soviet drop in the early 1990s."
   },
   {
     "iso3c": "VUT",
@@ -1572,7 +1746,8 @@
     "ghg_pc": 1.93,
     "pop": 327777,
     "lat": -15.19,
-    "lon": 166.85
+    "lon": 166.85,
+    "fingerprint": "Oil-fired electricity, livestock-heavy emissions, and a high waste share — a small Pacific-island fingerprint."
   },
   {
     "iso3c": "VEN",
@@ -1581,7 +1756,8 @@
     "ghg_pc": 5.89,
     "pop": 28405543,
     "lat": 7.15,
-    "lon": -66.36
+    "lon": -66.36,
+    "fingerprint": "Hydro-dominated electricity, a large oil-and-gas extraction sector, with emissions sliding off a 2012 peak."
   },
   {
     "iso3c": "VNM",
@@ -1590,7 +1766,8 @@
     "ghg_pc": 5.79,
     "pop": 100987686,
     "lat": 16.52,
-    "lon": 105.91
+    "lon": 105.91,
+    "fingerprint": "Coal-dominated electricity with an outsized cement share and notable rice cultivation, and emissions more than sextupled since 1990."
   },
   {
     "iso3c": "YEM",
@@ -1599,7 +1776,8 @@
     "ghg_pc": 0.93,
     "pop": 34085182,
     "lat": 16,
-    "lon": 47.47
+    "lon": 47.47,
+    "fingerprint": "Oil-fired electricity with a notable solar-and-wind share, a high waste share, and livestock-heavy emissions."
   },
   {
     "iso3c": "ZMB",
@@ -1608,7 +1786,8 @@
     "ghg_pc": 1.81,
     "pop": 21314956,
     "lat": -13.16,
-    "lon": 27.76
+    "lon": 27.76,
+    "fingerprint": "Near-total hydro electricity with a notable coal share, a sharp 1990s drop, and one of the steepest decline targets pledged in the region."
   },
   {
     "iso3c": "ZWE",
@@ -1617,6 +1796,7 @@
     "ghg_pc": 1.85,
     "pop": 16634373,
     "lat": -18.93,
-    "lon": 29.72
+    "lon": 29.72,
+    "fingerprint": "A coal-and-hydro power mix, an outsized electricity-and-heat sector, a sharp early-1990s drop, and emissions roughly flat since 1990."
   }
 ]
