@@ -6,6 +6,14 @@ library(jsonlite)
 dir.create("json", showWarnings = FALSE)
 
 # ── 1. countries.json — master country list ───────────────────────────────────
+# If json/fingerprints.json exists (one-sentence reveal-screen summaries), merge
+# it in here as a `fingerprint` field per country. Missing entries get NULL.
+fingerprints <- if (file.exists("json/fingerprints.json")) {
+  read_json("json/fingerprints.json")
+} else {
+  list()
+}
+
 countries_json <- country_meta %>%
   transmute(
     iso3c,
@@ -14,12 +22,18 @@ countries_json <- country_meta %>%
     ghg_pc = round(ghg_capita, 2),
     pop = population,
     lat = round(lat, 2),
-    lon = round(lon, 2)
+    lon = round(lon, 2),
+    fingerprint = vapply(iso3c, function(x) {
+      v <- fingerprints[[x]]
+      if (is.null(v)) NA_character_ else v
+    }, character(1))
   ) %>%
   arrange(name)
 
-write_json(countries_json, "json/countries.json", pretty = TRUE, auto_unbox = TRUE)
-cat("Wrote json/countries.json —", nrow(countries_json), "countries\n")
+n_with_fp <- sum(!is.na(countries_json$fingerprint))
+write_json(countries_json, "json/countries.json", pretty = TRUE, auto_unbox = TRUE, na = "null")
+cat("Wrote json/countries.json —", nrow(countries_json), "countries (",
+    n_with_fp, "with fingerprint)\n")
 
 # ── 2. ghg_sectors.json — sectoral shares for bar charts ─────────────────────
 ghg_sectors <- ghg %>%
