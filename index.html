@@ -104,10 +104,26 @@
 
       <!-- Result panel (win/loss) -->
       <div id="result-panel" class="result-panel hidden">
-        <div id="result-message" class="result-message"></div>
-        <div id="result-fingerprint" class="result-fingerprint hidden"></div>
-        <button id="share-btn" class="share-btn">Copy result to clipboard</button>
-        <div id="share-copied" class="share-copied hidden">Copied!</div>
+
+        <!-- (1) Reveal: "Correct! The answer is X" / "The answer was X" -->
+        <div id="result-reveal" class="result-reveal"></div>
+
+        <!-- (2) Climate fingerprint -->
+        <div id="result-fingerprint-section" class="result-fingerprint-section hidden">
+          <h3 class="result-fingerprint-heading">Climate fingerprint</h3>
+          <p id="result-fingerprint" class="result-fingerprint"></p>
+        </div>
+
+        <!-- (3) Outcome: "You got it in N guesses!" / "Better luck tomorrow!" -->
+        <div id="result-outcome" class="result-outcome"></div>
+
+        <!-- (4) Visible share grid + copy button -->
+        <div id="result-share-block" class="result-share-block">
+          <pre id="result-share-preview" class="result-share-preview"></pre>
+          <button id="share-btn" class="share-btn">Copy result to clipboard</button>
+          <div id="share-copied" class="share-copied hidden">Copied!</div>
+        </div>
+
       </div>
     </main>
 

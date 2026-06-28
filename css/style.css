@@ -375,30 +375,71 @@ canvas { width: 100% !important; height: 100% !important; }
   margin-bottom: 1.25rem;
 }
 
-.result-message {
+/* (1) Reveal line — "Correct! The answer is X" / "The answer was X" */
+.result-reveal {
   font-size: 1.1rem;
-  margin-bottom: 1rem;
-  line-height: 1.6;
+  margin-bottom: 0.85rem;
+  line-height: 1.5;
 }
-
-.result-message .country-name {
+.result-reveal .country-name {
   font-family: var(--font-mono);
   font-weight: 700;
   color: var(--accent);
   font-size: 1.3rem;
 }
 
-.result-fingerprint {
-  margin: 0.25rem auto 1rem;
-  max-width: 540px;
-  padding: 0.6rem 0.9rem;
+/* (2) Climate fingerprint section — sits between the reveal and the outcome */
+.result-fingerprint-section {
+  margin: 0 auto 1rem;
+  max-width: 560px;
+  padding: 0.7rem 0.95rem;
   border-left: 3px solid var(--accent-dim);
   background: var(--bg-card, #161616);
-  font-size: 0.9rem;
-  line-height: 1.45;
-  color: var(--text-muted, #b0b0b0);
-  font-style: italic;
   text-align: left;
+}
+.result-fingerprint-heading {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--accent);
+  margin: 0 0 0.35rem;
+}
+.result-fingerprint {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--text);
+}
+
+/* (3) Outcome line — "You got it in N guesses!" / "Better luck tomorrow!" */
+.result-outcome {
+  font-size: 1rem;
+  margin-bottom: 0.85rem;
+  color: var(--text);
+}
+
+/* (4) Visible share grid (emojis + score) + copy button */
+.result-share-block {
+  margin: 0.25rem 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.result-share-preview {
+  display: block;
+  width: fit-content;
+  margin: 0 0 0.9rem;
+  padding: 0.7rem 1.1rem;
+  background: var(--bg-card, #161616);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  line-height: 1.45;
+  color: var(--text);
+  text-align: center;
+  white-space: pre;
 }
 
 .share-btn {

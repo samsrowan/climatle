@@ -17,8 +17,11 @@ const $acList = document.getElementById('autocomplete-list');
 const $historyTable = document.getElementById('history-table');
 const $historyBody = document.getElementById('history-body');
 const $resultPanel = document.getElementById('result-panel');
-const $resultMessage = document.getElementById('result-message');
+const $resultReveal = document.getElementById('result-reveal');
+const $resultOutcome = document.getElementById('result-outcome');
+const $resultSharePreview = document.getElementById('result-share-preview');
 const $resultFingerprint = document.getElementById('result-fingerprint');
+const $resultFingerprintSection = document.getElementById('result-fingerprint-section');
 const $shareBtn = document.getElementById('share-btn');
 const $shareCopied = document.getElementById('share-copied');
 const $showCountriesBtn = document.getElementById('show-countries-btn');
@@ -130,24 +133,35 @@ function updateUI(state) {
 function showResult(state) {
   $resultPanel.classList.remove('hidden');
 
+  // (1) Reveal line
   if (state.status === 'won') {
-    $resultMessage.innerHTML =
-      `Correct! The answer is <span class="country-name">${state.targetName}</span><br>` +
-      `You got it in ${state.guesses.length} guess${state.guesses.length > 1 ? 'es' : ''}!`;
+    $resultReveal.innerHTML =
+      `Correct! The answer is <span class="country-name">${state.targetName}</span>`;
   } else {
-    $resultMessage.innerHTML =
-      `The answer was <span class="country-name">${state.targetName}</span><br>` +
-      `Better luck tomorrow!`;
+    $resultReveal.innerHTML =
+      `The answer was <span class="country-name">${state.targetName}</span>`;
   }
 
-  // Show the fingerprint sentence below the result, if available
+  // (2) Fingerprint section — sits between the reveal and the outcome line
   const target = getCountryByIso(state.targetIso);
   if (target && target.fingerprint) {
     $resultFingerprint.textContent = target.fingerprint;
-    $resultFingerprint.classList.remove('hidden');
+    $resultFingerprintSection.classList.remove('hidden');
   } else {
-    $resultFingerprint.classList.add('hidden');
+    $resultFingerprintSection.classList.add('hidden');
   }
+
+  // (3) Outcome line
+  if (state.status === 'won') {
+    $resultOutcome.textContent =
+      `You got it in ${state.guesses.length} guess${state.guesses.length > 1 ? 'es' : ''}!`;
+  } else {
+    $resultOutcome.textContent = `Better luck tomorrow!`;
+  }
+
+  // (4) Render the share grid (emojis + score) directly in the panel so
+  // players see their result without having to click 'Copy'.
+  $resultSharePreview.textContent = buildShareText();
 
   // Reveal country name in charts
   updateChartTitles(state.targetName);
