@@ -6,6 +6,7 @@ import {
   initGame, getState, makeGuess, buildShareText,
   setHardMode, isHardMode, canToggleHardMode,
 } from './game.js';
+import { parseHash, onRouteChange } from './router.js';
 
 // ── DOM elements ─────────────────────────────────────────────────────────────
 const $loading = document.getElementById('loading');
@@ -30,6 +31,12 @@ const $countryListGrid = document.getElementById('country-list-grid');
 const $guessArea = document.getElementById('guess-area');
 const $modeToggle = document.getElementById('mode-toggle');
 const $hardModeCheckbox = document.getElementById('hard-mode-checkbox');
+const $countriesIndex = document.getElementById('countries-index');
+const $countriesIndexGrid = document.getElementById('countries-index-grid');
+const $countriesFilter = document.getElementById('countries-filter');
+const $countryProfile = document.getElementById('country-profile');
+const $profileName = document.getElementById('profile-name');
+const $profileFingerprint = document.getElementById('profile-fingerprint');
 
 let acIndex = -1;
 let acFiltered = [];
@@ -45,16 +52,42 @@ let acFiltered = [];
   }
 
   $loading.classList.add('hidden');
-  $game.classList.remove('hidden');
 
   const state = initGame();
   buildCountryList();
+  buildCountriesIndexGrid();
   syncModeToggleUI();
   renderCharts(state);
   restoreGuessHistory(state);
   updateUI(state);
   wireEvents();
+
+  renderRoute(parseHash());
+  onRouteChange(renderRoute);
 })();
+
+// ── Routing ──────────────────────────────────────────────────────────────────
+function showView(view) {
+  $game.classList.toggle('hidden', view !== 'game');
+  $countriesIndex.classList.toggle('hidden', view !== 'index');
+  $countryProfile.classList.toggle('hidden', view !== 'profile');
+}
+
+function renderRoute(route) {
+  if (route.view === 'profile') {
+    const country = getCountryByIso(route.iso);
+    if (!country) {
+      window.location.hash = '#/countries';
+      return;
+    }
+    showView('profile');
+    renderCountryProfile(country);
+  } else if (route.view === 'index') {
+    showView('index');
+  } else {
+    showView('game');
+  }
+}
 
 // ── Hard mode toggle UI ──────────────────────────────────────────────────────
 function syncModeToggleUI() {
@@ -103,6 +136,35 @@ function buildCountryList() {
   $countryListGrid.innerHTML = countries
     .map(c => `<span>${c.name}</span>`)
     .join('');
+}
+
+// ── Countries index (browse all countries) ──────────────────────────────────
+function buildCountriesIndexGrid() {
+  const sorted = [...getCountries()].sort((a, b) => a.name.localeCompare(b.name));
+  $countriesIndexGrid.innerHTML = sorted
+    .map(c => `<a href="#/country/${c.iso3c}" data-name="${c.name.toLowerCase()}">${c.name}</a>`)
+    .join('');
+}
+
+// ── Country profile ──────────────────────────────────────────────────────────
+function renderCountryProfile(country) {
+  $profileName.textContent = country.name;
+
+  if (country.fingerprint) {
+    $profileFingerprint.textContent = country.fingerprint;
+    $profileFingerprint.classList.remove('hidden');
+  } else {
+    $profileFingerprint.classList.add('hidden');
+  }
+
+  const ghg = getGhgSectors(country.iso3c);
+  if (ghg) renderGhgChart(ghg, country.name, 'chart-profile-ghg');
+
+  const energy = getEnergyMix(country.iso3c);
+  if (energy) renderEnergyChart(energy, country.name, 'chart-profile-energy');
+
+  const trajectory = getTrajectory(country.iso3c);
+  if (trajectory) renderTrajectoryChart(trajectory, country.name, 'chart-profile-trajectory');
 }
 
 // ── Restore history from saved state ─────────────────────────────────────────
@@ -252,6 +314,19 @@ function wireEvents() {
     $showCountriesBtn.textContent = $countryListPanel.classList.contains('hidden')
       ? 'Show included countries'
       : 'Hide included countries';
+  });
+
+  // Countries index filter
+  $countriesFilter.addEventListener('input', () => {
+    const val = $countriesFilter.value.trim().toLowerCase();
+    $countriesIndexGrid.querySelectorAll('a').forEach(a => {
+      a.classList.toggle('hidden', val.length > 0 && !a.dataset.name.includes(val));
+    });
+  });
+
+  // Browse countries button
+  document.getElementById('browse-countries-btn').addEventListener('click', () => {
+    window.location.hash = '#/countries';
   });
 
   // About section toggle

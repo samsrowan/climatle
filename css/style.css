@@ -156,7 +156,7 @@ canvas { width: 100% !important; height: 100% !important; }
 
 /* ── Hard-mode toggle ─────────────────────────────────────────────────────── */
 .mode-toggle {
-  margin-bottom: 0.75rem;
+  margin-top: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -207,7 +207,7 @@ canvas { width: 100% !important; height: 100% !important; }
 .mode-toggle.locked input { pointer-events: none; }
 
 /* ── Guess Area ───────────────────────────────────────────────────────────── */
-.guess-area { margin-bottom: 1.25rem; }
+.guess-area { margin-bottom: 0; }
 
 .guess-counter {
   font-family: var(--font-mono);
@@ -324,13 +324,13 @@ canvas { width: 100% !important; height: 100% !important; }
 /* ── History Table ────────────────────────────────────────────────────────── */
 .history-wrapper {
   overflow-x: auto;
-  margin-bottom: 1.25rem;
 }
 
 .history-table {
   width: 100%;
   border-collapse: collapse;
   font-size: 0.85rem;
+  margin-top: 1.25rem;
 }
 
 .history-table th {
@@ -372,6 +372,7 @@ canvas { width: 100% !important; height: 100% !important; }
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
+  margin-top: 1.25rem;
   margin-bottom: 1.25rem;
 }
 
@@ -461,6 +462,106 @@ canvas { width: 100% !important; height: 100% !important; }
   font-size: 0.85rem;
   color: var(--accent);
 }
+
+/* ── Header ───────────────────────────────────────────────────────────────── */
+.title a { color: inherit; text-decoration: none; }
+.title a:hover { color: var(--accent); }
+
+/* ── Countries Index ──────────────────────────────────────────────────────── */
+.countries-index-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.countries-index-header h2 {
+  font-family: var(--font-mono);
+  font-size: 1.3rem;
+  color: var(--text-bright);
+}
+
+.back-link {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+.back-link:hover { color: var(--text); }
+
+.countries-filter {
+  display: block;
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  margin-bottom: 1rem;
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+}
+.countries-filter:focus {
+  outline: none;
+  border-color: var(--accent-dim);
+}
+
+.countries-index-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 0.5rem 1rem;
+}
+
+.countries-index-grid a {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--text);
+  padding: 0.3rem 0;
+}
+.countries-index-grid a:hover { color: var(--accent); text-decoration: underline; }
+
+/* ── Country Profile ──────────────────────────────────────────────────────── */
+.profile-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.profile-name {
+  font-family: var(--font-mono);
+  font-size: 1.5rem;
+  color: var(--text-bright);
+}
+
+.profile-fingerprint {
+  margin: 0 0 1.5rem;
+  padding: 0.7rem 0.95rem;
+  border-left: 3px solid var(--accent-dim);
+  background: var(--bg-card);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--text);
+}
+
+.profile-charts {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.profile-chart-container {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  height: 420px;
+  padding: 1rem;
+  position: relative;
+}
+.profile-chart-container.tall { height: 540px; }
 
 /* ── About Section ────────────────────────────────────────────────────────── */
 .about-section {
@@ -564,4 +665,8 @@ canvas { width: 100% !important; height: 100% !important; }
   .history-table { font-size: 0.75rem; }
   .history-table th, .history-table td { padding: 0.4rem 0.3rem; }
   .country-list-grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); }
+  .countries-index-grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); }
+  .profile-name { font-size: 1.2rem; }
+  .profile-chart-container { height: 340px; }
+  .profile-chart-container.tall { height: 440px; }
 }

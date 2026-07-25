@@ -25,7 +25,7 @@
   <div id="app">
     <!-- Header -->
     <header class="header">
-      <h1 class="title">Climatle</h1>
+      <h1 class="title"><a href="#/">Climatle</a></h1>
       <p class="tagline">Guess the country from its climate profile</p>
     </header>
 
@@ -57,15 +57,6 @@
         </div>
       </div>
 
-      <!-- Hard-mode toggle (interactive only before first guess) -->
-      <div class="mode-toggle" id="mode-toggle">
-        <label class="switch">
-          <input type="checkbox" id="hard-mode-checkbox">
-          <span class="slider" aria-hidden="true"></span>
-          <span class="mode-label">Hard mode <span class="mode-hint">— no geographic hints</span></span>
-        </label>
-      </div>
-
       <!-- Guess input -->
       <div id="guess-area" class="guess-area">
         <div class="guess-counter" id="guess-counter">Guess 1 of 6</div>
@@ -80,6 +71,15 @@
         </div>
         <div id="country-list-panel" class="country-list-panel hidden">
           <div class="country-list-grid" id="country-list-grid"></div>
+        </div>
+
+        <!-- Hard-mode toggle (interactive only before first guess) -->
+        <div class="mode-toggle" id="mode-toggle">
+          <label class="switch">
+            <input type="checkbox" id="hard-mode-checkbox">
+            <span class="slider" aria-hidden="true"></span>
+            <span class="mode-label">Hard mode <span class="mode-hint">— no geographic hints</span></span>
+          </label>
         </div>
       </div>
 
@@ -126,6 +126,42 @@
 
       </div>
     </main>
+
+    <!-- Countries index: browse every country in the game -->
+    <section id="countries-index" class="countries-index hidden">
+      <div class="countries-index-header">
+        <h2>Browse countries</h2>
+        <a href="#/" class="back-link">&larr; Back to today's puzzle</a>
+      </div>
+      <input type="text" id="countries-filter" class="countries-filter"
+             placeholder="Filter countries..." autocomplete="off">
+      <div class="countries-index-grid" id="countries-index-grid"></div>
+    </section>
+
+    <!-- Country profile: fingerprint + the same 3 charts used in the game -->
+    <section id="country-profile" class="country-profile hidden">
+      <div class="profile-header">
+        <a href="#/countries" class="back-link">&larr; Browse countries</a>
+        <h2 id="profile-name" class="profile-name"></h2>
+      </div>
+      <p id="profile-fingerprint" class="profile-fingerprint"></p>
+      <div class="profile-charts">
+        <div class="profile-chart-container tall">
+          <canvas id="chart-profile-ghg"></canvas>
+        </div>
+        <div class="profile-chart-container">
+          <canvas id="chart-profile-energy"></canvas>
+        </div>
+        <div class="profile-chart-container">
+          <canvas id="chart-profile-trajectory"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- Browse countries -->
+    <section class="about-section">
+      <button class="about-toggle" id="browse-countries-btn">Browse countries</button>
+    </section>
 
     <!-- About section -->
     <section class="about-section">

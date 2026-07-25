@@ -68,9 +68,18 @@ const ENERGY_SOURCE_LABEL = {
 const GHG_YEAR = 2021;
 const ENERGY_YEAR = 2024;
 
-let ghgChart = null;
-let energyChart = null;
-let trajectoryChart = null;
+// Chart instances keyed by canvas id, so the same render functions can draw
+// into the daily-game canvases and a country-profile view's own canvases
+// without clobbering each other.
+const chartInstances = new Map();
+
+function renderChart(canvasId, config) {
+  const ctx = document.getElementById(canvasId);
+  chartInstances.get(canvasId)?.destroy();
+  const chart = new Chart(ctx, config);
+  chartInstances.set(canvasId, chart);
+  return chart;
+}
 
 const CHART_DEFAULTS = {
   animation: { duration: 600 },
@@ -78,10 +87,7 @@ const CHART_DEFAULTS = {
   maintainAspectRatio: false,
 };
 
-export function renderGhgChart(data, revealed) {
-  const ctx = document.getElementById('chart-ghg');
-  if (ghgChart) ghgChart.destroy();
-
+export function renderGhgChart(data, revealed, canvasId = 'chart-ghg') {
   // Show ALL subsectors (including zero-share) so the bar count is constant
   // across countries — an empty bar for "Coal mining fugitive" or "Domestic
   // aviation" is itself a clue. Sorted by sector, then by label (with the
@@ -118,7 +124,7 @@ export function renderGhgChart(data, revealed) {
     lineWidth: 0,
   }));
 
-  ghgChart = new Chart(ctx, {
+  renderChart(canvasId, {
     type: 'bar',
     data: {
       labels,
@@ -185,10 +191,7 @@ export function renderGhgChart(data, revealed) {
   });
 }
 
-export function renderEnergyChart(data, revealed) {
-  const ctx = document.getElementById('chart-energy');
-  if (energyChart) energyChart.destroy();
-
+export function renderEnergyChart(data, revealed, canvasId = 'chart-energy') {
   const sourceMap = {};
   for (const s of data.sources) {
     sourceMap[s.source] = s;
@@ -210,7 +213,7 @@ export function renderEnergyChart(data, revealed) {
     { text: 'Clean', fillStyle: '#4CAF50', fontColor: '#ccc', strokeStyle: 'transparent', lineWidth: 0 },
   ];
 
-  energyChart = new Chart(ctx, {
+  renderChart(canvasId, {
     type: 'bar',
     data: {
       labels,
@@ -277,10 +280,7 @@ export function renderEnergyChart(data, revealed) {
   });
 }
 
-export function renderTrajectoryChart(data, revealed) {
-  const ctx = document.getElementById('chart-trajectory');
-  if (trajectoryChart) trajectoryChart.destroy();
-
+export function renderTrajectoryChart(data, revealed, canvasId = 'chart-trajectory') {
   // Normalize: index = 100 at 1990 (or first year)
   const baseIdx = 0;
   const baseVal = data.emissions[baseIdx] || 1;
@@ -340,7 +340,7 @@ export function renderTrajectoryChart(data, revealed) {
     });
   }
 
-  trajectoryChart = new Chart(ctx, {
+  renderChart(canvasId, {
     type: 'line',
     data: { datasets },
     options: {
@@ -403,14 +403,17 @@ export function renderTrajectoryChart(data, revealed) {
 }
 
 export function updateChartTitles(countryName) {
+  const ghgChart = chartInstances.get('chart-ghg');
   if (ghgChart) {
     ghgChart.options.plugins.title.text = [`${countryName}: sectoral GHG emissions`, `(${GHG_YEAR}, share of national total)`];
     ghgChart.update();
   }
+  const energyChart = chartInstances.get('chart-energy');
   if (energyChart) {
     energyChart.options.plugins.title.text = [`${countryName}: electricity mix`, `(${ENERGY_YEAR}, share of total generation)`];
     energyChart.update();
   }
+  const trajectoryChart = chartInstances.get('chart-trajectory');
   if (trajectoryChart) {
     trajectoryChart.options.plugins.title.text = `${countryName}: GHG trajectory & NDC targets`;
     trajectoryChart.update();
